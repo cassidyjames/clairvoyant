@@ -110,7 +110,8 @@ public class ContentStack : Gtk.Stack {
 
     public ContentStack () {
         Object (
-            margin_bottom: 24,
+            margin: 24,
+            margin_bottom: 48,
             transition_type: Gtk.StackTransitionType.CROSSFADE
         );
     }

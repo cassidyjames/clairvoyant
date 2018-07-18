@@ -1,16 +1,22 @@
+.clairvoyant,
+.titlebar {
+  background-color: @SLATE_900;
+  color: @SILVER_100;
+}
+
 .fortune {
   font-size: 3em;
 }
 
 .positive {
-	color: @LIME_700;
+  color: @LIME_300;
 }
 
 .negative {
-	color: @STRAWBERRY_700;
+  color: @STRAWBERRY_300;
 }
 
 .neutral {
-	color: @BANANA_700;
+  color: @BANANA_500;
 }
 
