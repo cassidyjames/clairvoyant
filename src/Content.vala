@@ -118,18 +118,15 @@ public class ContentStack : Gtk.Stack {
     construct {
         int i = 1;
         foreach (var fortune in content) {
-            var title = new Gtk.Label (fortune.title);
-            title.max_width_chars = 28;
-            title.valign = Gtk.Align.END;
-            title.wrap = true;
-            title.xalign = 0;
-            title.get_style_context ().add_class ("fortune-title");
+            var label = new Gtk.Label (fortune.title);
+            label.get_style_context ().add_class ("fortune");
+            label.get_style_context ().add_class (fortune.result);
 
             var grid = new Gtk.Grid ();
             grid.column_spacing = grid.row_spacing = 12;
             grid.halign = Gtk.Align.CENTER;
 
-            grid.attach (title, 0, 0);
+            grid.attach (label, 0, 0);
 
             add_named (grid, i.to_string ());
 

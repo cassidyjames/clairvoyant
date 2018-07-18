@@ -44,7 +44,7 @@ public class MainWindow : Gtk.Window {
             "media-playlist-shuffle-symbolic"
         );
         randomize_button.margin_end = 12;
-        randomize_button.tooltip_text = _("Load a random fortune");
+        randomize_button.tooltip_text = _("Ask Again");
 
         var gtk_settings = Gtk.Settings.get_default ();
 
@@ -54,10 +54,6 @@ public class MainWindow : Gtk.Window {
         context.add_class ("clairvoyant");
         context.add_class ("rounded");
         context.add_class ("flat");
-
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/cassidyjames/clairvoyant/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         randomize_button.clicked.connect (() => randomize_fortune (stack) );
 

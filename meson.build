@@ -13,6 +13,7 @@ asresources = gnome.compile_resources(
 
 executable(
     meson.project_name (),
+    asresources,
     join_paths ('src', 'Application.vala'),
     join_paths ('src', 'Content.vala'),
     join_paths ('src', 'MainWindow.vala'),

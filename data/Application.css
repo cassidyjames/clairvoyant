@@ -1,0 +1,16 @@
+.fortune {
+  font-size: 3em;
+}
+
+.positive {
+	color: @LIME_700;
+}
+
+.negative {
+	color: @STRAWBERRY_700;
+}
+
+.neutral {
+	color: @BANANA_700;
+}
+
