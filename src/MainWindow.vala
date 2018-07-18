@@ -27,7 +27,6 @@ public class MainWindow : Gtk.Window {
             application: application,
             icon_name: "com.github.cassidyjames.clairvoyant",
             resizable: false,
-            skip_taskbar_hint: true,
             title: _("Clairvoyant"),
             window_position: Gtk.WindowPosition.CENTER
         );
@@ -65,9 +64,6 @@ public class MainWindow : Gtk.Window {
         header.pack_end (randomize_button);
 
         set_titlebar (header);
-        set_keep_below (true);
-        stick ();
-
         add (stack);
 
         stack.realize.connect (() => {
@@ -79,7 +75,7 @@ public class MainWindow : Gtk.Window {
         ContentStack stack,
         bool allow_current = false
     ) {
-        int rand = Random.int_range (1, 11);
+        int rand = Random.int_range (1, 21);
         int current = int.parse (stack.visible_child_name);
 
         if (allow_current || rand != current) {

@@ -27,15 +27,83 @@ public class ContentStack : Gtk.Stack {
 
     static Content[] content = {
         Content () {
-            title = "Yes",
+            title = "It is certain.",
             result = "positive"
         },
         Content () {
-            title = "No",
+            title = "It is decidedly so.",
+            result = "positive"
+        },
+        Content () {
+            title = "Without a doubt.",
+            result = "positive"
+        },
+        Content () {
+            title = "Yes—definitely.",
+            result = "positive"
+        },
+        Content () {
+            title = "You may rely on it.",
+            result = "positive"
+        },
+        Content () {
+            title = "As I see it, yes.",
+            result = "positive"
+        },
+        Content () {
+            title = "Most likely.",
+            result = "positive"
+        },
+        Content () {
+            title = "Outlook good.",
+            result = "positive"
+        },
+        Content () {
+            title = "Yes.",
+            result = "positive"
+        },
+        Content () {
+            title = "Signs point to yes.",
+            result = "positive"
+        },
+        Content () {
+            title = "Don't count on it.",
             result = "negative"
         },
         Content () {
-            title = "Maybe",
+            title = "My reply is no.",
+            result = "negative"
+        },
+        Content () {
+            title = "My sources say no.",
+            result = "negative"
+        },
+        Content () {
+            title = "Outlook not so good.",
+            result = "negative"
+        },
+        Content () {
+            title = "Very doubtful.",
+            result = "negative"
+        },
+        Content () {
+            title = "Reply hazy, try again.",
+            result = "neutral"
+        },
+        Content () {
+            title = "Ask again later.",
+            result = "neutral"
+        },
+        Content () {
+            title = "Better not tell you now.",
+            result = "neutral"
+        },
+        Content () {
+            title = "Cannot predict now.",
+            result = "neutral"
+        },
+        Content () {
+            title = "Concentrate and ask again.",
             result = "neutral"
         }
     };
@@ -68,7 +136,7 @@ public class ContentStack : Gtk.Stack {
             i++;
         }
 
-        var rand = Random.int_range (1, 4);
+        var rand = Random.int_range (1, 21);
         visible_child_name = rand.to_string ();
     }
 }
