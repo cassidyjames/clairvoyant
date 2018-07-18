@@ -43,7 +43,6 @@ public class MainWindow : Gtk.Window {
         var randomize_button = new Gtk.Button.from_icon_name (
             "media-playlist-shuffle-symbolic"
         );
-        randomize_button.margin_end = 6;
         randomize_button.tooltip_text = _("Ask Again");
 
         var gtk_settings = Gtk.Settings.get_default ();
