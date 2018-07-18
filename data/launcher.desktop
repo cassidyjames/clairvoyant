@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Clairvoyant
+GenericName=Fortune Teller
+Comment=Ask questions and get psychic answers
+Categories=Utility;
+Exec=com.github.cassidyjames.clairvoyant
+Icon=com.github.cassidyjames.clairvoyant
+Terminal=false
+Type=Application
+Keywords=magic;eight;ball;8;
+
