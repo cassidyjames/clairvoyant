@@ -18,7 +18,6 @@ executable(
     join_paths ('src', 'Content.vala'),
     join_paths ('src', 'MainWindow.vala'),
     dependencies: [
-        dependency ('gee-0.8'),
         dependency ('glib-2.0'),
         dependency ('gtk+-3.0')
     ],
