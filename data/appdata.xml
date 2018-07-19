@@ -16,6 +16,12 @@
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/master/data/screenshot.png</image>
     </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/master/data/screenshot-maybe.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/master/data/screenshot-no.png</image>
+    </screenshot>
   </screenshots>
   ​<releases>
     <release version="1.0.0" date="2018-07-18">

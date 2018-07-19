@@ -41,7 +41,7 @@ public class MainWindow : Gtk.Window {
         header_context.add_class (Gtk.STYLE_CLASS_FLAT);
 
         var randomize_button = new Gtk.Button.from_icon_name (
-            "media-playlist-shuffle-symbolic"
+            "dialog-question-symbolic"
         );
         randomize_button.tooltip_text = _("Ask Again");
 
