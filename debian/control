@@ -1,0 +1,12 @@
+Source: com.github.cassidyjames.clairvoyant
+Section: x11
+Maintainer: Cassidy James Blaede <c@ssidyjam.es>
+Build-Depends: debhelper (>= 9), libgtk-3-dev, meson, valac
+Standards-Version: 3.9.6
+Homepage: https://github.com/cassidyjames/principles
+
+Package: com.github.cassidyjames.clairvoyant
+Architecture: any
+Priority: optional
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Ask questions and get psychic answers from this fortune teller
