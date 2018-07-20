@@ -63,12 +63,12 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Cassidy James Blaede</developer_name>
-  <url type="homepage">https://github.com/cassidyjames/clairvoyant</url>
+  <url type="homepage">https://cassidyjames.com</url>
   <url type="bugtracker">https://github.com/cassidyjames/clairvoyant/issues</url>
   <custom>
     <value key="x-appcenter-color-primary">#0e141f</value>
     <value key="x-appcenter-color-primary-text">#fafafa</value>
-    <value key="x-appcenter-suggested-price">2</value>
+    <value key="x-appcenter-suggested-price">1</value>
   </custom>
 </component>
 
