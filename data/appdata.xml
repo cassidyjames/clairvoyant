@@ -8,6 +8,11 @@
   <summary>Ask questions and get psychic answers from this fortune teller</summary>
   <description>
     <p>Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</p>
+    <ul>
+      <li>Ask a question, then open Clairvoyant for an answer.</li>
+      <li>Not satisfied? Ask again, then hit the "Ask Again" icon to try again.</li>
+      <li>Do what you'd like with the answers—just don't shoot the messenger!</li>
+    </ul>
   </description>
   <provides>
     <binary>com.github.cassidyjames.clairvoyant</binary>
@@ -24,6 +29,16 @@
     </screenshot>
   </screenshots>
   ​<releases>
+    <release version="1.0.1" date="2018-07-20">
+      <description>
+        <p>Post-release update</p>
+        <ul>
+          <li>Clean up AppStream data</li>
+          <li>Expand on the description</li>
+          <li>Change price to $1</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2018-07-20">
       <description>
         <p>It is decidedly so.</p>
