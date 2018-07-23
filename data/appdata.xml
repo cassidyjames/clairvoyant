@@ -29,6 +29,11 @@
     </screenshot>
   </screenshots>
   ​<releases>
+    <release version="1.0.2" date="2018-07-23">
+      <description>
+        <p>Fix 48px icon</p>
+      </description>
+    </release>
     <release version="1.0.1" date="2018-07-20">
       <description>
         <p>Post-release update</p>
