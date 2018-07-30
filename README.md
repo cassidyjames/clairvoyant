@@ -11,7 +11,7 @@
 ![Screenshot](data/screenshot.png)
 
 
-## Ask questions and get psychic answers from this fortune teller
+## Get psychic answers from this fortune teller
 
 Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.
 
