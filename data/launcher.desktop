@@ -2,7 +2,7 @@
 Name=Clairvoyant
 GenericName=Fortune Teller
 Comment=Ask questions and get psychic answers
-Categories=Utility;
+Categories=Utility;Amusement;
 Exec=com.github.cassidyjames.clairvoyant
 Icon=com.github.cassidyjames.clairvoyant
 Terminal=false
