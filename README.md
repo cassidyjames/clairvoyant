@@ -24,6 +24,7 @@ Clairvoyant is designed and developed on and for [elementary OS](https://element
 
 **Note:** Clairvoyant is currently only available for elementary OS Juno.
 
+Versions of Clairvoyant may have been built and made available elsewhere by third-parties. These builds may have modifications or changes and **are not provided nor supported by me**. The only supported version is distributed via AppCenter on elementary OS.
 
 ## Developing and Building
 
@@ -43,11 +44,6 @@ To install, use `ninja install`, then execute with `com.github.cassidyjames.clai
 
     sudo ninja install
     com.github.cassidyjames.clairvoyant
-
-
-## Other Platforms
-
-Clairvoyant is made for elementary OS, but may have been built and made available elsewhere by community members. These builds may have modifications or changes and **are not provided or supported by me**.
 
 -----
 
