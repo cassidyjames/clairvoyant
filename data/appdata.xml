@@ -88,7 +88,7 @@
   <url type="bugtracker">https://github.com/cassidyjames/clairvoyant/issues</url>
   <url type="donation">https://cassidyjames.com/pay</url>
   <url type="help">https://cassidyjames.com/support</url>
-  <url type="contact">https://cassidyjames.com/support</url>
+  <!--url type="contact">https://cassidyjames.com/support</url-->
   <custom>
     <value key="x-appcenter-color-primary">#525</value>
     <value key="x-appcenter-color-primary-text">#fffffc</value>
