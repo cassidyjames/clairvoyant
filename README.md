@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cassidyjames/clairvoyant.svg?branch=master)](https://travis-ci.org/cassidyjames/clairvoyant)
+[![Build Status](https://travis-ci.com/cassidyjames/clairvoyant.svg?branch=master)](https://travis-ci.com/cassidyjames/clairvoyant)
 
 <p align="center">
   <img src="data/icons/128.svg" alt="Icon" />
