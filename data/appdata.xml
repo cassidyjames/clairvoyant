@@ -29,7 +29,12 @@
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/master/data/screenshot-no.png</image>
     </screenshot>
   </screenshots>
-  ​<releases>
+  <releases>
+    <release version="1.0.3" date="2018-07-23">
+      <description>
+        <p>Happy new year! This release contains AppData fixes.</p>
+      </description>
+    </release>
     <release version="1.0.2" date="2018-07-23">
       <description>
         <p>Fix 48px icon</p>
@@ -90,8 +95,8 @@
   <url type="help">https://cassidyjames.com/support</url>
   <!--url type="contact">https://cassidyjames.com/support</url-->
   <custom>
-    <value key="x-appcenter-color-primary">#525</value>
-    <value key="x-appcenter-color-primary-text">#fffffc</value>
+    <value key="x-appcenter-color-primary">#0e141f</value>
+    <value key="x-appcenter-color-primary-text">#fafafa</value>
     <value key="x-appcenter-suggested-price">1</value>
   </custom>
 </component>
