@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-25 21:19-0700\n"
+"POT-Creation-Date: 2019-01-25 21:27-0700\n"
 "PO-Revision-Date: 2019-01-25 21:19-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -68,6 +68,87 @@ msgstr "com.github.cassidyjames.clairvoyant"
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "magic;eight;ball;8;crystal;🔮;medium;🎱;"
+
+#: src/Content.vala:30
+msgid "It is certain."
+msgstr ""
+
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr ""
+
+#: src/Content.vala:38
+msgid "Without a doubt."
+msgstr ""
+
+#: src/Content.vala:42
+msgid "Yes—definitely."
+msgstr ""
+
+#: src/Content.vala:46
+msgid "You may rely on it."
+msgstr ""
+
+#: src/Content.vala:50
+msgid "As I see it, yes."
+msgstr ""
+
+#: src/Content.vala:54
+msgid "Most likely."
+msgstr ""
+
+#: src/Content.vala:58
+msgid "Outlook good."
+msgstr ""
+
+#: src/Content.vala:62
+msgid "Yes."
+msgstr ""
+
+#: src/Content.vala:66
+msgid "Signs point to yes."
+msgstr ""
+
+#: src/Content.vala:70
+msgid "Don't count on it."
+msgstr ""
+
+#: src/Content.vala:74
+msgid "My reply is no."
+msgstr ""
+
+#: src/Content.vala:78
+msgid "My sources say no."
+msgstr ""
+
+#: src/Content.vala:82
+msgid "Outlook not so good."
+msgstr ""
+
+#: src/Content.vala:86
+msgid "Very doubtful."
+msgstr ""
+
+#: src/Content.vala:90
+msgid "Reply hazy, try again."
+msgstr ""
+
+#: src/Content.vala:94
+#, fuzzy
+msgid "Ask again later."
+msgstr "Ask Again"
+
+#: src/Content.vala:98
+msgid "Better not tell you now."
+msgstr ""
+
+#: src/Content.vala:102
+msgid "Cannot predict now."
+msgstr ""
+
+#: src/Content.vala:106
+msgid "Concentrate and ask again."
+msgstr ""
 
 #: src/MainWindow.vala:46
 msgid "Ask Again"
