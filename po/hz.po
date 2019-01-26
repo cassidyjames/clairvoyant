@@ -1,0 +1,69 @@
+# Herero translations for com.github.cassidyjames.clairvoyant package.
+# Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-25 21:19-0700\n"
+"PO-Revision-Date: 2019-01-25 21:19-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
+#: data/launcher.desktop.in:3 src/MainWindow.vala:30
+msgid "Clairvoyant"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
+msgid "Get psychic answers from this fortune teller"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
+msgid ""
+"Does he love you? Should you have pizza for dinner? Is there such thing as a "
+"stupid question? Discover the answers to these questions and more with "
+"Clairvoyant, the magic 8-ball inspired fortune teller."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
+msgid "Ask a question, then open Clairvoyant for an answer."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
+msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
+msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:91
+msgid "Cassidy James Blaede"
+msgstr ""
+
+#: data/launcher.desktop.in:4
+msgid "Fortune Teller"
+msgstr ""
+
+#: data/launcher.desktop.in:5
+msgid "Ask questions and get psychic answers"
+msgstr ""
+
+#: data/launcher.desktop.in:8
+msgid "com.github.cassidyjames.clairvoyant"
+msgstr ""
+
+#: data/launcher.desktop.in:11
+msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
+msgstr ""
+
+#: src/MainWindow.vala:46
+msgid "Ask Again"
+msgstr ""
