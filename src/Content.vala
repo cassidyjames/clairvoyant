@@ -27,83 +27,83 @@ public class ContentStack : Gtk.Stack {
 
     static Content[] content = {
         Content () {
-            title = "It is certain.",
+            title = _("It is certain."),
             result = "positive"
         },
         Content () {
-            title = "It is decidedly so.",
+            title = _("It is decidedly so."),
             result = "positive"
         },
         Content () {
-            title = "Without a doubt.",
+            title = _("Without a doubt."),
             result = "positive"
         },
         Content () {
-            title = "Yes—definitely.",
+            title = _("Yes—definitely."),
             result = "positive"
         },
         Content () {
-            title = "You may rely on it.",
+            title = _("You may rely on it."),
             result = "positive"
         },
         Content () {
-            title = "As I see it, yes.",
+            title = _("As I see it, yes."),
             result = "positive"
         },
         Content () {
-            title = "Most likely.",
+            title = _("Most likely."),
             result = "positive"
         },
         Content () {
-            title = "Outlook good.",
+            title = _("Outlook good."),
             result = "positive"
         },
         Content () {
-            title = "Yes.",
+            title = _("Yes."),
             result = "positive"
         },
         Content () {
-            title = "Signs point to yes.",
+            title = _("Signs point to yes."),
             result = "positive"
         },
         Content () {
-            title = "Don't count on it.",
+            title = _("Don't count on it."),
             result = "negative"
         },
         Content () {
-            title = "My reply is no.",
+            title = _("My reply is no."),
             result = "negative"
         },
         Content () {
-            title = "My sources say no.",
+            title = _("My sources say no."),
             result = "negative"
         },
         Content () {
-            title = "Outlook not so good.",
+            title = _("Outlook not so good."),
             result = "negative"
         },
         Content () {
-            title = "Very doubtful.",
+            title = _("Very doubtful."),
             result = "negative"
         },
         Content () {
-            title = "Reply hazy, try again.",
+            title = _("Reply hazy, try again."),
             result = "neutral"
         },
         Content () {
-            title = "Ask again later.",
+            title = _("Ask again later."),
             result = "neutral"
         },
         Content () {
-            title = "Better not tell you now.",
+            title = _("Better not tell you now."),
             result = "neutral"
         },
         Content () {
-            title = "Cannot predict now.",
+            title = _("Cannot predict now."),
             result = "neutral"
         },
         Content () {
-            title = "Concentrate and ask again.",
+            title = _("Concentrate and ask again."),
             result = "neutral"
         }
     };
