@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-25 21:31-0700\n"
+"POT-Creation-Date: 2019-03-23 11:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,43 @@ msgstr ""
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
+msgid "Clairvoyant is now translatable."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
+msgid "Happy new year! This release contains AppData fixes."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:45
+msgid "Fix 48px icon"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:50
+msgid "Post-release update"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
+msgid "Clean up AppStream data"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
+msgid "Expand on the description"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
+msgid "Change price to $1"
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:60
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr ""
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
+msgid "Initial release"
+msgstr ""
+
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:96
 msgid "Cassidy James Blaede"
 msgstr ""
@@ -67,10 +104,6 @@ msgstr ""
 
 #: src/Content.vala:30
 msgid "It is certain."
-msgstr ""
-
-#: src/Content.vala:34
-msgid "It is decidedly so."
 msgstr ""
 
 #: src/Content.vala:38
