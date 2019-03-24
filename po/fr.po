@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-25 21:31-0700\n"
+"POT-Creation-Date: 2019-03-23 11:07+0100\n"
 "PO-Revision-Date: 2019-01-26 11:25+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -32,9 +32,10 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
-"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-il une "
-"question stupide ? Découvrez les réponses à ces questions et plus encore avec "
-"Clairvoyant, diseur de bonne aventure inspiré de la boule 8 magique."
+"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
+"il une question stupide ? Découvrez les réponses à ces questions et plus "
+"encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
+"magique."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
 msgid "Ask a question, then open Clairvoyant for an answer."
@@ -42,11 +43,52 @@ msgstr "Posez-vous une question, puis ouvrez Clairvoyant pour une réponse."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
 msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
-msgstr "Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « Demander à nouveau » pour réessayer."
+msgstr ""
+"Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « "
+"Demander à nouveau » pour réessayer."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr "Faites ce que vous voulez avec les réponses, mais ne tirez pas sur le messager !"
+msgstr ""
+"Faites ce que vous voulez avec les réponses, mais ne tirez pas sur le "
+"messager !"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
+msgid "Clairvoyant is now translatable."
+msgstr "Clairvoyant peut maintenant être traduit."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
+msgid "Happy new year! This release contains AppData fixes."
+msgstr "Bonne année ! Cette version comprend des corrections du fichier Appdata."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:45
+msgid "Fix 48px icon"
+msgstr "Correction de l'icône 48px"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:50
+msgid "Post-release update"
+msgstr "Mise à jour après sortie"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
+msgid "Clean up AppStream data"
+msgstr "Nettoyage des données du flux d'application"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
+msgid "Expand on the description"
+msgstr "Détails dans la description"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
+msgid "Change price to $1"
+msgstr "Modification du prix à 1$"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:60
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr "Il en est décidé ainsi."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
+msgid "Initial release"
+msgstr "Version initiale"
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:96
 msgid "Cassidy James Blaede"
@@ -71,10 +113,6 @@ msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;"
 #: src/Content.vala:30
 msgid "It is certain."
 msgstr "C'est certain."
-
-#: src/Content.vala:34
-msgid "It is decidedly so."
-msgstr "Il en est décidé ainsi."
 
 #: src/Content.vala:38
 msgid "Without a doubt."
