@@ -21,7 +21,7 @@ msgstr ""
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:30
 msgid "Clairvoyant"
-msgstr "Jasnowidz"
+msgstr "Clairvoyant"
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
 msgid "Get psychic answers from this fortune teller"
