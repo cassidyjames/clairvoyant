@@ -67,7 +67,6 @@ msgstr "Poprawki do początkowej wersji"
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
 msgid "Clean up AppStream data"
 msgstr "Uporządkowanie danych AppStream."
-3
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
 msgid "Expand on the description"
 msgstr "Rozszerzenie opisu"
