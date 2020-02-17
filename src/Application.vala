@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2018 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2020 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -42,7 +42,7 @@ public class Clairvoyant : Gtk.Application {
         var window_x = settings.get_int ("window-x");
         var window_y = settings.get_int ("window-y");
 
-        if (window_x != -1 ||  window_y != -1) {
+        if (window_x != -1 || window_y != -1) {
             main_window.move (window_x, window_y);
         }
 
@@ -58,7 +58,11 @@ public class Clairvoyant : Gtk.Application {
 
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/com/github/cassidyjames/clairvoyant/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        Gtk.StyleContext.add_provider_for_screen (
+            Gdk.Screen.get_default (),
+            provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        );
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
@@ -74,4 +78,3 @@ public class Clairvoyant : Gtk.Application {
         return app.run (args);
     }
 }
-
