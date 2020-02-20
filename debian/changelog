@@ -1,3 +1,18 @@
+com.github.cassidyjames.clairvoyant (1.1.4) precise; urgency=medium
+
+  * Merge pull request #20 from cassidyjames/release-1.1.4
+  * AppData: Update AppCenter colors for better contrast
+  * Merge branch 'master' into release-1.1.4
+  * Merge pull request #21 from micahilbery/slate-color-icons
+  * switch back to slate color
+  * Meson: update version number
+  * AppData: Prep 1.1.4 release
+  * Merge pull request #19 from micahilbery/new-icons
+  * new icons
+  * Update translation template
+
+ -- Cassidy James Blaede <c@ssidyjam.es>  Thu, 20 Feb 2020 19:30:38 +0000
+
 com.github.cassidyjames.clairvoyant (1.1.3) precise; urgency=medium
 
   * Merge pull request #18 from cassidyjames/release-1.1.3
