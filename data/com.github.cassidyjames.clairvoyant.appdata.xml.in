@@ -121,8 +121,8 @@
   <url type="help">https://cassidyjames.com/support</url>
   <!--url type="contact">https://cassidyjames.com/support</url-->
   <custom>
-    <value key="x-appcenter-color-primary">#0e141f</value>
-    <value key="x-appcenter-color-primary-text">#fafafa</value>
+    <value key="x-appcenter-color-primary">#fff</value>
+    <value key="x-appcenter-color-primary-text">#485a6c</value>
     <value key="x-appcenter-suggested-price">1</value>
   </custom>
 </component>
