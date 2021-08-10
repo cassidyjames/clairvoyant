@@ -1,0 +1,185 @@
+# Polish translations for com.github.cassidyjames.clairvoyant package.
+# Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-23 11:07+0100\n"
+"PO-Revision-Date: 2019-11-17 13:01-0700\n"
+"Last-Translator: Michał Nowakowski <nowakowski@offshore.rocks>\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
+#: data/launcher.desktop.in:3 src/MainWindow.vala:30
+msgid "Clairvoyant"
+msgstr "Clairvoyant"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
+msgid "Get psychic answers from this fortune teller"
+msgstr "Uzyskaj odpowiedzi od tego wróżbiarza"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
+msgid ""
+"Does he love you? Should you have pizza for dinner? Is there such thing as a "
+"stupid question? Discover the answers to these questions and more with "
+"Clairvoyant, the magic 8-ball inspired fortune teller."
+msgstr "Czy on cię kocha? Czy powinieneś zjeść pizzę na obiad? Czy istnieje"
+"coś takiego, jak głupie pytanie? Odkryj odpowiedzi na te, i nie tylko te,"
+"pytania dzięki Jasnowidzowi, aplikacji wzorowanej na magicznej kuli nr 8." 
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
+msgid "Ask a question, then open Clairvoyant for an answer."
+msgstr "Zadaj pytanie i uruchom Jasnowidza, żeby dostać odpowiedź."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
+msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
+msgstr "Nie podoba ci się odpowiedź? Zapytaj ponownie i kliknij ikonę \"Zapytaj ponownie\"."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
+msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr "Z odpowiedziami zrób, co zechcesz – tylko nie strzelaj do posłańca!"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
+msgid "Clairvoyant is now translatable."
+msgstr "Jasnowidza można teraz tłumaczyć."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
+msgid "Happy new year! This release contains AppData fixes."
+msgstr "Szczęśliwego nowego roku! Ta wersja zawiera poprawki AppData."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:45
+msgid "Fix 48px icon"
+msgstr "Poprawka ikon 48px."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:50
+msgid "Post-release update"
+msgstr "Poprawki do początkowej wersji"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
+msgid "Clean up AppStream data"
+msgstr "Uporządkowanie danych AppStream."
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
+msgid "Expand on the description"
+msgstr "Rozszerzenie opisu"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
+msgid "Change price to $1"
+msgstr "Zmiana ceny na 1$"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:60
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr "Zdecydowanie tak jest."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
+msgid "Initial release"
+msgstr "Pierwsza wersja"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:96
+msgid "Cassidy James Blaede"
+msgstr "Cassidy James Blaede"
+
+#: data/launcher.desktop.in:4
+msgid "Fortune Teller"
+msgstr "Wróżbiarz"
+
+#: data/launcher.desktop.in:5
+msgid "Ask questions and get psychic answers"
+msgstr "Zadaj pytania i otrzymaj wróżby"
+
+#: data/launcher.desktop.in:8
+msgid "com.github.cassidyjames.clairvoyant"
+msgstr "com.github.cassidyjames.clairvoyant"
+
+#: data/launcher.desktop.in:11
+msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
+msgstr ""
+
+#: src/Content.vala:30
+msgid "It is certain."
+msgstr "To pewne."
+
+#: src/Content.vala:38
+msgid "Without a doubt."
+msgstr "Bez wątpienia."
+
+#: src/Content.vala:42
+msgid "Yes—definitely."
+msgstr "Tak, z pewnością."
+
+#: src/Content.vala:46
+msgid "You may rely on it."
+msgstr "Możesz na tym polegać."
+
+#: src/Content.vala:50
+msgid "As I see it, yes."
+msgstr "Jak dla mnie, tak."
+
+#: src/Content.vala:54
+msgid "Most likely."
+msgstr "Najprawdopodobniej."
+
+#: src/Content.vala:58
+msgid "Outlook good."
+msgstr "Wygląda to dobrze."
+
+#: src/Content.vala:62
+msgid "Yes."
+msgstr "Tak."
+
+#: src/Content.vala:66
+msgid "Signs point to yes."
+msgstr "Znaki wskazują na „tak”."
+
+#: src/Content.vala:70
+msgid "Don't count on it."
+msgstr "Nie licz na to."
+
+#: src/Content.vala:74
+msgid "My reply is no."
+msgstr "Moja odpowiedź brzmi „nie”."
+
+#: src/Content.vala:78
+msgid "My sources say no."
+msgstr "Moje źródła mówią „nie”."
+
+#: src/Content.vala:82
+msgid "Outlook not so good."
+msgstr "Nie wygląda to dobrze."
+
+#: src/Content.vala:86
+msgid "Very doubtful."
+msgstr "Bardzo wątpliwe."
+
+#: src/Content.vala:90
+msgid "Reply hazy, try again."
+msgstr "Odpowiedź jest mglista, spróbuj jeszcze raz."
+
+#: src/Content.vala:94
+msgid "Ask again later."
+msgstr "Zapytaj ponownie później."
+
+#: src/Content.vala:98
+msgid "Better not tell you now."
+msgstr "Lepiej nie odpowiadać teraz."
+
+#: src/Content.vala:102
+msgid "Cannot predict now."
+msgstr "Nie mogę tego przewidzieć teraz."
+
+#: src/Content.vala:106
+msgid "Concentrate and ask again."
+msgstr "Skup się i zapytaj ponownie."
+
+#: src/MainWindow.vala:46
+msgid "Ask Again"
+msgstr "Zapytaj ponownie"

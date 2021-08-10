@@ -1,0 +1,191 @@
+# French translations for com.github.cassidyjames.clairvoyant package.
+# Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
+# NathanBnm, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-23 11:07+0100\n"
+"PO-Revision-Date: 2019-01-26 11:25+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
+#: data/launcher.desktop.in:3 src/MainWindow.vala:30
+msgid "Clairvoyant"
+msgstr "Clairvoyant"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
+msgid "Get psychic answers from this fortune teller"
+msgstr "Obtenez des réponses psychiques de ce diseur de bonne aventure"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
+msgid ""
+"Does he love you? Should you have pizza for dinner? Is there such thing as a "
+"stupid question? Discover the answers to these questions and more with "
+"Clairvoyant, the magic 8-ball inspired fortune teller."
+msgstr ""
+"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
+"il une question stupide ? Découvrez les réponses à ces questions et plus "
+"encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
+"magique."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
+msgid "Ask a question, then open Clairvoyant for an answer."
+msgstr "Posez-vous une question, puis ouvrez Clairvoyant pour une réponse."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
+msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
+msgstr ""
+"Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « "
+"Demander à nouveau » pour réessayer."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
+msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr ""
+"Faites ce que vous voulez avec les réponses, mais ne tirez pas sur le "
+"messager !"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
+msgid "Clairvoyant is now translatable."
+msgstr "Clairvoyant peut maintenant être traduit."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
+msgid "Happy new year! This release contains AppData fixes."
+msgstr "Bonne année ! Cette version comprend des corrections du fichier Appdata."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:45
+msgid "Fix 48px icon"
+msgstr "Correction de l'icône 48px"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:50
+msgid "Post-release update"
+msgstr "Mise à jour après sortie"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
+msgid "Clean up AppStream data"
+msgstr "Nettoyage des données du flux d'application"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
+msgid "Expand on the description"
+msgstr "Détails dans la description"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
+msgid "Change price to $1"
+msgstr "Modification du prix à 1$"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:60
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr "Il en est décidé ainsi."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
+msgid "Initial release"
+msgstr "Version initiale"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:96
+msgid "Cassidy James Blaede"
+msgstr "Cassidy James Blaede"
+
+#: data/launcher.desktop.in:4
+msgid "Fortune Teller"
+msgstr "Diseur de bonne aventure"
+
+#: data/launcher.desktop.in:5
+msgid "Ask questions and get psychic answers"
+msgstr "Posez des questions et obtenez des réponses psychiques"
+
+#: data/launcher.desktop.in:8
+msgid "com.github.cassidyjames.clairvoyant"
+msgstr "com.github.cassidyjames.clairvoyant"
+
+#: data/launcher.desktop.in:11
+msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
+msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;"
+
+#: src/Content.vala:30
+msgid "It is certain."
+msgstr "C'est certain."
+
+#: src/Content.vala:38
+msgid "Without a doubt."
+msgstr "Sans aucun doute."
+
+#: src/Content.vala:42
+msgid "Yes—definitely."
+msgstr "Oui, c'est sûr."
+
+#: src/Content.vala:46
+msgid "You may rely on it."
+msgstr "Vous pouvez vous y fier."
+
+#: src/Content.vala:50
+msgid "As I see it, yes."
+msgstr "D'après ce que je vois, oui."
+
+#: src/Content.vala:54
+msgid "Most likely."
+msgstr "C'est fort probable."
+
+#: src/Content.vala:58
+msgid "Outlook good."
+msgstr "Les perspectives sont bonnes."
+
+#: src/Content.vala:62
+msgid "Yes."
+msgstr "Oui."
+
+#: src/Content.vala:66
+msgid "Signs point to yes."
+msgstr "Tout porte à croire que oui."
+
+#: src/Content.vala:70
+msgid "Don't count on it."
+msgstr "N'y comptez pas."
+
+#: src/Content.vala:74
+msgid "My reply is no."
+msgstr "Ma réponse est non."
+
+#: src/Content.vala:78
+msgid "My sources say no."
+msgstr "Mes sources me disent que non."
+
+#: src/Content.vala:82
+msgid "Outlook not so good."
+msgstr "Les perspectives ne sont pas si bonnes."
+
+#: src/Content.vala:86
+msgid "Very doubtful."
+msgstr "J'en doute vraiment."
+
+#: src/Content.vala:90
+msgid "Reply hazy, try again."
+msgstr "Réponse floue, essayez encore."
+
+#: src/Content.vala:94
+msgid "Ask again later."
+msgstr "Redemandez plus tard."
+
+#: src/Content.vala:98
+msgid "Better not tell you now."
+msgstr "Je ferais mieux de ne pas vous le dire maintenant."
+
+#: src/Content.vala:102
+msgid "Cannot predict now."
+msgstr "Je ne peux pas prédire maintenant."
+
+#: src/Content.vala:106
+msgid "Concentrate and ask again."
+msgstr "Concentrez-vous et demandez à nouveau."
+
+#: src/MainWindow.vala:46
+msgid "Ask Again"
+msgstr "Demander à nouveau"

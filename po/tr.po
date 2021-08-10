@@ -1,0 +1,190 @@
+# Turkish translations for com.github.cassidyjames.clairvoyant package.
+# Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
+#
+# Automatically generated, 2019.
+# Safak <bjksafak45@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-23 11:07+0100\n"
+"PO-Revision-Date: 2020-09-25 09:01+0300\n"
+"Last-Translator: Safak <bjksafak45@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
+#: data/launcher.desktop.in:3 src/MainWindow.vala:30
+msgid "Clairvoyant"
+msgstr "Clairvoyant"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
+msgid "Get psychic answers from this fortune teller"
+msgstr "Bu falcıdan psişik yanıtlar alın"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
+msgid ""
+"Does he love you? Should you have pizza for dinner? Is there such thing as a "
+"stupid question? Discover the answers to these questions and more with "
+"Clairvoyant, the magic 8-ball inspired fortune teller."
+msgstr ""
+"Seni seviyor mu? Akşam yemeğinde pizza yemeli misin? Diye bir şey var mı"
+"salak soru? Bu soruların cevaplarını ve daha fazlasını keşfedin"
+"Clairvoyant, sihirli 8-top falcıya ilham verdi."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
+msgid "Ask a question, then open Clairvoyant for an answer."
+msgstr "Bir soru sorun, ardından cevap için Clairvoyant'ı açın."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
+msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
+msgstr ""
+"Tatmin edici değil? Tekrar sorun ve tekrar denemek için \"Tekrar Sor\""
+" simgesine basın."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
+msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr "Cevaplarla ne isterseniz yapın - sadece haberciyi vurmayın!"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
+msgid "Clairvoyant is now translatable."
+msgstr "Clairvoyant artık tercüme edilebilir."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
+msgid "Happy new year! This release contains AppData fixes."
+msgstr "Yeni Yılınız mutlu olsun! Bu sürüm, AppData düzeltmelerini içerir."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:45
+msgid "Fix 48px icon"
+msgstr "48px simgesini düzeltildi"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:50
+msgid "Post-release update"
+msgstr "Yayın sonrası güncelleme"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:52
+msgid "Clean up AppStream data"
+msgstr "AppStream verilerini temizleyin"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:53
+msgid "Expand on the description"
+msgstr "Açıklamayı genişletin"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
+msgid "Change price to $1"
+msgstr "Fiyatı 1 $ olarak değiştirin"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:60
+#: src/Content.vala:34
+msgid "It is decidedly so."
+msgstr "Kesinlikle öyle."
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
+msgid "Initial release"
+msgstr "İlk sürüm"
+
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:96
+msgid "Cassidy James Blaede"
+msgstr "Cassidy James Blaede"
+
+#: data/launcher.desktop.in:4
+msgid "Fortune Teller"
+msgstr "Falcı"
+
+#: data/launcher.desktop.in:5
+msgid "Ask questions and get psychic answers"
+msgstr "Sorular sorun ve psişik cevaplar alın"
+
+#: data/launcher.desktop.in:8
+msgid "com.github.cassidyjames.clairvoyant"
+msgstr "com.github.cassidyjames.clairvoyant"
+
+#: data/launcher.desktop.in:11
+msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
+msgstr "büyü;sekiz;top;8;kristal;🔮;orta;🎱;"
+
+#: src/Content.vala:30
+msgid "It is certain."
+msgstr "Bu kesin."
+
+#: src/Content.vala:38
+msgid "Without a doubt."
+msgstr "Şüphesiz."
+
+#: src/Content.vala:42
+msgid "Yes—definitely."
+msgstr "Dostum Kesinlikle"
+
+#: src/Content.vala:46
+msgid "You may rely on it."
+msgstr "Ona Güvenebilirsiniz"
+
+#: src/Content.vala:50
+msgid "As I see it, yes."
+msgstr "Gördüğüm kadarıyla evet."
+
+#: src/Content.vala:54
+msgid "Most likely."
+msgstr "Azdan az çoktan çok gider."
+
+#: src/Content.vala:58
+msgid "Outlook good."
+msgstr "İyi görünüyor"
+
+#: src/Content.vala:62
+msgid "Yes."
+msgstr "Evet"
+
+#: src/Content.vala:66
+msgid "Signs point to yes."
+msgstr "İşaretler evet'i gösteriyor."
+
+#: src/Content.vala:70
+msgid "Don't count on it."
+msgstr "Ona güvenme."
+
+#: src/Content.vala:74
+msgid "My reply is no."
+msgstr "Cevabım hayır."
+
+#: src/Content.vala:78
+msgid "My sources say no."
+msgstr "Kaynaklarım hayır diyor."
+
+#: src/Content.vala:82
+msgid "Outlook not so good."
+msgstr "Görünüm pek iyi değil."
+
+#: src/Content.vala:86
+msgid "Very doubtful."
+msgstr "Çok şüpheli."
+
+#: src/Content.vala:90
+msgid "Reply hazy, try again."
+msgstr "Bulanık cevap tekrar deneyin."
+
+#: src/Content.vala:94
+msgid "Ask again later."
+msgstr "Sonra tekrar sor."
+
+#: src/Content.vala:98
+msgid "Better not tell you now."
+msgstr "Sana şimdi söylememek daha iyi.(Aga be)"
+
+#: src/Content.vala:102
+msgid "Cannot predict now."
+msgstr "Şimdi tahmin edemem."
+
+#: src/Content.vala:106
+msgid "Concentrate and ask again."
+msgstr "Konsantre ol ve tekrar sor."
+
+#: src/MainWindow.vala:46
+msgid "Ask Again"
+msgstr "Tekrar Sor"
