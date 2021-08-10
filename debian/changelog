@@ -1,3 +1,9 @@
+com.github.cassidyjames.clairvoyant (2.0.0) precise; urgency=medium
+
+  * Merge pull request #27 from cassidyjames/flatpak
+
+ -- Cassidy James Blaede <c@ssidyjam.es>  Tue, 10 Aug 2021 05:59:25 +0000
+
 com.github.cassidyjames.clairvoyant (1.1.4) precise; urgency=medium
 
   * Merge pull request #20 from cassidyjames/release-1.1.4
