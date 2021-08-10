@@ -30,6 +30,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.0.0" date="2021-08-09">
+      <description>
+        <p>Hello, Odin</p>
+        <ul>
+          <li>Updated for OS 6 and Flatpak</li>
+          <li>Turkish translations thanks to Safak GENISOL</li>
+          <li>Portuguese translations thanks to André Barata</li>
+          <li>Spanish translations thanks to @kevincos5</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.1.4" date="2020-02-20">
       <description>
         <p>Refreshed icons thanks to Micah Ilbery</p>
@@ -121,9 +132,10 @@
   <url type="help">https://cassidyjames.com/support</url>
   <!--url type="contact">https://cassidyjames.com/support</url-->
   <custom>
-    <value key="x-appcenter-color-primary">#fff</value>
-    <value key="x-appcenter-color-primary-text">#485a6c</value>
+    <value key="x-appcenter-color-primary">#0e141f</value>
+    <value key="x-appcenter-color-primary-text">#fff</value>
     <value key="x-appcenter-suggested-price">1</value>
+    <value key="x-appcenter-stripe">pk_live_MzEz9Fza8ow47eRWJUuXktda00xmU0FR9J</value>
   </custom>
 </component>
 
