@@ -1,51 +1,15 @@
 app-id: com.github.cassidyjames.clairvoyant
-branch: stable
-runtime: org.gnome.Sdk
-runtime-version: '3.28'
-sdk: org.gnome.Sdk
-base: io.elementary.Loki.BaseApp
-base-version: stable
+runtime: io.elementary.Platform
+runtime-version: '6'
+sdk: io.elementary.Sdk
 command: com.github.cassidyjames.clairvoyant
 finish-args:
-- "--share=ipc"
-- "--socket=x11"
-- "--socket=wayland"
-- "--filesystem=xdg-run/dconf"
-- "--filesystem=~/.config/dconf:ro"
-- "--talk-name=ca.desrt.dconf"
-- "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
-build-options:
-  cflags: "-O2 -g"
-  cxxflags: "-O2 -g"
-  env:
-    V: '1'
-cleanup:
-- "/include"
-- "/lib/pkgconfig"
-- "/share/pkgconfig"
-- "/share/aclocal"
-- "/man"
-- "/share/man"
-- "/share/gtk-doc"
-- "*.la"
-- "*.a"
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
 modules:
-- name: appstream
-  buildsystem: meson
-  config-opts:
-  - -Dstemming=false
-  cleanup:
-  - '*'
-  sources:
-  - type: archive
-    url: https://github.com/ximion/appstream/archive/APPSTREAM_0_12_1.tar.gz
-    sha256: 8f720ced48fda243f78f5a38a57b61b4f49b67119a749b6eee2599c0c3b9e16e
-- name: com.github.cassidyjames.clairvoyant
-  buildsystem: meson
-  config-opts:
-  - --buildtype=release
-  sources:
-  - type: git
-    url: https://github.com/cassidyjames/clairvoyant
-    tag: '1.0.0'
-
+  - name: clairvoyant
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
