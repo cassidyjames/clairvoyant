@@ -41,7 +41,7 @@ public class MainWindow : Gtk.Window {
         header_context.add_class (Gtk.STYLE_CLASS_FLAT);
 
         var randomize_button = new Gtk.Button.from_icon_name (
-            "dialog-question-symbolic"
+            "view-refresh"
         );
         randomize_button.tooltip_text = _("Ask Again");
 
