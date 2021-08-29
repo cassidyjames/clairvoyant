@@ -87,6 +87,22 @@ public class ContentStack : Gtk.Stack {
             result = "negative"
         },
         Content () {
+            title = _("Pursue at your own peril."),
+            result = "negative"
+        },
+        Content () {
+            title = _("Impossible to see, the future is."),
+            result = "neutral"
+        },
+        Content () {
+            title = _("Hmm..."),
+            result = "neutral"
+        },
+        Content () {
+            title = _("Always in motion the future is."),
+            result = "neutral"
+        },
+        Content () {
             title = _("Reply hazy, try again."),
             result = "neutral"
         },
@@ -134,7 +150,7 @@ public class ContentStack : Gtk.Stack {
             i++;
         }
 
-        var rand = Random.int_range (1, 21);
+        var rand = Random.int_range (1, 24);
         visible_child_name = rand.to_string ();
     }
 }
