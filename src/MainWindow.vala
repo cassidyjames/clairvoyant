@@ -70,7 +70,7 @@ public class MainWindow : Gtk.Window {
         ContentStack stack,
         bool allow_current = false
     ) {
-        int rand = Random.int_range (1, 21);
+        int rand = Random.int_range (1, 27);
         int current = int.parse (stack.visible_child_name);
 
         if (allow_current || rand != current) {

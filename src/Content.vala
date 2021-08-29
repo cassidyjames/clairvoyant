@@ -63,8 +63,20 @@ public class ContentStack : Gtk.Stack {
             result = "positive"
         },
         Content () {
+            title = _("Just do it."),
+            result = "positive"
+        },
+        Content () {
             title = _("Signs point to yes."),
             result = "positive"
+        },
+        Content () {
+            title = _("Nope."),
+            result = "negative"
+        },
+        Content () {
+            title = _("Wouldn't count on it."),
+            result = "negative"
         },
         Content () {
             title = _("Don't count on it."),
@@ -126,7 +138,7 @@ public class ContentStack : Gtk.Stack {
 
     public ContentStack () {
         Object (
-            margin: 24,
+            margin: 21,
             margin_bottom: 48,
             transition_type: Gtk.StackTransitionType.CROSSFADE
         );
@@ -150,7 +162,7 @@ public class ContentStack : Gtk.Stack {
             i++;
         }
 
-        var rand = Random.int_range (1, 24);
+        var rand = Random.int_range (1, 27);
         visible_child_name = rand.to_string ();
     }
 }
