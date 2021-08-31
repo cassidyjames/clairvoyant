@@ -63,7 +63,7 @@ public class ContentStack : Gtk.Stack {
             result = "positive"
         },
         Content () {
-            title = _("Just do it."),
+            title = _("No problem."),
             result = "positive"
         },
         Content () {
@@ -100,6 +100,10 @@ public class ContentStack : Gtk.Stack {
         },
         Content () {
             title = _("Pursue at your own peril."),
+            result = "negative"
+        },
+        Content () {
+            title = _("I've got a bad feeling about this."),
             result = "negative"
         },
         Content () {
@@ -162,7 +166,7 @@ public class ContentStack : Gtk.Stack {
             i++;
         }
 
-        var rand = Random.int_range (1, 27);
+        var rand = Random.int_range (1, 28);
         visible_child_name = rand.to_string ();
     }
 }
