@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 05:59+0000\n"
+"POT-Creation-Date: 2022-09-07 23:52-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,87 +38,14 @@ msgid "Ask a question, then open Clairvoyant for an answer."
 msgstr ""
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
-msgid "Not satisfied? Ask again, then hit the \"Ask Again\" icon to try again."
+msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:35
-msgid "Hello, Odin"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:37
-msgid "Updated for OS 6 and Flatpak"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:38
-msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:39
-msgid "Portuguese translations thanks to André Barata"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:40
-msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:46
-msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:51
-msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:56
-msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:61
-msgid "French translations thanks to @NathanBnm"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:66
-msgid "Clairvoyant is now translatable."
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:71
-msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:76
-msgid "Fix 48px icon"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:81
-msgid "Post-release update"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:83
-msgid "Clean up AppStream data"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:84
-msgid "Expand on the description"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:85
-msgid "Change price to $1"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:91
-#: src/Content.vala:34
-msgid "It is decidedly so."
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:93
-msgid "Initial release"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:127
+#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:118
 msgid "Cassidy James Blaede"
 msgstr ""
 
@@ -130,90 +57,90 @@ msgstr ""
 msgid "Ask questions and get psychic answers"
 msgstr ""
 
-#: data/launcher.desktop.in:8
-msgid "com.github.cassidyjames.clairvoyant"
-msgstr ""
-
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr ""
 
-#: src/Content.vala:30
+#: src/FortuneLabel.vala:32
 msgid "It is certain."
 msgstr ""
 
-#: src/Content.vala:38
+#: src/FortuneLabel.vala:36
+msgid "It is decidedly so."
+msgstr ""
+
+#: src/FortuneLabel.vala:40
 msgid "Without a doubt."
 msgstr ""
 
-#: src/Content.vala:42
+#: src/FortuneLabel.vala:44
 msgid "Yes—definitely."
 msgstr ""
 
-#: src/Content.vala:46
+#: src/FortuneLabel.vala:48
 msgid "You may rely on it."
 msgstr ""
 
-#: src/Content.vala:50
+#: src/FortuneLabel.vala:52
 msgid "As I see it, yes."
 msgstr ""
 
-#: src/Content.vala:54
+#: src/FortuneLabel.vala:56
 msgid "Most likely."
 msgstr ""
 
-#: src/Content.vala:58
+#: src/FortuneLabel.vala:60
 msgid "Outlook good."
 msgstr ""
 
-#: src/Content.vala:62
+#: src/FortuneLabel.vala:64
 msgid "Yes."
 msgstr ""
 
-#: src/Content.vala:66
+#: src/FortuneLabel.vala:68
 msgid "Signs point to yes."
 msgstr ""
 
-#: src/Content.vala:70
+#: src/FortuneLabel.vala:72
 msgid "Don't count on it."
 msgstr ""
 
-#: src/Content.vala:74
+#: src/FortuneLabel.vala:76
 msgid "My reply is no."
 msgstr ""
 
-#: src/Content.vala:78
+#: src/FortuneLabel.vala:80
 msgid "My sources say no."
 msgstr ""
 
-#: src/Content.vala:82
+#: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
 msgstr ""
 
-#: src/Content.vala:86
+#: src/FortuneLabel.vala:88
 msgid "Very doubtful."
 msgstr ""
 
-#: src/Content.vala:90
+#: src/FortuneLabel.vala:92
 msgid "Reply hazy, try again."
 msgstr ""
 
-#: src/Content.vala:94
+#: src/FortuneLabel.vala:96
 msgid "Ask again later."
 msgstr ""
 
-#: src/Content.vala:98
+#: src/FortuneLabel.vala:100
 msgid "Better not tell you now."
 msgstr ""
 
-#: src/Content.vala:102
+#: src/FortuneLabel.vala:104
 msgid "Cannot predict now."
 msgstr ""
 
-#: src/Content.vala:106
+#: src/FortuneLabel.vala:108
 msgid "Concentrate and ask again."
 msgstr ""
 
-#: src/MainWindow.vala:46
+#: src/MainWindow.vala:42
 msgid "Ask Again"
 msgstr ""

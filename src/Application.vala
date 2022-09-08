@@ -1,5 +1,5 @@
 /*
-* Copyright © 2018–2020 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2022 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -19,7 +19,7 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
-public class Clairvoyant : Gtk.Application {
+public class Clairvoyant : Adw.Application {
     public static GLib.Settings settings;
 
     public Clairvoyant () {
@@ -38,31 +38,12 @@ public class Clairvoyant : Gtk.Application {
         }
 
         var main_window = new MainWindow (this);
-
-        var window_x = settings.get_int ("window-x");
-        var window_y = settings.get_int ("window-y");
-
-        if (window_x != -1 || window_y != -1) {
-            main_window.move (window_x, window_y);
-        }
-
-        main_window.show_all ();
+        main_window.show ();
 
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
         set_accels_for_action ("app.quit", {"Escape"});
-
-        var gtk_settings = Gtk.Settings.get_default ();
-        gtk_settings.gtk_application_prefer_dark_theme = true;
-
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/cassidyjames/clairvoyant/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (
-            Gdk.Screen.get_default (),
-            provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
@@ -72,8 +53,6 @@ public class Clairvoyant : Gtk.Application {
     }
 
     private static int main (string[] args) {
-        Gtk.init (ref args);
-
         var app = new Clairvoyant ();
         return app.run (args);
     }

@@ -1,5 +1,5 @@
 /*
-* Copyright © 2018–2020 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2022 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -19,74 +19,62 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
-public class MainWindow : Gtk.Window {
-    private ContentStack stack;
+public class MainWindow : Adw.Window {
+    private FortuneLabel fortune_label;
 
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
             icon_name: "com.github.cassidyjames.clairvoyant",
             resizable: false,
-            title: _("Clairvoyant"),
-            window_position: Gtk.WindowPosition.CENTER
+            title: _("Clairvoyant")
         );
     }
 
     construct {
-        var header = new Gtk.HeaderBar ();
-        header.show_close_button = true;
-        var header_context = header.get_style_context ();
-        header_context.add_class ("titlebar");
-        header_context.add_class ("default-decoration");
-        header_context.add_class (Gtk.STYLE_CLASS_FLAT);
+        var header = new Gtk.HeaderBar () {
+            title_widget = new Gtk.Label (null)
+        };
+        header.add_css_class ("flat");
 
-        var randomize_button = new Gtk.Button.from_icon_name (
-            "dialog-question-symbolic"
-        );
-        randomize_button.tooltip_text = _("Ask Again");
+        fortune_label = new FortuneLabel ();
 
-        var gtk_settings = Gtk.Settings.get_default ();
+        var ask_button = new Gtk.Button.with_label (_("Ask Again")) {
+            halign = Gtk.Align.CENTER
+        };
+        ask_button.add_css_class ("pill");
 
-        stack = new ContentStack ();
+        ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
 
-        var context = get_style_context ();
-        context.add_class ("clairvoyant");
-        context.add_class ("rounded");
-        context.add_class ("flat");
+        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
+            margin_bottom = 48
+        };
+        main_layout.append (header);
+        main_layout.append (fortune_label);
+        main_layout.append (ask_button);
 
-        randomize_button.clicked.connect (() => randomize_fortune (stack) );
+        var window_handle = new Gtk.WindowHandle () ;
+        window_handle.child = main_layout;
 
-        header.pack_end (randomize_button);
+        set_content (window_handle);
 
-        set_titlebar (header);
-        add (stack);
-
-        stack.realize.connect (() => {
-           randomize_fortune (stack, true);
+        fortune_label.realize.connect (() => {
+           randomize_fortune (fortune_label, true);
         });
     }
 
     private void randomize_fortune (
-        ContentStack stack,
+        FortuneLabel fortune_label,
         bool allow_current = false
     ) {
         int rand = Random.int_range (1, 21);
-        int current = int.parse (stack.visible_child_name);
+        int current = int.parse (fortune_label.stack.visible_child_name);
 
         if (allow_current || rand != current) {
-            stack.visible_child_name = rand.to_string ();
+            fortune_label.stack.visible_child_name = rand.to_string ();
             return;
         }
 
-        randomize_fortune (stack);
-    }
-
-    public override bool configure_event (Gdk.EventConfigure event) {
-        int root_x, root_y;
-        get_position (out root_x, out root_y);
-        Clairvoyant.settings.set_int ("window-x", root_x);
-        Clairvoyant.settings.set_int ("window-y", root_y);
-
-        return base.configure_event (event);
+        randomize_fortune (fortune_label);
     }
 }
