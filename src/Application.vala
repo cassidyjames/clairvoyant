@@ -39,14 +39,14 @@ public class Clairvoyant : Gtk.Application {
 
         var main_window = new MainWindow (this);
 
-        var window_x = settings.get_int ("window-x");
-        var window_y = settings.get_int ("window-y");
+        // var window_x = settings.get_int ("window-x");
+        // var window_y = settings.get_int ("window-y");
 
-        if (window_x != -1 || window_y != -1) {
-            main_window.move (window_x, window_y);
-        }
+        // if (window_x != -1 || window_y != -1) {
+        //     main_window.move (window_x, window_y);
+        // }
 
-        main_window.show_all ();
+        main_window.show ();
 
         var quit_action = new SimpleAction ("quit", null);
 
@@ -56,13 +56,13 @@ public class Clairvoyant : Gtk.Application {
         var gtk_settings = Gtk.Settings.get_default ();
         gtk_settings.gtk_application_prefer_dark_theme = true;
 
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/cassidyjames/clairvoyant/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (
-            Gdk.Screen.get_default (),
-            provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
+        // var provider = new Gtk.CssProvider ();
+        // provider.load_from_resource ("/com/github/cassidyjames/clairvoyant/Application.css");
+        // Gtk.StyleContext.add_provider_for_screen (
+        //     Gdk.Screen.get_default (),
+        //     provider,
+        //     Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        // );
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
@@ -72,8 +72,6 @@ public class Clairvoyant : Gtk.Application {
     }
 
     private static int main (string[] args) {
-        Gtk.init (ref args);
-
         var app = new Clairvoyant ();
         return app.run (args);
     }

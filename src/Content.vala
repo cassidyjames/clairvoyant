@@ -19,7 +19,9 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
-public class ContentStack : Gtk.Stack {
+public class ContentStack : Gtk.Box {
+    public Gtk.Stack stack;
+
     private struct Content {
         string title;
         string result;
@@ -28,63 +30,63 @@ public class ContentStack : Gtk.Stack {
     static Content[] content = {
         Content () {
             title = _("It is certain."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("It is decidedly so."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Without a doubt."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Yes—definitely."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("You may rely on it."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("As I see it, yes."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Most likely."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Outlook good."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Yes."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Signs point to yes."),
-            result = "positive"
+            result = "success"
         },
         Content () {
             title = _("Don't count on it."),
-            result = "negative"
+            result = "error"
         },
         Content () {
             title = _("My reply is no."),
-            result = "negative"
+            result = "error"
         },
         Content () {
             title = _("My sources say no."),
-            result = "negative"
+            result = "error"
         },
         Content () {
             title = _("Outlook not so good."),
-            result = "negative"
+            result = "error"
         },
         Content () {
             title = _("Very doubtful."),
-            result = "negative"
+            result = "error"
         },
         Content () {
             title = _("Reply hazy, try again."),
@@ -110,18 +112,23 @@ public class ContentStack : Gtk.Stack {
 
     public ContentStack () {
         Object (
-            margin: 24,
+            margin_top: 24,
+            margin_end: 24,
             margin_bottom: 48,
-            transition_type: Gtk.StackTransitionType.CROSSFADE
+            margin_start: 24
         );
     }
 
     construct {
+        stack = new Gtk.Stack () {
+            transition_type = Gtk.StackTransitionType.CROSSFADE,
+        };
+
         int i = 1;
         foreach (var fortune in content) {
             var label = new Gtk.Label (fortune.title);
-            label.get_style_context ().add_class ("fortune");
-            label.get_style_context ().add_class (fortune.result);
+            label.add_css_class ("fortune");
+            label.add_css_class (fortune.result);
 
             var grid = new Gtk.Grid ();
             grid.column_spacing = grid.row_spacing = 12;
@@ -129,12 +136,14 @@ public class ContentStack : Gtk.Stack {
 
             grid.attach (label, 0, 0);
 
-            add_named (grid, i.to_string ());
+            stack.add_named (grid, i.to_string ());
 
             i++;
         }
 
         var rand = Random.int_range (1, 21);
-        visible_child_name = rand.to_string ();
+        stack.visible_child_name = rand.to_string ();
+
+        append (stack);
     }
 }

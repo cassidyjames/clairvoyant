@@ -23,7 +23,7 @@ executable(
     join_paths('src', 'MainWindow.vala'),
     dependencies: [
         dependency('glib-2.0'),
-        dependency('gtk+-3.0')
+        dependency('gtk4')
     ],
     install: true
 )

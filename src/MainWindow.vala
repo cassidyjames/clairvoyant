@@ -27,18 +27,16 @@ public class MainWindow : Gtk.Window {
             application: application,
             icon_name: "com.github.cassidyjames.clairvoyant",
             resizable: false,
-            title: _("Clairvoyant"),
-            window_position: Gtk.WindowPosition.CENTER
+            title: _("Clairvoyant")
         );
     }
 
     construct {
         var header = new Gtk.HeaderBar ();
-        header.show_close_button = true;
-        var header_context = header.get_style_context ();
-        header_context.add_class ("titlebar");
-        header_context.add_class ("default-decoration");
-        header_context.add_class (Gtk.STYLE_CLASS_FLAT);
+        // header.show_close_button = true;
+        header.add_css_class ("titlebar");
+        header.add_css_class ("default-decoration");
+        header.add_css_class ("flat");
 
         var randomize_button = new Gtk.Button.from_icon_name (
             "dialog-question-symbolic"
@@ -59,7 +57,7 @@ public class MainWindow : Gtk.Window {
         header.pack_end (randomize_button);
 
         set_titlebar (header);
-        add (stack);
+        set_child (stack);
 
         stack.realize.connect (() => {
            randomize_fortune (stack, true);
@@ -71,22 +69,22 @@ public class MainWindow : Gtk.Window {
         bool allow_current = false
     ) {
         int rand = Random.int_range (1, 21);
-        int current = int.parse (stack.visible_child_name);
+        int current = int.parse (stack.stack.visible_child_name);
 
         if (allow_current || rand != current) {
-            stack.visible_child_name = rand.to_string ();
+            stack.stack.visible_child_name = rand.to_string ();
             return;
         }
 
         randomize_fortune (stack);
     }
 
-    public override bool configure_event (Gdk.EventConfigure event) {
-        int root_x, root_y;
-        get_position (out root_x, out root_y);
-        Clairvoyant.settings.set_int ("window-x", root_x);
-        Clairvoyant.settings.set_int ("window-y", root_y);
+    // public override bool configure_event (Gdk.EventConfigure event) {
+    //     int root_x, root_y;
+    //     get_position (out root_x, out root_y);
+    //     Clairvoyant.settings.set_int ("window-x", root_x);
+    //     Clairvoyant.settings.set_int ("window-y", root_y);
 
-        return base.configure_event (event);
-    }
+    //     return base.configure_event (event);
+    // }
 }
