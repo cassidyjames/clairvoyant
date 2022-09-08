@@ -19,104 +19,99 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
-public class ContentStack : Gtk.Box {
+public class FortuneLabel : Gtk.Box {
     public Gtk.Stack stack;
 
     private struct Content {
         string title;
-        string result;
+        string css_class;
     }
 
     static Content[] content = {
         Content () {
             title = _("It is certain."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("It is decidedly so."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Without a doubt."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Yes—definitely."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("You may rely on it."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("As I see it, yes."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Most likely."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Outlook good."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Yes."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Signs point to yes."),
-            result = "success"
+            css_class = "success"
         },
         Content () {
             title = _("Don't count on it."),
-            result = "error"
+            css_class = "error"
         },
         Content () {
             title = _("My reply is no."),
-            result = "error"
+            css_class = "error"
         },
         Content () {
             title = _("My sources say no."),
-            result = "error"
+            css_class = "error"
         },
         Content () {
             title = _("Outlook not so good."),
-            result = "error"
+            css_class = "error"
         },
         Content () {
             title = _("Very doubtful."),
-            result = "error"
+            css_class = "error"
         },
         Content () {
             title = _("Reply hazy, try again."),
-            result = "neutral"
+            css_class = "warning"
         },
         Content () {
             title = _("Ask again later."),
-            result = "neutral"
+            css_class = "warning"
         },
         Content () {
             title = _("Better not tell you now."),
-            result = "neutral"
+            css_class = "warning"
         },
         Content () {
             title = _("Cannot predict now."),
-            result = "neutral"
+            css_class = "warning"
         },
         Content () {
             title = _("Concentrate and ask again."),
-            result = "neutral"
+            css_class = "warning"
         }
     };
 
-    public ContentStack () {
-        Object (
-            margin_top: 24,
-            margin_end: 24,
-            margin_bottom: 48,
-            margin_start: 24
-        );
+    public FortuneLabel () {
+        Object ();
     }
 
     construct {
@@ -126,17 +121,18 @@ public class ContentStack : Gtk.Box {
 
         int i = 1;
         foreach (var fortune in content) {
-            var label = new Gtk.Label (fortune.title);
-            label.add_css_class ("fortune");
-            label.add_css_class (fortune.result);
+            var title_label = new Gtk.Label (fortune.title);
+            title_label.add_css_class ("title-1");
+            title_label.add_css_class (fortune.css_class);
 
-            var grid = new Gtk.Grid ();
-            grid.column_spacing = grid.row_spacing = 12;
-            grid.halign = Gtk.Align.CENTER;
+            var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
+                margin_start = 24,
+                margin_end = 24,
+            };
+            box.halign = Gtk.Align.CENTER;
+            box.append (title_label);
 
-            grid.attach (label, 0, 0);
-
-            stack.add_named (grid, i.to_string ());
+            stack.add_named (box, i.to_string ());
 
             i++;
         }

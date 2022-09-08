@@ -19,8 +19,8 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
-public class MainWindow : Gtk.Window {
-    private ContentStack stack;
+public class MainWindow : Adw.Window {
+    private FortuneLabel fortune_label;
 
     public MainWindow (Gtk.Application application) {
         Object (
@@ -32,59 +32,49 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
-        var header = new Gtk.HeaderBar ();
-        // header.show_close_button = true;
-        header.add_css_class ("titlebar");
-        header.add_css_class ("default-decoration");
+        var header = new Gtk.HeaderBar () {
+            title_widget = new Gtk.Label (null)
+        };
         header.add_css_class ("flat");
 
-        var randomize_button = new Gtk.Button.from_icon_name (
-            "dialog-question-symbolic"
-        );
-        randomize_button.tooltip_text = _("Ask Again");
+        fortune_label = new FortuneLabel ();
 
-        var gtk_settings = Gtk.Settings.get_default ();
+        var ask_button = new Gtk.Button.with_label (_("Ask Again")) {
+            halign = Gtk.Align.CENTER
+        };
+        ask_button.add_css_class ("pill");
 
-        stack = new ContentStack ();
+        ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
 
-        var context = get_style_context ();
-        context.add_class ("clairvoyant");
-        context.add_class ("rounded");
-        context.add_class ("flat");
+        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
+            margin_bottom = 48
+        };
+        main_layout.append (header);
+        main_layout.append (fortune_label);
+        main_layout.append (ask_button);
 
-        randomize_button.clicked.connect (() => randomize_fortune (stack) );
+        var window_handle = new Gtk.WindowHandle () ;
+        window_handle.child = main_layout;
 
-        header.pack_end (randomize_button);
+        set_content (window_handle);
 
-        set_titlebar (header);
-        set_child (stack);
-
-        stack.realize.connect (() => {
-           randomize_fortune (stack, true);
+        fortune_label.realize.connect (() => {
+           randomize_fortune (fortune_label, true);
         });
     }
 
     private void randomize_fortune (
-        ContentStack stack,
+        FortuneLabel fortune_label,
         bool allow_current = false
     ) {
         int rand = Random.int_range (1, 21);
-        int current = int.parse (stack.stack.visible_child_name);
+        int current = int.parse (fortune_label.stack.visible_child_name);
 
         if (allow_current || rand != current) {
-            stack.stack.visible_child_name = rand.to_string ();
+            fortune_label.stack.visible_child_name = rand.to_string ();
             return;
         }
 
-        randomize_fortune (stack);
+        randomize_fortune (fortune_label);
     }
-
-    // public override bool configure_event (Gdk.EventConfigure event) {
-    //     int root_x, root_y;
-    //     get_position (out root_x, out root_y);
-    //     Clairvoyant.settings.set_int ("window-x", root_x);
-    //     Clairvoyant.settings.set_int ("window-y", root_y);
-
-    //     return base.configure_event (event);
-    // }
 }
