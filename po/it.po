@@ -1,16 +1,16 @@
 # Italian translations for com.github.cassidyjames.clairvoyant package.
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
-# Automatically generated, 2019.
+# Albano Battistella <albano_battistellaòhotmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-07 23:52-0600\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-08 10:23+0100\n"
+"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:30
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clairvoyant"
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
 msgid "Get psychic answers from this fortune teller"
-msgstr ""
+msgstr "Ottieni risposte psichiche da questo indovino"
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
 msgid ""
@@ -32,115 +32,118 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
+"Ti vuole bene? Dovresti mangiare la pizza per cena? Esiste qualcosa come una "
+"domanda stupida? Scopri le risposte a queste e altre domande con "
+"Clairvoyant, il magico indovino ispirato alle magiche 8 palle."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr ""
+msgstr "Fai una domanda, quindi apri Clairvoyant per una risposta."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr ""
+msgstr "Non soddisfatto? Chiedi di nuovo, quindi premi \"Chiedi ancora\" per riprovare."
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "Fai quello che vuoi con le risposte, ma non sparare al messaggero!"
 
 #: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:118
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Indovino"
 
 #: data/launcher.desktop.in:5
 msgid "Ask questions and get psychic answers"
-msgstr ""
+msgstr "Fai domande e ottieni risposte psichiche"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "magia;otto;palla;8;cristallo;🔮;media;🎱;"
 
 #: src/FortuneLabel.vala:32
 msgid "It is certain."
-msgstr ""
+msgstr "È certo."
 
 #: src/FortuneLabel.vala:36
 msgid "It is decidedly so."
-msgstr ""
+msgstr "È decisamente così."
 
 #: src/FortuneLabel.vala:40
 msgid "Without a doubt."
-msgstr ""
+msgstr "Senza dubbio."
 
 #: src/FortuneLabel.vala:44
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Sì, sicuramente."
 
 #: src/FortuneLabel.vala:48
 msgid "You may rely on it."
-msgstr ""
+msgstr "Ci puoi fare affidamento."
 
 #: src/FortuneLabel.vala:52
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Per come la vedo io, sì."
 
 #: src/FortuneLabel.vala:56
 msgid "Most likely."
-msgstr ""
+msgstr "Molto probabilmente."
 
 #: src/FortuneLabel.vala:60
 msgid "Outlook good."
-msgstr ""
+msgstr "Buone prospettive."
 
 #: src/FortuneLabel.vala:64
 msgid "Yes."
-msgstr ""
+msgstr "Si."
 
 #: src/FortuneLabel.vala:68
 msgid "Signs point to yes."
-msgstr ""
+msgstr "I segnali indicano sì."
 
 #: src/FortuneLabel.vala:72
 msgid "Don't count on it."
-msgstr ""
+msgstr "Non ci contare."
 
 #: src/FortuneLabel.vala:76
 msgid "My reply is no."
-msgstr ""
+msgstr "La mia risposta è no."
 
 #: src/FortuneLabel.vala:80
 msgid "My sources say no."
-msgstr ""
+msgstr "Le mie fonti dicono di no."
 
 #: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
-msgstr ""
+msgstr "Le prospettive non sono così buone."
 
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
-msgstr ""
+msgstr "Molto dubbioso."
 
 #: src/FortuneLabel.vala:92
 msgid "Reply hazy, try again."
-msgstr ""
+msgstr "Risposta confusa, riprova."
 
 #: src/FortuneLabel.vala:96
 msgid "Ask again later."
-msgstr ""
+msgstr "Chiedi di nuovo più tardi."
 
 #: src/FortuneLabel.vala:100
 msgid "Better not tell you now."
-msgstr ""
+msgstr "Meglio non dirtelo adesso."
 
 #: src/FortuneLabel.vala:104
 msgid "Cannot predict now."
-msgstr ""
+msgstr "Non posso prevederlo ora."
 
 #: src/FortuneLabel.vala:108
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Concentrati e chiedi di nuovo."
 
 #: src/MainWindow.vala:42
 msgid "Ask Again"
-msgstr ""
+msgstr "Chiedi di nuovo"
