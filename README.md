@@ -8,7 +8,7 @@ Does he love you? Should you have pizza for dinner? Is there such thing as a stu
 
 ## Made for GNOME
 
-Clairvoyant 2 was designed and developed on and for GNOME.
+Clairvoyant 3 was designed and developed on and for GNOME.
 
 ## Developing and Building
 
