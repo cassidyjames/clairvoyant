@@ -1,7 +1,6 @@
 # EditorConfig <http://EditorConfig.org>
 root = true
 
-# elementary defaults
 [*]
 end_of_line = lf
 insert_final_newline = true

@@ -1,7 +1,7 @@
 project(
     'com.github.cassidyjames.clairvoyant',
     'vala', 'c',
-    version: '2.0.0'
+    version: '3.0.0'
 )
 
 gnome = import('gnome')
@@ -15,7 +15,6 @@ executable(
     'src' / 'FortuneLabel.vala',
     'src' / 'MainWindow.vala',
     dependencies: [
-        dependency('glib-2.0'),
         dependency('gtk4'),
         dependency('libadwaita-1'),
     ],
