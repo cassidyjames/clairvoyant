@@ -10,6 +10,8 @@ Does he love you? Should you have pizza for dinner? Is there such thing as a stu
 
 Clairvoyant 3 was designed and developed on and for GNOME.
 
+<a href='https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant'><img width='180' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.svg'/></a>
+
 ## Developing and Building
 
 I recommend using GNOME Builder for development.
