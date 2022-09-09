@@ -21,5 +21,3 @@ if 'DESTDIR' not in os.environ:
         os.makedirs(desktop_database_dir)
     subprocess.call(['update-desktop-database', '-q', desktop_database_dir])
 
-    print('Compiling gsettings schemas...')
-    subprocess.call(['glib-compile-schemas', schemadir])

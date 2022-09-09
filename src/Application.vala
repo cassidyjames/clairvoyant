@@ -27,10 +27,6 @@ public class Clairvoyant : Adw.Application {
         flags: ApplicationFlags.FLAGS_NONE);
     }
 
-    static construct {
-        settings = new Settings ("com.github.cassidyjames.clairvoyant");
-    }
-
     protected override void activate () {
         if (get_windows ().length () > 0) {
             get_windows ().data.present ();
