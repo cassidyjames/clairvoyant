@@ -9,7 +9,8 @@
 
 Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.
 
-![Screenshot](data/screenshots/yes-dark.png)
+![Screenshot](data/screenshots/yes-dark.png) | ![Screenshot](data/screenshots/no.png) | ![Screenshot](data/screenshots/maybe-dark.png)
+-------------------------------------------- | -------------------------------------- | ----------------------------------------------
 
 ## Made for GNOME
 
