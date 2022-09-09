@@ -39,6 +39,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.0.1" date="2022-09-09">
+      <description>
+         <p>Hotfix: fix a crash on startup from trying to access nonexistent settings</p>
+      </description>
+    </release>
     <release version="3.0.0" date="2022-09-08">
       <description>
          <p>Hello, GNOME</p>
