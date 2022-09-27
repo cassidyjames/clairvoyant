@@ -77,6 +77,14 @@ public class FortuneLabel : Gtk.Box {
             css_class = "success"
         },
         Content () {
+            title = _("You bet!"),
+            css_class = "success"
+        },
+        Content () {
+            title = _("Confirmed."),
+            css_class = "success"
+        },
+        Content () {
             title = _("Don’t count on it."),
             css_class = "error"
         },
@@ -101,6 +109,10 @@ public class FortuneLabel : Gtk.Box {
             css_class = "error"
         },
         Content () {
+            title = _("I’ve got a bad feeling about this…"),
+            css_class = "error"
+        },
+        Content () {
             title = _("Reply hazy, try again."),
             css_class = "warning"
         },
@@ -122,6 +134,10 @@ public class FortuneLabel : Gtk.Box {
         },
         Content () {
             title = _("Impossible to see, the future is."),
+            css_class = "warning"
+        },
+        Content () {
+            title = _("404 Answer Not Found"),
             css_class = "warning"
         },
     };
@@ -153,7 +169,7 @@ public class FortuneLabel : Gtk.Box {
             i++;
         }
 
-        var rand = Random.int_range (1, 25);
+        var rand = Random.int_range (1, 29);
         stack.visible_child_name = rand.to_string ();
 
         append (stack);

@@ -100,7 +100,7 @@ public class MainWindow : Adw.Window {
         FortuneLabel fortune_label,
         bool allow_current = false
     ) {
-        int rand = Random.int_range (1, 25);
+        int rand = Random.int_range (1, 29);
         int current = int.parse (fortune_label.stack.visible_child_name);
 
         if (allow_current || rand != current) {
