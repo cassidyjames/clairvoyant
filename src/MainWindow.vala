@@ -35,6 +35,7 @@ public class MainWindow : Adw.Window {
         var about_button = new Gtk.Button.from_icon_name ("about-symbolic") {
             tooltip_text = _("About")
         };
+        about_button.add_css_class ("dim-label");
 
         var about_window = new Adw.AboutWindow () {
             transient_for = this,
@@ -99,7 +100,7 @@ public class MainWindow : Adw.Window {
         FortuneLabel fortune_label,
         bool allow_current = false
     ) {
-        int rand = Random.int_range (1, 21);
+        int rand = Random.int_range (1, 25);
         int current = int.parse (fortune_label.stack.visible_child_name);
 
         if (allow_current || rand != current) {
