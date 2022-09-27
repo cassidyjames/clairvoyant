@@ -1,0 +1,6 @@
+public const string APP_ID = @APP_ID@;
+public const string VERSION = @VERSION@;
+public const string DEVELOPER = @DEVELOPER@;
+public const string WEBSITE = @WEBSITE@;
+public const string ISSUES = @ISSUES@;
+public const string COPYRIGHT = @COPYRIGHT@;

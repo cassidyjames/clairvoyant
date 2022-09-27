@@ -20,19 +20,13 @@
 */
 
 public class Clairvoyant : Adw.Application {
-    public const string RDNN = "com.github.cassidyjames.clairvoyant";
     public const string NAME = _("Clairvoyant");
-    public const string DEVELOPER = "Cassidy James Blaede";
-    public const string VERSION = "3.0.2";
-    public const string WEBSITE = "https://cassidyjames.com";
-    public const string ISSUES = "https://github.com/cassidyjames/clairvoyant/issues";
-    public const string COPYRIGHT = "© 2018–2022 Cassidy James Blaede";
     public const string[] ARTISTS = {
         "Micah Ilbery",
         "Cassidy James Blaede",
     };
     public const string[] DEVELOPERS = {
-        "Cassidy James Blaede",
+        DEVELOPER,
     };
     /// The translator credits. Please translate this with your name (s).
     public const string TRANSLATORS = _("translator-credits");
@@ -40,7 +34,7 @@ public class Clairvoyant : Adw.Application {
     public static GLib.Settings settings;
 
     public Clairvoyant () {
-        Object (application_id: "com.github.cassidyjames.clairvoyant",
+        Object (application_id: APP_ID,
         flags: ApplicationFlags.FLAGS_NONE);
     }
 

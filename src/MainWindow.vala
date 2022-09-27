@@ -25,7 +25,7 @@ public class MainWindow : Adw.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: Clairvoyant.RDNN,
+            icon_name: APP_ID,
             resizable: false,
             title: Clairvoyant.NAME
         );
@@ -39,13 +39,13 @@ public class MainWindow : Adw.Window {
         var about_window = new Adw.AboutWindow () {
             transient_for = this,
 
-            application_icon = Clairvoyant.RDNN,
+            application_icon = APP_ID,
             application_name = Clairvoyant.NAME,
-            developer_name = Clairvoyant.DEVELOPER,
-            version = Clairvoyant.VERSION,
+            developer_name = DEVELOPER,
+            version = VERSION,
 
-            website = Clairvoyant.WEBSITE,
-            issue_url = Clairvoyant.ISSUES,
+            website = WEBSITE,
+            issue_url = ISSUES,
 
             // Credits
             developers = Clairvoyant.DEVELOPERS,
@@ -53,7 +53,7 @@ public class MainWindow : Adw.Window {
             translator_credits = Clairvoyant.TRANSLATORS,
 
             // Legal
-            copyright = Clairvoyant.COPYRIGHT,
+            copyright = COPYRIGHT,
             license_type = Gtk.License.GPL_3_0,
         };
 
