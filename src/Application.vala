@@ -20,16 +20,8 @@
 */
 
 public class Clairvoyant : Adw.Application {
-    public const string NAME = _("Clairvoyant");
-    public const string[] ARTISTS = {
-        "Micah Ilbery",
-        "Cassidy James Blaede",
-    };
-    public const string[] DEVELOPERS = {
-        DEVELOPER,
-    };
-    /// The translator credits. Please translate this with your name (s).
-    public const string TRANSLATORS = _("translator-credits");
+    public const string NAME = "Clairvoyant";
+    public const string DEVELOPER = "Cassidy James Blaede";
 
     public static GLib.Settings settings;
 

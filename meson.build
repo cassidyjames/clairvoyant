@@ -19,10 +19,8 @@ config_data = configuration_data()
 
 config_data.set_quoted('APP_ID', meson.project_name())
 config_data.set_quoted('VERSION', meson.project_version())
+config_data.set_quoted('APP_NAME', meson.project_name())
 config_data.set_quoted('DEVELOPER', 'Cassidy James Blaede')
-config_data.set_quoted('WEBSITE', 'https://cassidyjames.com')
-config_data.set_quoted('ISSUES', 'https://github.com/cassidyjames/clairvoyant/issues')
-config_data.set_quoted('COPYRIGHT', '© 2018–2022 Cassidy James Blaede')
 
 config_file = configure_file(
     input: 'src/Config.vala.in',

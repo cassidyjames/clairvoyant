@@ -41,19 +41,23 @@ public class MainWindow : Adw.Window {
 
             application_icon = APP_ID,
             application_name = Clairvoyant.NAME,
-            developer_name = DEVELOPER,
+            developer_name = Clairvoyant.DEVELOPER,
             version = VERSION,
 
-            website = WEBSITE,
-            issue_url = ISSUES,
+            website = "https://cassidyjames.com",
+            issue_url = "https://github.com/cassidyjames/clairvoyant/issues",
 
             // Credits
-            developers = Clairvoyant.DEVELOPERS,
-            artists = Clairvoyant.ARTISTS,
-            translator_credits = Clairvoyant.TRANSLATORS,
+            developers = { Clairvoyant.DEVELOPER },
+            artists = {
+                "Micah Ilbery",
+                Clairvoyant.DEVELOPER,
+            },
+            /// The translator credits. Please translate this with your name(s).
+            translator_credits = _("translator-credits"),
 
             // Legal
-            copyright = COPYRIGHT,
+            copyright = "© 2018–2022 %s".printf (Clairvoyant.DEVELOPER),
             license_type = Gtk.License.GPL_3_0,
         };
 
