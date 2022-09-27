@@ -39,6 +39,15 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.0.2" date="2022-09-27">
+      <description>
+        <p>Update for GNOME 43</p>
+        <ul>
+          <li>Updated runtime to GNOME 43</li>
+          <li>Added “About” window</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.0.1" date="2022-09-09">
       <description>
          <p>Hotfix: fix a crash on startup from trying to access nonexistent settings</p>

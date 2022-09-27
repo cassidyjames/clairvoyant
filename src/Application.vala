@@ -20,10 +20,13 @@
 */
 
 public class Clairvoyant : Adw.Application {
+    public const string NAME = "Clairvoyant";
+    public const string DEVELOPER = "Cassidy James Blaede";
+
     public static GLib.Settings settings;
 
     public Clairvoyant () {
-        Object (application_id: "com.github.cassidyjames.clairvoyant",
+        Object (application_id: APP_ID,
         flags: ApplicationFlags.FLAGS_NONE);
     }
 

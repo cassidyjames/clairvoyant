@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.cassidyjames.clairvoyant",
     "runtime": "org.gnome.Sdk",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "com.github.cassidyjames.clairvoyant",
     "finish-args": [
