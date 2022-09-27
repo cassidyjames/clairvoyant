@@ -25,17 +25,43 @@ public class MainWindow : Adw.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: "com.github.cassidyjames.clairvoyant",
+            icon_name: Clairvoyant.RDNN,
             resizable: false,
-            title: _("Clairvoyant")
+            title: Clairvoyant.NAME
         );
     }
 
     construct {
+        var about_button = new Gtk.Button.from_icon_name ("about-symbolic") {
+            tooltip_text = _("About")
+        };
+
+        var about_window = new Adw.AboutWindow () {
+            transient_for = this,
+
+            application_icon = Clairvoyant.RDNN,
+            application_name = Clairvoyant.NAME,
+            developer_name = Clairvoyant.DEVELOPER,
+            version = Clairvoyant.VERSION,
+
+            website = Clairvoyant.WEBSITE,
+            issue_url = Clairvoyant.ISSUES,
+
+            // Credits
+            developers = Clairvoyant.DEVELOPERS,
+            artists = Clairvoyant.ARTISTS,
+            translator_credits = Clairvoyant.TRANSLATORS,
+
+            // Legal
+            copyright = Clairvoyant.COPYRIGHT,
+            license_type = Gtk.License.GPL_3_0,
+        };
+
         var header = new Gtk.HeaderBar () {
             title_widget = new Gtk.Label (null)
         };
         header.add_css_class ("flat");
+        header.pack_start (about_button);
 
         fortune_label = new FortuneLabel ();
 
@@ -44,8 +70,6 @@ public class MainWindow : Adw.Window {
         };
         ask_button.add_css_class ("pill");
 
-        ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
-
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
             margin_bottom = 48
         };
@@ -53,14 +77,18 @@ public class MainWindow : Adw.Window {
         main_layout.append (fortune_label);
         main_layout.append (ask_button);
 
-        var window_handle = new Gtk.WindowHandle () ;
-        window_handle.child = main_layout;
+        var window_handle = new Gtk.WindowHandle () {
+            child = main_layout
+        };
 
         set_content (window_handle);
 
         fortune_label.realize.connect (() => {
            randomize_fortune (fortune_label, true);
         });
+
+        about_button.clicked.connect (() => about_window.present () );
+        ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
     }
 
     private void randomize_fortune (
