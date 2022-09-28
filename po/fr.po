@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 02:57+0000\n"
+"POT-Creation-Date: 2022-09-28 03:21+0000\n"
 "PO-Revision-Date: 2019-01-26 11:25+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -17,158 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:7
-#: data/launcher.desktop.in:3
+#: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
 msgstr "Clairvoyant"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:8
-msgid "Get psychic answers from this fortune teller"
-msgstr "Obtenez des réponses psychiques de ce diseur de bonne aventure"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:10
-msgid ""
-"Does he love you? Should you have pizza for dinner? Is there such thing as a "
-"stupid question? Discover the answers to these questions and more with "
-"Clairvoyant, the magic 8-ball inspired fortune teller."
-msgstr ""
-"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
-"il une question stupide ? Découvrez les réponses à ces questions et plus "
-"encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
-"magique."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:12
-msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr "Posez-vous une question, puis ouvrez Clairvoyant pour une réponse."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:13
-#, fuzzy
-msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr ""
-"Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « "
-"Demander à nouveau » pour réessayer."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:14
-msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
-"Faites ce que vous voulez avec les réponses, mais ne tirez pas sur le "
-"messager !"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:44
-msgid "More fun for everyone"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:46
-msgid "Added eight more original replies"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:47
-msgid "Added “About” window"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:48
-msgid "Updated runtime to GNOME 43"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:54
-msgid ""
-"Hotfix: fix a crash on startup from trying to access nonexistent settings"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:59
-msgid "Hello, GNOME"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:61
-msgid "Whole new UI"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:62
-msgid "elementary → GNOME styling"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:63
-msgid ""
-"Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:69
-msgid "Hello, Odin"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:71
-msgid "Updated for OS 6 and Flatpak"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:72
-msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:73
-msgid "Portuguese translations thanks to André Barata"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:74
-msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:80
-msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:85
-msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:90
-msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:95
-msgid "French translations thanks to @NathanBnm"
-msgstr ""
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:100
-msgid "Clairvoyant is now translatable."
-msgstr "Clairvoyant peut maintenant être traduit."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:105
-msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
-"Bonne année ! Cette version comprend des corrections du fichier Appdata."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:110
-msgid "Fix 48px icon"
-msgstr "Correction de l'icône 48px"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:115
-msgid "Post-release update"
-msgstr "Mise à jour après sortie"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:117
-msgid "Clean up AppStream data"
-msgstr "Nettoyage des données du flux d'application"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:118
-msgid "Expand on the description"
-msgstr "Détails dans la description"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:119
-msgid "Change price to $1"
-msgstr "Modification du prix à 1$"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:125
-#: src/FortuneLabel.vala:36
-msgid "It is decidedly so."
-msgstr "Il en est décidé ainsi."
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:127
-msgid "Initial release"
-msgstr "Version initiale"
-
-#: data/com.github.cassidyjames.clairvoyant.appdata.xml.in:133
-msgid "Cassidy James Blaede"
-msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
@@ -181,6 +32,153 @@ msgstr "Posez des questions et obtenez des réponses psychiques"
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;"
+
+#: data/metainfo.appdata.xml.in:8
+msgid "Get psychic answers from this fortune teller"
+msgstr "Obtenez des réponses psychiques de ce diseur de bonne aventure"
+
+#: data/metainfo.appdata.xml.in:10
+msgid ""
+"Does he love you? Should you have pizza for dinner? Is there such thing as a "
+"stupid question? Discover the answers to these questions and more with "
+"Clairvoyant, the magic 8-ball inspired fortune teller."
+msgstr ""
+"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
+"il une question stupide ? Découvrez les réponses à ces questions et plus "
+"encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
+"magique."
+
+#: data/metainfo.appdata.xml.in:12
+msgid "Ask a question, then open Clairvoyant for an answer."
+msgstr "Posez-vous une question, puis ouvrez Clairvoyant pour une réponse."
+
+#: data/metainfo.appdata.xml.in:13
+#, fuzzy
+msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
+msgstr ""
+"Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « "
+"Demander à nouveau » pour réessayer."
+
+#: data/metainfo.appdata.xml.in:14
+msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr ""
+"Faites ce que vous voulez avec les réponses, mais ne tirez pas sur le "
+"messager !"
+
+#: data/metainfo.appdata.xml.in:44
+msgid "More fun for everyone"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:46
+msgid "Added eight more original replies"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:47
+msgid "Added “About” window"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:48
+msgid "Updated runtime to GNOME 43"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:54
+msgid ""
+"Hotfix: fix a crash on startup from trying to access nonexistent settings"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:59
+msgid "Hello, GNOME"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:61
+msgid "Whole new UI"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:62
+msgid "elementary → GNOME styling"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:63
+msgid ""
+"Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:69
+msgid "Hello, Odin"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:71
+msgid "Updated for OS 6 and Flatpak"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:72
+msgid "Turkish translations thanks to Safak GENISOL"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:73
+msgid "Portuguese translations thanks to André Barata"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:74
+msgid "Spanish translations thanks to @kevincos5"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:80
+msgid "Refreshed icons thanks to Micah Ilbery"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:85
+msgid "Polish translations thanks to Michał Nowakowski"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:90
+msgid "Dutch translations thanks to Heimen Stoffels"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:95
+msgid "French translations thanks to @NathanBnm"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:100
+msgid "Clairvoyant is now translatable."
+msgstr "Clairvoyant peut maintenant être traduit."
+
+#: data/metainfo.appdata.xml.in:105
+msgid "Happy new year! This release contains AppData fixes."
+msgstr ""
+"Bonne année ! Cette version comprend des corrections du fichier Appdata."
+
+#: data/metainfo.appdata.xml.in:110
+msgid "Fix 48px icon"
+msgstr "Correction de l'icône 48px"
+
+#: data/metainfo.appdata.xml.in:115
+msgid "Post-release update"
+msgstr "Mise à jour après sortie"
+
+#: data/metainfo.appdata.xml.in:117
+msgid "Clean up AppStream data"
+msgstr "Nettoyage des données du flux d'application"
+
+#: data/metainfo.appdata.xml.in:118
+msgid "Expand on the description"
+msgstr "Détails dans la description"
+
+#: data/metainfo.appdata.xml.in:119
+msgid "Change price to $1"
+msgstr "Modification du prix à 1$"
+
+#: data/metainfo.appdata.xml.in:125 src/FortuneLabel.vala:36
+msgid "It is decidedly so."
+msgstr "Il en est décidé ainsi."
+
+#: data/metainfo.appdata.xml.in:127
+msgid "Initial release"
+msgstr "Version initiale"
+
+#: data/metainfo.appdata.xml.in:133
+msgid "Cassidy James Blaede"
+msgstr "Cassidy James Blaede"
 
 #: src/FortuneLabel.vala:32
 msgid "It is certain."
