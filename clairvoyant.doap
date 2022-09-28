@@ -9,10 +9,14 @@
   <name>Clairvoyant</name>
   <shortdesc xml:lang="en">Get psychic answers from this fortune teller</shortdesc>
   <description xml:lang="en">Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</description>
+  <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+
   <homepage rdf:resource="https://cassidyjames.com/dippi" />
   <download-page rdf:resource="https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant" />
   <bug-database rdf:resource="https://github.com/cassidyjames/clairvoyant/issues" />
+
   <programming-language>Vala</programming-language>
+
   <maintainer>
     <foaf:Person>
       <foaf:name>Cassidy James Blaede</foaf:name>
