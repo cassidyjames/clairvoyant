@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 06:11+0000\n"
+"POT-Creation-Date: 2022-09-28 07:02+0000\n"
 "PO-Revision-Date: 2019-01-25 21:19-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -294,16 +294,16 @@ msgstr ""
 msgid "404 Answer Not Found"
 msgstr ""
 
-#: src/MainWindow.vala:22
+#: src/MainWindow.vala:20
 msgid "About"
 msgstr ""
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:44
+#: src/MainWindow.vala:43
 msgid "translator-credits"
 msgstr ""
 
-#: src/MainWindow.vala:59
+#: src/MainWindow.vala:58
 msgid "Ask Again"
 msgstr "Ask Again"
 
