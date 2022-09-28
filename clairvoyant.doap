@@ -21,7 +21,7 @@
     <foaf:Person>
       <foaf:name>Cassidy James Blaede</foaf:name>
       <foaf:mbox rdf:resource="mailto:c@ssidyjam.es" />
-      <gnome:userid>rupert</gnome:userid>
+      <gnome:userid>cassidyjames</gnome:userid>
     </foaf:Person>
   </maintainer>
 </Project>
