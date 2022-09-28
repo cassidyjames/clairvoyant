@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.vala'
+      - 'data/com.github.cassidyjames.clairvoyant.appdata.xml.in'
+      - 'data/launcher.desktop.in'
+      - 'po/LINGUAS'
+      - 'po/POTFILES.in'
 
 jobs:
   build:
