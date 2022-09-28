@@ -25,6 +25,7 @@ public class MainWindow : Adw.Window {
 
         var about_window = new Adw.AboutWindow () {
             transient_for = this,
+            hide_on_close = true,
 
             application_icon = APP_ID,
             application_name = Clairvoyant.NAME,
