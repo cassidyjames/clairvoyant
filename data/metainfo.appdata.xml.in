@@ -39,6 +39,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.0.3" date="2022-09-28">
+      <description>
+        <p>Hotfix: fix About window when closing and re-opening it</p>
+      </description>
+    </release>
     <release version="3.0.2" date="2022-09-27">
       <description>
         <p>More fun for everyone</p>
