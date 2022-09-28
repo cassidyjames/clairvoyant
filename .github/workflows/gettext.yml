@@ -6,8 +6,8 @@ on:
       - main
     paths:
       - '**.vala'
-      - 'data/com.github.cassidyjames.clairvoyant.appdata.xml.in'
       - 'data/launcher.desktop.in'
+      - 'data/metainfo.appdata.xml.in'
       - 'po/LINGUAS'
       - 'po/POTFILES.in'
 
