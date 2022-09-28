@@ -29,7 +29,7 @@ jobs:
         run: |
           #Because apparently I hate myself
           git clone https://gitlab.gnome.org/GNOME/libadwaita.git /tmp/libadwaita
-          cd tmp/libadwaita
+          cd /tmp/libadwaita
           git checkout 1.2.0
           meson . _build -Dexamples=false
           ninja -C _build
