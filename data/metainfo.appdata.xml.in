@@ -39,12 +39,14 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.0.2" date="2022-09-26">
+    <release version="3.0.2" date="2022-09-27">
       <description>
         <p>More fun for everyone</p>
         <ul>
           <li>Added eight more original replies</li>
           <li>Added “About” window</li>
+          <li>Improvements to developer tools to make translations easier to keep up to date</li>
+          <li>Italian translations thanks to Albano Battistella</li>
           <li>Updated runtime to GNOME 43</li>
         </ul>
       </description>
