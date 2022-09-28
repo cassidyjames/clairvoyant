@@ -1,23 +1,7 @@
 /*
-* Copyright © 2018–2022 Cassidy James Blaede (https://cassidyjames.com)
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public
-* License as published by the Free Software Foundation; either
-* version 3 of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* General Public License for more details.
-*
-* You should have received a copy of the GNU General Public
-* License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA
-*
-* Authored by: Cassidy James Blaede <c@ssidyjam.es>
-*/
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2018–2022 Cassidy James Blaede <c@ssidyjam.es>
+ */
 
 public class MainWindow : Adw.Window {
     private FortuneLabel fortune_label;
@@ -32,6 +16,8 @@ public class MainWindow : Adw.Window {
     }
 
     construct {
+        Adw.init ();
+
         var about_button = new Gtk.Button.from_icon_name ("about-symbolic") {
             tooltip_text = _("About")
         };
@@ -45,7 +31,7 @@ public class MainWindow : Adw.Window {
             developer_name = Clairvoyant.DEVELOPER,
             version = VERSION,
 
-            website = "https://cassidyjames.com",
+            website = "https://cassidyjames.com/apps",
             issue_url = "https://github.com/cassidyjames/clairvoyant/issues",
 
             // Credits
