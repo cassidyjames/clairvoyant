@@ -16,8 +16,6 @@ public class MainWindow : Adw.Window {
     }
 
     construct {
-        Adw.init ();
-
         var about_button = new Gtk.Button.from_icon_name ("about-symbolic") {
             tooltip_text = _("About")
         };
