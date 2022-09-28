@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 03:45+0000\n"
+"POT-Creation-Date: 2022-09-28 06:11+0000\n"
 "PO-Revision-Date: 2020-09-25 09:01+0300\n"
 "Last-Translator: Safak <bjksafak45@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -176,7 +176,7 @@ msgstr "Açıklamayı genişletin"
 msgid "Change price to $1"
 msgstr "Fiyatı 1 $ olarak değiştirin"
 
-#: data/metainfo.appdata.xml.in:127 src/FortuneLabel.vala:36
+#: data/metainfo.appdata.xml.in:127 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
 msgstr "Kesinlikle öyle."
 
@@ -188,125 +188,125 @@ msgstr "İlk sürüm"
 msgid "Cassidy James Blaede"
 msgstr "Cassidy James Blaede"
 
-#: src/FortuneLabel.vala:32
+#: src/FortuneLabel.vala:16
 msgid "It is certain."
 msgstr "Bu kesin."
 
-#: src/FortuneLabel.vala:40
+#: src/FortuneLabel.vala:24
 msgid "Without a doubt."
 msgstr "Şüphesiz."
 
-#: src/FortuneLabel.vala:44
+#: src/FortuneLabel.vala:28
 msgid "Yes—definitely."
 msgstr "Dostum Kesinlikle"
 
-#: src/FortuneLabel.vala:48
+#: src/FortuneLabel.vala:32
 msgid "You may rely on it."
 msgstr "Ona Güvenebilirsiniz"
 
-#: src/FortuneLabel.vala:52
+#: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
 msgstr "Gördüğüm kadarıyla evet."
 
-#: src/FortuneLabel.vala:56
+#: src/FortuneLabel.vala:40
 msgid "Most likely."
 msgstr "Azdan az çoktan çok gider."
 
-#: src/FortuneLabel.vala:60
+#: src/FortuneLabel.vala:44
 msgid "Outlook good."
 msgstr "İyi görünüyor"
 
-#: src/FortuneLabel.vala:64
+#: src/FortuneLabel.vala:48
 msgid "Yes."
 msgstr "Evet"
 
-#: src/FortuneLabel.vala:68
+#: src/FortuneLabel.vala:52
 msgid "Signs point to yes."
 msgstr "İşaretler evet'i gösteriyor."
 
-#: src/FortuneLabel.vala:72
+#: src/FortuneLabel.vala:56
 msgid "Yep!"
 msgstr ""
 
-#: src/FortuneLabel.vala:76
+#: src/FortuneLabel.vala:60
 msgid "Absolutely!"
 msgstr ""
 
-#: src/FortuneLabel.vala:80
+#: src/FortuneLabel.vala:64
 msgid "You bet!"
 msgstr ""
 
-#: src/FortuneLabel.vala:84
+#: src/FortuneLabel.vala:68
 msgid "Confirmed."
 msgstr ""
 
-#: src/FortuneLabel.vala:88
+#: src/FortuneLabel.vala:72
 #, fuzzy
 msgid "Don’t count on it."
 msgstr "Ona güvenme."
 
-#: src/FortuneLabel.vala:92
+#: src/FortuneLabel.vala:76
 msgid "My reply is no."
 msgstr "Cevabım hayır."
 
-#: src/FortuneLabel.vala:96
+#: src/FortuneLabel.vala:80
 msgid "My sources say no."
 msgstr "Kaynaklarım hayır diyor."
 
-#: src/FortuneLabel.vala:100
+#: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
 msgstr "Görünüm pek iyi değil."
 
-#: src/FortuneLabel.vala:104
+#: src/FortuneLabel.vala:88
 msgid "Very doubtful."
 msgstr "Çok şüpheli."
 
-#: src/FortuneLabel.vala:108
+#: src/FortuneLabel.vala:92
 msgid "Naw."
 msgstr ""
 
-#: src/FortuneLabel.vala:112
+#: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
 msgstr ""
 
-#: src/FortuneLabel.vala:116
+#: src/FortuneLabel.vala:100
 msgid "Reply hazy, try again."
 msgstr "Bulanık cevap tekrar deneyin."
 
-#: src/FortuneLabel.vala:120
+#: src/FortuneLabel.vala:104
 msgid "Ask again later."
 msgstr "Sonra tekrar sor."
 
-#: src/FortuneLabel.vala:124
+#: src/FortuneLabel.vala:108
 msgid "Better not tell you now."
 msgstr "Sana şimdi söylememek daha iyi.(Aga be)"
 
-#: src/FortuneLabel.vala:128
+#: src/FortuneLabel.vala:112
 msgid "Cannot predict now."
 msgstr "Şimdi tahmin edemem."
 
-#: src/FortuneLabel.vala:132
+#: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
 msgstr "Konsantre ol ve tekrar sor."
 
-#: src/FortuneLabel.vala:136
+#: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
 msgstr ""
 
-#: src/FortuneLabel.vala:140
+#: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
 msgstr ""
 
-#: src/MainWindow.vala:36
+#: src/MainWindow.vala:22
 msgid "About"
 msgstr ""
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:44
 msgid "translator-credits"
 msgstr ""
 
-#: src/MainWindow.vala:73
+#: src/MainWindow.vala:59
 msgid "Ask Again"
 msgstr "Tekrar Sor"
 
