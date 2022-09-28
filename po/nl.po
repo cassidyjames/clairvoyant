@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 03:45+0000\n"
+"POT-Creation-Date: 2022-09-28 06:11+0000\n"
 "PO-Revision-Date: 2019-04-09 17:39+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: none\n"
@@ -175,7 +175,7 @@ msgstr "Omschrijving uitgebreid"
 msgid "Change price to $1"
 msgstr "Prijs gewijzigd in $1"
 
-#: data/metainfo.appdata.xml.in:127 src/FortuneLabel.vala:36
+#: data/metainfo.appdata.xml.in:127 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
 msgstr "Het is beslist zo."
 
@@ -187,125 +187,125 @@ msgstr "Initiële uitgave."
 msgid "Cassidy James Blaede"
 msgstr "Cassidy James Blaede"
 
-#: src/FortuneLabel.vala:32
+#: src/FortuneLabel.vala:16
 msgid "It is certain."
 msgstr "Het is zeker."
 
-#: src/FortuneLabel.vala:40
+#: src/FortuneLabel.vala:24
 msgid "Without a doubt."
 msgstr "Geen twijfel mogelijk."
 
-#: src/FortuneLabel.vala:44
+#: src/FortuneLabel.vala:28
 msgid "Yes—definitely."
 msgstr "Zeer zeker."
 
-#: src/FortuneLabel.vala:48
+#: src/FortuneLabel.vala:32
 msgid "You may rely on it."
 msgstr "Je kunt erop vertrouwen."
 
-#: src/FortuneLabel.vala:52
+#: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
 msgstr "Volgens mij wel."
 
-#: src/FortuneLabel.vala:56
+#: src/FortuneLabel.vala:40
 msgid "Most likely."
 msgstr "Zeer waarschijnlijk."
 
-#: src/FortuneLabel.vala:60
+#: src/FortuneLabel.vala:44
 msgid "Outlook good."
 msgstr "Goed vooruitzicht."
 
-#: src/FortuneLabel.vala:64
+#: src/FortuneLabel.vala:48
 msgid "Yes."
 msgstr "Ja."
 
-#: src/FortuneLabel.vala:68
+#: src/FortuneLabel.vala:52
 msgid "Signs point to yes."
 msgstr "De tekenen wijzen op 'ja'."
 
-#: src/FortuneLabel.vala:72
+#: src/FortuneLabel.vala:56
 msgid "Yep!"
 msgstr ""
 
-#: src/FortuneLabel.vala:76
+#: src/FortuneLabel.vala:60
 msgid "Absolutely!"
 msgstr ""
 
-#: src/FortuneLabel.vala:80
+#: src/FortuneLabel.vala:64
 msgid "You bet!"
 msgstr ""
 
-#: src/FortuneLabel.vala:84
+#: src/FortuneLabel.vala:68
 msgid "Confirmed."
 msgstr ""
 
-#: src/FortuneLabel.vala:88
+#: src/FortuneLabel.vala:72
 #, fuzzy
 msgid "Don’t count on it."
 msgstr "Reken er niet op."
 
-#: src/FortuneLabel.vala:92
+#: src/FortuneLabel.vala:76
 msgid "My reply is no."
 msgstr "Mijn antwoord is 'nee'."
 
-#: src/FortuneLabel.vala:96
+#: src/FortuneLabel.vala:80
 msgid "My sources say no."
 msgstr "Mijn bronnen zeggen 'nee'."
 
-#: src/FortuneLabel.vala:100
+#: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
 msgstr "Vooruitzicht is niet zo goed."
 
-#: src/FortuneLabel.vala:104
+#: src/FortuneLabel.vala:88
 msgid "Very doubtful."
 msgstr "Zeer twijfelachtig."
 
-#: src/FortuneLabel.vala:108
+#: src/FortuneLabel.vala:92
 msgid "Naw."
 msgstr ""
 
-#: src/FortuneLabel.vala:112
+#: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
 msgstr ""
 
-#: src/FortuneLabel.vala:116
+#: src/FortuneLabel.vala:100
 msgid "Reply hazy, try again."
 msgstr "Reactie is wazig; probeer het opnieuw."
 
-#: src/FortuneLabel.vala:120
+#: src/FortuneLabel.vala:104
 msgid "Ask again later."
 msgstr "Vraag het later nog eens."
 
-#: src/FortuneLabel.vala:124
+#: src/FortuneLabel.vala:108
 msgid "Better not tell you now."
 msgstr "Ik kan het je nu beter niet vertellen."
 
-#: src/FortuneLabel.vala:128
+#: src/FortuneLabel.vala:112
 msgid "Cannot predict now."
 msgstr "Dat is nu niet te voorspellen."
 
-#: src/FortuneLabel.vala:132
+#: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
 msgstr "Concentreer je en vraag het opnieuw."
 
-#: src/FortuneLabel.vala:136
+#: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
 msgstr ""
 
-#: src/FortuneLabel.vala:140
+#: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
 msgstr ""
 
-#: src/MainWindow.vala:36
+#: src/MainWindow.vala:22
 msgid "About"
 msgstr ""
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:44
 msgid "translator-credits"
 msgstr ""
 
-#: src/MainWindow.vala:73
+#: src/MainWindow.vala:59
 msgid "Ask Again"
 msgstr "Opnieuw vragen"
 
