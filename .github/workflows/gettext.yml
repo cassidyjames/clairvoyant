@@ -11,6 +11,10 @@ on:
       - 'po/LINGUAS'
       - 'po/POTFILES.in'
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -33,7 +37,6 @@ jobs:
 
       - name: Build libadwaita
         run: |
-          #Because apparently I hate myself
           git clone https://gitlab.gnome.org/GNOME/libadwaita.git /tmp/libadwaita
           cd /tmp/libadwaita
           git checkout 1.2.0
@@ -48,6 +51,9 @@ jobs:
           rm -rf _build
           meson _build
           ninja -C _build
+
+      - name: Regenerate translation files
+        run: |
           ninja -C _build $(git ls-files | grep \.pot$ | sed 's/.*\///' | sed 's/.pot/-update-po/')
 
       - name: Commit & push
