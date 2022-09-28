@@ -41,10 +41,11 @@
   <releases>
     <release version="3.0.2" date="2022-09-26">
       <description>
-        <p>Update for GNOME 43</p>
+        <p>More fun for everyone</p>
         <ul>
-          <li>Updated runtime to GNOME 43</li>
+          <li>Added eight more original replies</li>
           <li>Added “About” window</li>
+          <li>Updated runtime to GNOME 43</li>
         </ul>
       </description>
     </release>
