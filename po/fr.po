@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-28 07:06+0000\n"
-"PO-Revision-Date: 2019-01-26 11:25+0100\n"
-"Last-Translator: NathanBnm\n"
+"PO-Revision-Date: 2022-09-29 13:10+0200\n"
+"Last-Translator: Irénée Thirion <irenee.thirion@e.email>\n"
 "Language-Team: Français\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
@@ -31,7 +32,7 @@ msgstr "Posez des questions et obtenez des réponses psychiques"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;"
+msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;aventure;devin;"
 
 #: data/metainfo.appdata.xml.in:8
 msgid "Get psychic answers from this fortune teller"
@@ -43,8 +44,8 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
-"Est-ce qu'il t'aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
-"il une question stupide ? Découvrez les réponses à ces questions et plus "
+"Est-ce qu'il t’aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
+"il une question stupide ? Découvrez les réponses à ces questions et plus "
 "encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
 "magique."
 
@@ -53,11 +54,10 @@ msgid "Ask a question, then open Clairvoyant for an answer."
 msgstr "Posez-vous une question, puis ouvrez Clairvoyant pour une réponse."
 
 #: data/metainfo.appdata.xml.in:13
-#, fuzzy
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
-"Vous n'êtes pas satisfait ? Reposez la question, puis cliquez sur l'icône « "
-"Demander à nouveau » pour réessayer."
+"Vous n’êtes pas satisfait ? Reposez la question, puis cliquez sur « Demander "
+"à nouveau » pour réessayer."
 
 #: data/metainfo.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
@@ -68,90 +68,98 @@ msgstr ""
 #: data/metainfo.appdata.xml.in:44
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
+"Correctif : correction de la fenêtre À propos lors de sa fermeture et "
+"réouverture"
 
 #: data/metainfo.appdata.xml.in:49
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Plus d’amusement pour tous"
 
 #: data/metainfo.appdata.xml.in:51
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Ajout de huit réponses plus originales"
 
 #: data/metainfo.appdata.xml.in:52
 msgid "Added “About” window"
-msgstr ""
+msgstr "Ajout d’une fenêtre À propos"
 
 #: data/metainfo.appdata.xml.in:53
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Améliorations pour les outils développeur pour mettre les traductions à jour "
+"plus facilement"
 
 #: data/metainfo.appdata.xml.in:54
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Traductions italiennes grâce à Albano Battistella"
 
 #: data/metainfo.appdata.xml.in:55
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Mise à jour de l’environnement d’exécution vers GNOME 43"
 
 #: data/metainfo.appdata.xml.in:61
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Correctif : correction d’un crash au démarrage dû à la tentative d’accès à "
+"des paramètres inexistants"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Bonjour GNOME"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Whole new UI"
-msgstr ""
+msgstr "Toute nouvelle interface"
 
 #: data/metainfo.appdata.xml.in:69
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "style elementary → style GNOME"
 
 #: data/metainfo.appdata.xml.in:70
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
+"Mise à jour technique vers la dernière plateforme GNOME incluant GTK4 et "
+"LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Bonjour Odin"
 
 #: data/metainfo.appdata.xml.in:78
 msgid "Updated for OS 6 and Flatpak"
-msgstr ""
+msgstr "Mise à jour vers elementary OS 6 et Flatpak"
 
 #: data/metainfo.appdata.xml.in:79
 msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
+msgstr "Traductions turques grâce à Safak GENISOL"
 
 #: data/metainfo.appdata.xml.in:80
 msgid "Portuguese translations thanks to André Barata"
-msgstr ""
+msgstr "Traductions portugaises grâce à André Barata"
 
 #: data/metainfo.appdata.xml.in:81
 msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
+msgstr "Traductions espagnoles grâce à @kevincos5"
 
 #: data/metainfo.appdata.xml.in:87
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+msgstr "Icônes rafraîchies grâce à Micah Ilbery"
 
 #: data/metainfo.appdata.xml.in:92
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgstr "Traductions polonaises grâce à Michał Nowakowski"
 
 #: data/metainfo.appdata.xml.in:97
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Traductions néerlandaises grâce à Heimen Stoffels"
 
 #: data/metainfo.appdata.xml.in:102
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Traductions françaises grâce à @NathanBnm"
 
 #: data/metainfo.appdata.xml.in:107
 msgid "Clairvoyant is now translatable."
@@ -160,11 +168,11 @@ msgstr "Clairvoyant peut maintenant être traduit."
 #: data/metainfo.appdata.xml.in:112
 msgid "Happy new year! This release contains AppData fixes."
 msgstr ""
-"Bonne année ! Cette version comprend des corrections du fichier Appdata."
+"Bonne année ! Cette version comprend des corrections du fichier Appdata."
 
 #: data/metainfo.appdata.xml.in:117
 msgid "Fix 48px icon"
-msgstr "Correction de l'icône 48px"
+msgstr "Correction de l’icône 48px"
 
 #: data/metainfo.appdata.xml.in:122
 msgid "Post-release update"
@@ -172,7 +180,7 @@ msgstr "Mise à jour après sortie"
 
 #: data/metainfo.appdata.xml.in:124
 msgid "Clean up AppStream data"
-msgstr "Nettoyage des données du flux d'application"
+msgstr "Nettoyage des données du flux d’application"
 
 #: data/metainfo.appdata.xml.in:125
 msgid "Expand on the description"
@@ -196,7 +204,7 @@ msgstr "Cassidy James Blaede"
 
 #: src/FortuneLabel.vala:16
 msgid "It is certain."
-msgstr "C'est certain."
+msgstr "C’est certain."
 
 #: src/FortuneLabel.vala:24
 msgid "Without a doubt."
@@ -204,7 +212,7 @@ msgstr "Sans aucun doute."
 
 #: src/FortuneLabel.vala:28
 msgid "Yes—definitely."
-msgstr "Oui, c'est sûr."
+msgstr "Oui, c’est sûr."
 
 #: src/FortuneLabel.vala:32
 msgid "You may rely on it."
@@ -212,11 +220,11 @@ msgstr "Vous pouvez vous y fier."
 
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
-msgstr "D'après ce que je vois, oui."
+msgstr "D’après ce que je vois, oui."
 
 #: src/FortuneLabel.vala:40
 msgid "Most likely."
-msgstr "C'est fort probable."
+msgstr "C’est fort probable."
 
 #: src/FortuneLabel.vala:44
 msgid "Outlook good."
@@ -232,24 +240,23 @@ msgstr "Tout porte à croire que oui."
 
 #: src/FortuneLabel.vala:56
 msgid "Yep!"
-msgstr ""
+msgstr "Ouaip !"
 
 #: src/FortuneLabel.vala:60
 msgid "Absolutely!"
-msgstr ""
+msgstr "Absolument !"
 
 #: src/FortuneLabel.vala:64
 msgid "You bet!"
-msgstr ""
+msgstr "Tu parles !"
 
 #: src/FortuneLabel.vala:68
 msgid "Confirmed."
-msgstr ""
+msgstr "Confirmé."
 
 #: src/FortuneLabel.vala:72
-#, fuzzy
 msgid "Don’t count on it."
-msgstr "N'y comptez pas."
+msgstr "N’y comptez pas."
 
 #: src/FortuneLabel.vala:76
 msgid "My reply is no."
@@ -265,15 +272,15 @@ msgstr "Les perspectives ne sont pas si bonnes."
 
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
-msgstr "J'en doute vraiment."
+msgstr "J’en doute vraiment."
 
 #: src/FortuneLabel.vala:92
 msgid "Naw."
-msgstr ""
+msgstr "Nan."
 
 #: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "J’ai un mauvais pressentiment à ce sujet…"
 
 #: src/FortuneLabel.vala:100
 msgid "Reply hazy, try again."
@@ -297,20 +304,20 @@ msgstr "Concentrez-vous et demandez à nouveau."
 
 #: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Impossible à voir, l’avenir est."
 
 #: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 Réponse non trouvée"
 
 #: src/MainWindow.vala:20
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:43
 msgid "translator-credits"
-msgstr ""
+msgstr "Irénée Thirion"
 
 #: src/MainWindow.vala:58
 msgid "Ask Again"
