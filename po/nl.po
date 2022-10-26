@@ -1,22 +1,23 @@
 # Dutch translations for com.github.cassidyjames.clairvoyant package.
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
-# Automatically generated, 2019.
 #
+# Automatically generated, 2019.
+# Heimen Stoffels <vistausss@fastmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-28 07:06+0000\n"
-"PO-Revision-Date: 2019-04-09 17:39+0200\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-29 19:52+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Lokalize 22.08.1\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
@@ -44,112 +45,115 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
-"Houdt hij van je? Moet je wel pizza hebben als avondeten? Bestaat er zoiets "
-"als een 'domme vraag'? Vind de antwoorden op deze vragen en meer met "
+"Houdt hij van me? Moet ik wel pizza halen als avondeten? Bestaat er zoiets "
+"als een ‘domme vraag’? Vind de antwoorden op deze vragen met "
 "Clairvoyant, de door de magische 8-ball geïnspireerde waarzegger."
 
 #: data/metainfo.appdata.xml.in:12
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr "Stel een vraag en open daarna Clairvoyant om een antwoord te krijgen."
+msgstr "Stel een vraag en open Clairvoyant om een antwoord te krijgen."
 
 #: data/metainfo.appdata.xml.in:13
-#, fuzzy
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr ""
-"Ontevreden? Vraag het opnieuw en druk dan op het pictogram \"Opnieuw "
-"vragen\"."
+msgstr "Ontevreden? Vraag het opnieuw en klik op ‘Opnieuw vragen’."
 
 #: data/metainfo.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr "Doe wat je wilt met de antwoorden, maar spreek mij er niet op aan!"
+msgstr ""
+"Interpreteer de antwoorden op uw eigen manier, maar spreek mij er niet op aan!"
 
 #: data/metainfo.appdata.xml.in:44
 msgid "Hotfix: fix About window when closing and re-opening it"
-msgstr ""
+msgstr "Opgelost: het venster ‘Over’ werd niet goed getoond na heropenen"
 
 #: data/metainfo.appdata.xml.in:49
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Meer plezier voor jou en mij"
 
 #: data/metainfo.appdata.xml.in:51
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Nieuw: nog eens acht originele antwoorden"
 
 #: data/metainfo.appdata.xml.in:52
 msgid "Added “About” window"
-msgstr ""
+msgstr "Nieuw: venster ‘Over’"
 
 #: data/metainfo.appdata.xml.in:53
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Verbeteringen aan de ontwikkelaarshulpmiddelen om vertalingen eenvoudiger bij"
+" te kunnen werken"
 
 #: data/metainfo.appdata.xml.in:54
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Nieuw: Italiaanse vertaling, met dank aan Albano Battistella"
 
 #: data/metainfo.appdata.xml.in:55
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Bijgewerkt: runtime (nu GNOME 43)"
 
 #: data/metainfo.appdata.xml.in:61
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Opgelost: crash na het opstarten omdat er gezocht werd naar niet-bestaande"
+" voorkeuren"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Hallo, GNOME"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Whole new UI"
-msgstr ""
+msgstr "Nieuw: volledig nieuwe vormgeving"
 
 #: data/metainfo.appdata.xml.in:69
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "elementary → GNOME-stijl"
 
 #: data/metainfo.appdata.xml.in:70
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
+"Technische upgrade naar het nieuwste GNOME-platform met GTK4 en LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Hallo, Odin"
 
 #: data/metainfo.appdata.xml.in:78
 msgid "Updated for OS 6 and Flatpak"
-msgstr ""
+msgstr "Bijgewerkt voor OS 6 en Flatpak"
 
 #: data/metainfo.appdata.xml.in:79
 msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
+msgstr "Turkse vertaling, met dank aan Safak GENISOL"
 
 #: data/metainfo.appdata.xml.in:80
 msgid "Portuguese translations thanks to André Barata"
-msgstr ""
+msgstr "Portugese vertaling, met dank aan André Barata"
 
 #: data/metainfo.appdata.xml.in:81
 msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
+msgstr "Spaanse vertaling, met dank aan @kevincos5"
 
 #: data/metainfo.appdata.xml.in:87
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+msgstr "Nieuwe pictogrammen, met dank aan Micah Ilbery"
 
 #: data/metainfo.appdata.xml.in:92
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgstr "Poolse vertaling, met dank aan Michał Nowakowski"
 
 #: data/metainfo.appdata.xml.in:97
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Nederlandse vertaling, met dank aan Heimen Stoffels"
 
 #: data/metainfo.appdata.xml.in:102
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Franse vertaling, met dank aan @NathanBnm"
 
 #: data/metainfo.appdata.xml.in:107
 msgid "Clairvoyant is now translatable."
@@ -185,7 +189,7 @@ msgstr "Het is beslist zo."
 
 #: data/metainfo.appdata.xml.in:134
 msgid "Initial release"
-msgstr "Initiële uitgave."
+msgstr "Eerste versie"
 
 #: data/metainfo.appdata.xml.in:140
 msgid "Cassidy James Blaede"
@@ -205,7 +209,7 @@ msgstr "Zeer zeker."
 
 #: src/FortuneLabel.vala:32
 msgid "You may rely on it."
-msgstr "Je kunt erop vertrouwen."
+msgstr "Je kunt er op vertrouwen."
 
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
@@ -217,7 +221,7 @@ msgstr "Zeer waarschijnlijk."
 
 #: src/FortuneLabel.vala:44
 msgid "Outlook good."
-msgstr "Goed vooruitzicht."
+msgstr "Het vooruitzicht is goed."
 
 #: src/FortuneLabel.vala:48
 msgid "Yes."
@@ -229,36 +233,35 @@ msgstr "De tekenen wijzen op 'ja'."
 
 #: src/FortuneLabel.vala:56
 msgid "Yep!"
-msgstr ""
+msgstr "Jep!"
 
 #: src/FortuneLabel.vala:60
 msgid "Absolutely!"
-msgstr ""
+msgstr "Zekersteweten!"
 
 #: src/FortuneLabel.vala:64
 msgid "You bet!"
-msgstr ""
+msgstr "Reken maar van yes!"
 
 #: src/FortuneLabel.vala:68
 msgid "Confirmed."
-msgstr ""
+msgstr "Bij deze bevestigd."
 
 #: src/FortuneLabel.vala:72
-#, fuzzy
 msgid "Don’t count on it."
 msgstr "Reken er niet op."
 
 #: src/FortuneLabel.vala:76
 msgid "My reply is no."
-msgstr "Mijn antwoord is 'nee'."
+msgstr "Mijn antwoord is ‘nee’."
 
 #: src/FortuneLabel.vala:80
 msgid "My sources say no."
-msgstr "Mijn bronnen zeggen 'nee'."
+msgstr "Mijn bronnen zeggen ‘nee’."
 
 #: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
-msgstr "Vooruitzicht is niet zo goed."
+msgstr "Het vooruitzicht is niet best."
 
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
@@ -266,15 +269,15 @@ msgstr "Zeer twijfelachtig."
 
 #: src/FortuneLabel.vala:92
 msgid "Naw."
-msgstr ""
+msgstr "Noppes."
 
 #: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "Ik heb er een slecht gevoel bij…"
 
 #: src/FortuneLabel.vala:100
 msgid "Reply hazy, try again."
-msgstr "Reactie is wazig; probeer het opnieuw."
+msgstr "De reactie is wazig; probeer het opnieuw."
 
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
@@ -282,7 +285,7 @@ msgstr "Vraag het later nog eens."
 
 #: src/FortuneLabel.vala:108
 msgid "Better not tell you now."
-msgstr "Ik kan het je nu beter niet vertellen."
+msgstr "Ik kan het u nu beter niet vertellen."
 
 #: src/FortuneLabel.vala:112
 msgid "Cannot predict now."
@@ -290,24 +293,24 @@ msgstr "Dat is nu niet te voorspellen."
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
-msgstr "Concentreer je en vraag het opnieuw."
+msgstr "Concentreer u en vraag het opnieuw."
 
 #: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Het is niet te voorzien, de toekomst."
 
 #: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 - Antwoord niet gevonden"
 
 #: src/MainWindow.vala:20
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:43
 msgid "translator-credits"
-msgstr ""
+msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 
 #: src/MainWindow.vala:58
 msgid "Ask Again"
