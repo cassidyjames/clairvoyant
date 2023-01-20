@@ -7,7 +7,7 @@
    viewBox="0 0 128 128"
    version="1.1"
    id="svg13194"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="com.github.cassidyjames.clairvoyant.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -16,29 +16,56 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview13196"
-     pagecolor="#ffffff"
+     pagecolor="#232323"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#232323"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.1326164"
-     inkscape:cx="203.03698"
-     inkscape:cy="89.561348"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:zoom="4.0628141"
+     inkscape:cx="51.688311"
+     inkscape:cy="67.933209"
+     inkscape:window-width="1503"
+     inkscape:window-height="933"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="text10869" />
+     inkscape:current-layer="g15174" />
   <defs
      id="defs13191">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient968">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0.88487101"
+         id="stop964" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop966" />
+    </linearGradient>
+    <linearGradient
+       id="Ball">
+      <stop
+         style="stop-color:#5e5c64;stop-opacity:1;"
+         offset="0"
+         id="stop950" />
+      <stop
+         style="stop-color:#3d3846;stop-opacity:1;"
+         offset="0.60951883"
+         id="stop952" />
+      <stop
+         style="stop-color:#241f31;stop-opacity:1;"
+         offset="1"
+         id="stop954" />
+    </linearGradient>
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient10977"
+       xlink:href="#Ball"
        id="radialGradient10979"
        cx="64"
        cy="221.30893"
@@ -48,21 +75,38 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-45.712605,-287.11093)" />
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient10977">
+       id="Key">
       <stop
-         style="stop-color:#5e5c64;stop-opacity:1;"
+         style="stop-color:#241f31;stop-opacity:0;"
          offset="0"
-         id="stop10973" />
-      <stop
-         style="stop-color:#3d3846;stop-opacity:1;"
-         offset="0.60951883"
-         id="stop12433" />
-      <stop
-         style="stop-color:#241f31;stop-opacity:1;"
-         offset="1"
          id="stop10975" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop10973" />
     </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient968"
+       id="radialGradient970"
+       cx="-65.573082"
+       cy="-55.780399"
+       fx="-65.573082"
+       fy="-55.780399"
+       r="60"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1610924,-0.01939456,0.01963532,1.1755061,95.839574,0.19166912)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient968"
+       id="radialGradient906"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1610924,-0.01939456,0.01963532,1.1755061,59.232705,101.93203)"
+       cx="-65.573082"
+       cy="-55.780399"
+       fx="-65.573082"
+       fy="-55.780399"
+       r="60" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -92,6 +136,19 @@
            style="font-weight:800;font-family:Cantarell;-inkscape-font-specification:'Cantarell Ultra-Bold'"
            id="path174" />
       </g>
+      <circle
+         style="opacity:0.2;fill:url(#radialGradient970);fill-opacity:1;stroke-width:1.69239"
+         id="path962"
+         cx="18.303434"
+         cy="-50.870178"
+         r="60" />
+      <circle
+         style="opacity:0.15;fill:url(#radialGradient906);fill-opacity:1;stroke-width:1.69239"
+         id="circle904"
+         cx="-18.303434"
+         cy="50.870178"
+         r="60"
+         transform="scale(-1)" />
     </g>
   </g>
 </svg>
