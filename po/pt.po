@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 08:14+0000\n"
+"POT-Creation-Date: 2023-01-20 03:40+0000\n"
 "PO-Revision-Date: 2020-08-20 12:02+0100\n"
 "Last-Translator: André Barata <andretiagob@protonmail.com\n"
 "Language-Team: none\n"
@@ -65,134 +65,140 @@ msgstr ""
 "Faça o que quiser com as respostas—apenas não dispare sobre o mensageiro!"
 
 #: data/metainfo.appdata.xml.in:44
-msgid "Hotfix: fix About window when closing and re-opening it"
+msgid ""
+"Subtly improved icon; it should be more visible in the app grid, dash, and "
+"anywhere else with a dark background"
 msgstr ""
 
 #: data/metainfo.appdata.xml.in:49
+msgid "Hotfix: fix About window when closing and re-opening it"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:54
 msgid "More fun for everyone"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:51
+#: data/metainfo.appdata.xml.in:56
 msgid "Added eight more original replies"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:52
+#: data/metainfo.appdata.xml.in:57
 msgid "Added “About” window"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:53
+#: data/metainfo.appdata.xml.in:58
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:54
+#: data/metainfo.appdata.xml.in:59
 #, fuzzy
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "Tradução Francesa graças a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:55
+#: data/metainfo.appdata.xml.in:60
 msgid "Updated runtime to GNOME 43"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:61
+#: data/metainfo.appdata.xml.in:66
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:66
+#: data/metainfo.appdata.xml.in:71
 msgid "Hello, GNOME"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:68
+#: data/metainfo.appdata.xml.in:73
 msgid "Whole new UI"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:69
+#: data/metainfo.appdata.xml.in:74
 msgid "elementary → GNOME styling"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:70
+#: data/metainfo.appdata.xml.in:75
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:76
+#: data/metainfo.appdata.xml.in:81
 msgid "Hello, Odin"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:78
+#: data/metainfo.appdata.xml.in:83
 msgid "Updated for OS 6 and Flatpak"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:79
+#: data/metainfo.appdata.xml.in:84
 #, fuzzy
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "Tradução Francesa graças a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:80
+#: data/metainfo.appdata.xml.in:85
 #, fuzzy
 msgid "Portuguese translations thanks to André Barata"
 msgstr "Tradução Francesa graças a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:81
+#: data/metainfo.appdata.xml.in:86
 #, fuzzy
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "Tradução Holandesa graças a Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:87
+#: data/metainfo.appdata.xml.in:92
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "Ícones atualizados graças a Micah Ilbery"
 
-#: data/metainfo.appdata.xml.in:92
+#: data/metainfo.appdata.xml.in:97
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "Tradução Polaca graças a Michał Nowakowski"
 
-#: data/metainfo.appdata.xml.in:97
+#: data/metainfo.appdata.xml.in:102
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "Tradução Holandesa graças a Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:102
+#: data/metainfo.appdata.xml.in:107
 msgid "French translations thanks to @NathanBnm"
 msgstr "Tradução Francesa graças a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:107
+#: data/metainfo.appdata.xml.in:112
 msgid "Clairvoyant is now translatable."
 msgstr "O Clairvoyant pode agora ser traduzido."
 
-#: data/metainfo.appdata.xml.in:112
+#: data/metainfo.appdata.xml.in:117
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "Feliz ano novo! Este lançamento contém correções da AppData."
 
-#: data/metainfo.appdata.xml.in:117
+#: data/metainfo.appdata.xml.in:122
 msgid "Fix 48px icon"
 msgstr "Correção do ícone 48px"
 
-#: data/metainfo.appdata.xml.in:122
+#: data/metainfo.appdata.xml.in:127
 msgid "Post-release update"
 msgstr "Atualização pós lançamento"
 
-#: data/metainfo.appdata.xml.in:124
+#: data/metainfo.appdata.xml.in:129
 msgid "Clean up AppStream data"
 msgstr "Limpeza da data do AppStream"
 
-#: data/metainfo.appdata.xml.in:125
+#: data/metainfo.appdata.xml.in:130
 msgid "Expand on the description"
 msgstr "Expansão da descrição"
 
-#: data/metainfo.appdata.xml.in:126
+#: data/metainfo.appdata.xml.in:131
 msgid "Change price to $1"
 msgstr "Alteração do preço para $1"
 
-#: data/metainfo.appdata.xml.in:132 src/FortuneLabel.vala:20
+#: data/metainfo.appdata.xml.in:137 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
 msgstr "É decisivamente assim."
 
-#: data/metainfo.appdata.xml.in:134
+#: data/metainfo.appdata.xml.in:139
 msgid "Initial release"
 msgstr "Lançamento inicial"
 
-#: data/metainfo.appdata.xml.in:140
+#: data/metainfo.appdata.xml.in:145
 msgid "Cassidy James Blaede"
 msgstr "Cassidy James Blaede"
 
