@@ -10,7 +10,6 @@ public class MainWindow : Adw.Window {
         Object (
             application: application,
             icon_name: APP_ID,
-            resizable: false,
             title: Clairvoyant.NAME
         );
     }
@@ -59,13 +58,21 @@ public class MainWindow : Adw.Window {
             halign = Gtk.Align.CENTER
         };
         ask_button.add_css_class ("pill");
+        
+        var status_page = new Adw.StatusPage () {
+            title = "Placeholder title here with a longer phrase.",
+            child = ask_button,
+            vexpand = true,
+        };
+        status_page.add_css_class ("success");
 
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
             margin_bottom = 48
         };
         main_layout.append (header);
-        main_layout.append (fortune_label);
-        main_layout.append (ask_button);
+        main_layout.append (status_page);
+        // main_layout.append (fortune_label);
+        // main_layout.append (ask_button);
 
         var window_handle = new Gtk.WindowHandle () {
             child = main_layout
