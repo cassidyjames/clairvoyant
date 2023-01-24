@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2022 Cassidy James Blaede <c@ssidyjam.es>
+ * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
  */
 
 public class MainWindow : Adw.Window {
@@ -10,7 +10,15 @@ public class MainWindow : Adw.Window {
         Object (
             application: application,
             icon_name: APP_ID,
-            title: Clairvoyant.NAME
+            title: Clairvoyant.NAME,
+
+            // default
+            default_height: 240,
+            default_width: 400,
+
+            // minimum
+            height_request: 240,
+            width_request: 300
         );
     }
 
@@ -35,14 +43,13 @@ public class MainWindow : Adw.Window {
             // Credits
             developers = { Clairvoyant.DEVELOPER },
             artists = {
-                "Micah Ilbery",
                 Clairvoyant.DEVELOPER,
             },
             /// The translator credits. Please translate this with your name(s).
             translator_credits = _("translator-credits"),
 
             // Legal
-            copyright = "© 2018–2022 %s".printf (Clairvoyant.DEVELOPER),
+            copyright = "© 2018–2023 %s".printf (Clairvoyant.DEVELOPER),
             license_type = Gtk.License.GPL_3_0,
         };
 
@@ -66,9 +73,7 @@ public class MainWindow : Adw.Window {
         };
         status_page.add_css_class ("success");
 
-        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
-            margin_bottom = 48
-        };
+        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         main_layout.append (header);
         main_layout.append (status_page);
         // main_layout.append (fortune_label);

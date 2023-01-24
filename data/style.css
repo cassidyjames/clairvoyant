@@ -1,0 +1,9 @@
+/*
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
+ */
+
+statuspage scrolledwindow box {
+  margin-bottom: 0;
+  margin-top: 0;
+}

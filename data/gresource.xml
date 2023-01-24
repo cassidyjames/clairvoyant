@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
+  <gresource prefix="/com/github/cassidyjames/clairvoyant">
+    <file>style.css</file>
+  </gresource>
   <gresource prefix="/com/github/cassidyjames/clairvoyant/icons/scalable/actions/">
     <file alias="about-symbolic.svg" preprocess="xml-stripblanks">icons/about-symbolic.svg</file>
   </gresource>
