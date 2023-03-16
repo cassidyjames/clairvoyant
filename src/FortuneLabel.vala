@@ -137,7 +137,9 @@ public class FortuneLabel : Gtk.Box {
 
         int i = 1;
         foreach (var fortune in content) {
-            var title_label = new Gtk.Label (fortune.title);
+            var title_label = new Gtk.Label (fortune.title) {
+                selectable = true
+            };
             title_label.add_css_class ("title-1");
             title_label.add_css_class (fortune.css_class);
 
