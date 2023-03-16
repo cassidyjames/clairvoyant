@@ -26,7 +26,11 @@ public class Clairvoyant : Adw.Application {
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
-        set_accels_for_action ("app.quit", {"Escape"});
+        set_accels_for_action ("app.quit", {
+            "Escape",
+            "<Ctrl>Q",
+            "<Ctrl>W",
+        });
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
