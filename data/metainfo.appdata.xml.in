@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018–2022 Cassidy James Blaede <c@ssidyjam.es> -->
+<!-- Copyright 2018–2023 Cassidy James Blaede <c@ssidyjam.es> -->
 <component type="desktop">
   <id>com.github.cassidyjames.clairvoyant</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <name>Clairvoyant</name>
-  <summary>Get psychic answers from this fortune teller</summary>
+  <summary>Ask questions, get psychic answers</summary>
   <description>
     <p>Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</p>
     <ul>
@@ -39,6 +39,16 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.0.5" date="2023-03-15">
+      <description>
+        <p>Update for GNOME Circle consideration</p>
+        <ul>
+          <li>Close with Ctrl+Q and Ctrl+W</li>
+          <li>Selectable answer for improved accessibility</li>
+          <li>Shorter summary for app listing</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.0.4" date="2023-01-19">
       <description>
         <p>Subtly improved icon; it should be more visible in the app grid, dash, and anywhere else with a dark background</p>
