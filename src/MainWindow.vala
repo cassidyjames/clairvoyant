@@ -36,14 +36,13 @@ public class MainWindow : Adw.Window {
             // Credits
             developers = { Clairvoyant.DEVELOPER },
             artists = {
-                "Micah Ilbery",
                 Clairvoyant.DEVELOPER,
             },
             /// The translator credits. Please translate this with your name(s).
             translator_credits = _("translator-credits"),
 
             // Legal
-            copyright = "© 2018–2022 %s".printf (Clairvoyant.DEVELOPER),
+            copyright = "© 2018–2023 %s".printf (Clairvoyant.DEVELOPER),
             license_type = Gtk.License.GPL_3_0,
         };
 
