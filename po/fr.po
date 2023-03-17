@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-16 05:44+0000\n"
-"PO-Revision-Date: 2022-09-29 13:10+0200\n"
+"PO-Revision-Date: 2023-03-16 10:40+0100\n"
 "Last-Translator: Irénée Thirion <irenee.thirion@e.email>\n"
 "Language-Team: Français\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
@@ -28,16 +28,15 @@ msgstr "Diseur de bonne aventure"
 
 #: data/launcher.desktop.in:5
 msgid "Ask questions and get psychic answers"
-msgstr "Posez des questions et obtenez des réponses psychiques"
+msgstr "Demandez, et obtenez des réponses psychiques"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "magique;huit;boule;8;cristal;🔮;medium;🎱;aventure;devin;"
 
 #: data/metainfo.appdata.xml.in:8
-#, fuzzy
 msgid "Ask questions, get psychic answers"
-msgstr "Posez des questions et obtenez des réponses psychiques"
+msgstr "Demandez, et obtenez des réponses psychiques"
 
 #: data/metainfo.appdata.xml.in:10
 msgid ""
@@ -45,7 +44,7 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
-"Est-ce qu'il t’aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
+"Est-ce qu’il t’aime ? Devrais-tu manger de la pizza pour le dîner ? Existe-t-"
 "il une question stupide ? Découvrez les réponses à ces questions et plus "
 "encore avec Clairvoyant, diseur de bonne aventure inspiré de la boule 8 "
 "magique."
@@ -68,25 +67,27 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:44
 msgid "Update for GNOME Circle consideration"
-msgstr ""
+msgstr "Mise à jour pour correspondre aux critères Cercle de GNOME"
 
 #: data/metainfo.appdata.xml.in:46
 msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr ""
+msgstr "Fermeture avec Ctrl+Q et Ctrl+W"
 
 #: data/metainfo.appdata.xml.in:47
 msgid "Selectable answer for improved accessibility"
-msgstr ""
+msgstr "Réponse sélectionnable pour une meilleure accessibilité"
 
 #: data/metainfo.appdata.xml.in:48
 msgid "Shorter summary for app listing"
-msgstr ""
+msgstr "Sous-titrage plus court"
 
 #: data/metainfo.appdata.xml.in:54
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
+"Icône subtilement améliorée ; elle devrait être plus visible dans la grille "
+"d’applications, le dash, et n’importe où sur un arrière-plan sombre"
 
 #: data/metainfo.appdata.xml.in:59
 msgid "Hotfix: fix About window when closing and re-opening it"
