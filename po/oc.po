@@ -8,25 +8,26 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-16 05:44+0000\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-03-21 19:20+0100\n"
+"Last-Translator: Quentin PAGÈS\n"
 "Language-Team: none\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clairvoyant"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Endevinaire"
 
 #: data/launcher.desktop.in:5
 msgid "Ask questions and get psychic answers"
-msgstr ""
+msgstr "Pausatz de questions e obtenètz de responsa d’endevinaire"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
@@ -34,7 +35,7 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:8
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Pausatz de questions, obtenètz de responsa d’endevinaire"
 
 #: data/metainfo.appdata.xml.in:10
 msgid ""
@@ -83,7 +84,7 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:64
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Mai de divertiment per totes"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Added eight more original replies"
@@ -114,7 +115,7 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:81
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Adiu, GNOME"
 
 #: data/metainfo.appdata.xml.in:83
 msgid "Whole new UI"
@@ -131,7 +132,7 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:91
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Adiu, Odin"
 
 #: data/metainfo.appdata.xml.in:93
 msgid "Updated for OS 6 and Flatpak"
@@ -195,11 +196,11 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:147 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Es totalament aital."
 
 #: data/metainfo.appdata.xml.in:149
 msgid "Initial release"
-msgstr ""
+msgstr "Primièr version"
 
 #: data/metainfo.appdata.xml.in:155
 msgid "Cassidy James Blaede"
@@ -207,15 +208,15 @@ msgstr ""
 
 #: src/FortuneLabel.vala:16
 msgid "It is certain."
-msgstr ""
+msgstr "Es segur."
 
 #: src/FortuneLabel.vala:24
 msgid "Without a doubt."
-msgstr ""
+msgstr "Sens cap de dobte."
 
 #: src/FortuneLabel.vala:28
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Òc—de segur."
 
 #: src/FortuneLabel.vala:32
 msgid "You may rely on it."
@@ -223,11 +224,11 @@ msgstr ""
 
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Coma o vesi, òc."
 
 #: src/FortuneLabel.vala:40
 msgid "Most likely."
-msgstr ""
+msgstr "Plan probablament."
 
 #: src/FortuneLabel.vala:44
 msgid "Outlook good."
@@ -235,7 +236,7 @@ msgstr ""
 
 #: src/FortuneLabel.vala:48
 msgid "Yes."
-msgstr ""
+msgstr "Òc."
 
 #: src/FortuneLabel.vala:52
 msgid "Signs point to yes."
@@ -247,7 +248,7 @@ msgstr ""
 
 #: src/FortuneLabel.vala:60
 msgid "Absolutely!"
-msgstr ""
+msgstr "Absoludament !"
 
 #: src/FortuneLabel.vala:64
 msgid "You bet!"
@@ -255,19 +256,19 @@ msgstr ""
 
 #: src/FortuneLabel.vala:68
 msgid "Confirmed."
-msgstr ""
+msgstr "Confirmat."
 
 #: src/FortuneLabel.vala:72
 msgid "Don’t count on it."
-msgstr ""
+msgstr "I comptetz pas."
 
 #: src/FortuneLabel.vala:76
 msgid "My reply is no."
-msgstr ""
+msgstr "Ma responsa es non."
 
 #: src/FortuneLabel.vala:80
 msgid "My sources say no."
-msgstr ""
+msgstr "Mas fonts dison de non."
 
 #: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
@@ -279,7 +280,7 @@ msgstr ""
 
 #: src/FortuneLabel.vala:92
 msgid "Naw."
-msgstr ""
+msgstr "Nah."
 
 #: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
@@ -291,11 +292,11 @@ msgstr ""
 
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
-msgstr ""
+msgstr "Tornatz demandar mai tard."
 
 #: src/FortuneLabel.vala:108
 msgid "Better not tell you now."
-msgstr ""
+msgstr "Val mai vos dire pas ara."
 
 #: src/FortuneLabel.vala:112
 msgid "Cannot predict now."
@@ -303,7 +304,7 @@ msgstr ""
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Concentratz-vos e demandatz tornamai."
 
 #: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
@@ -311,17 +312,17 @@ msgstr ""
 
 #: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 Responsa pas trobada"
 
 #: src/MainWindow.vala:20
 msgid "About"
-msgstr ""
+msgstr "A prepaus"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:42
 msgid "translator-credits"
-msgstr ""
+msgstr "Quentin PAGÈS"
 
 #: src/MainWindow.vala:57
 msgid "Ask Again"
-msgstr ""
+msgstr "Tornatz demandar"
