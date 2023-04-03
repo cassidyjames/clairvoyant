@@ -341,7 +341,7 @@ msgstr "À propos"
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:42
 msgid "translator-credits"
-msgstr "Irénée Thirion"
+msgstr "Irénée Thirion, @rene-coty"
 
 #: src/MainWindow.vala:57
 msgid "Ask Again"
