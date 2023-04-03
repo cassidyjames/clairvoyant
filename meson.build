@@ -1,7 +1,7 @@
 project(
     'com.github.cassidyjames.clairvoyant',
     'vala', 'c',
-    version: '3.0.5'
+    version: '3.0.6'
 )
 
 gnome = import('gnome')
