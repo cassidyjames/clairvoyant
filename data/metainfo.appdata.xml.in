@@ -39,6 +39,18 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.0.6" date="2023-04-03">
+      <description>
+        <p>Translations and GNOME 44</p>
+        <ul>
+          <li>German translations thanks to @FineFindus on GitHub</li>
+          <li>Updated French translations thanks to @rene-coty on GitHub</li>
+          <li>Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)</li>
+          <li>Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)</li>
+          <li>Updated to the latest GNOME runtime</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.0.5" date="2023-03-15">
       <description>
         <p>Update for GNOME Circle consideration</p>
@@ -155,7 +167,7 @@
   <developer_name>Cassidy James Blaede</developer_name>
   <url type="homepage">https://cassidyjames.com</url>
   <url type="bugtracker">https://github.com/cassidyjames/clairvoyant/issues</url>
-  <url type="translate">https://github.com/cassidyjames/clairvoyant/tree/master/po#readme</url>
+  <url type="translate">https://github.com/cassidyjames/clairvoyant/tree/main/po#readme</url>
   <url type="donation">https://cassidyjames.com/pay</url>
   <url type="help">https://cassidyjames.com/support</url>
   <branding>
