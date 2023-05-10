@@ -8,34 +8,35 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-03 17:41+0000\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-05-10 21:16+0200\n"
+"Last-Translator: Písek Pískovec <pisekpiskovec@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:7
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clairvoyant"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Věštec štěstí"
 
 #: data/launcher.desktop.in:5
 msgid "Ask questions and get psychic answers"
-msgstr ""
+msgstr "Položte otázky a získejte věštecké odpovědi"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "magie;osmicka;8;krystal;🔮;medium;🎱;"
 
 #: data/metainfo.appdata.xml.in:8
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Položte otázky, získejte věštecké odpovědi"
 
 #: data/metainfo.appdata.xml.in:10
 msgid ""
@@ -43,312 +44,327 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
+"Miluje tě? Měl bys mít pizzu k večeři? Je něco jako stupidní otázka? Objevte "
+"odpovědi na tyto otázka a více s Clairvoyant, kouzelným 8-míčkem "
+"inspirovaným věštcem."
 
 #: data/metainfo.appdata.xml.in:12
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr ""
+msgstr "Položte otázku, pak otevřte Clairvoyant pro odpověď."
 
 #: data/metainfo.appdata.xml.in:13
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
+"Nespokojeni? Zeptejte se znova, pak stiskněte \"Zeptat se Znova\" aby jste "
+"se zeptali znova."
 
 #: data/metainfo.appdata.xml.in:14
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "S odpovědí si dělejte si co chcete—jen nestřílejte na posla!"
 
 #: data/metainfo.appdata.xml.in:44
 msgid "Translations and GNOME 44"
-msgstr ""
+msgstr "Překlady a GNOME 44"
 
 #: data/metainfo.appdata.xml.in:46
 msgid "German translations thanks to @FineFindus on GitHub"
-msgstr ""
+msgstr "Německý překlad díky @FineFindus na GitHubu"
 
 #: data/metainfo.appdata.xml.in:47
 msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr ""
+msgstr "Aktualizovaný Francouzský překlad díky @rene-coty na GitHubu"
 
 #: data/metainfo.appdata.xml.in:48
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
+"Aktualizovaný Italský překlad díky Davide Ferracin (@phaerrax na GitHubu)"
 
 #: data/metainfo.appdata.xml.in:49
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
+"Aktualizovaný Occitánský překlad díky Quentin PAGÈS (@Mejansna GitHubu)"
 
 #: data/metainfo.appdata.xml.in:50
 msgid "Updated to the latest GNOME runtime"
-msgstr ""
+msgstr "Aktualizováno na nejnovější GNOME runtime"
 
 #: data/metainfo.appdata.xml.in:56
 msgid "Update for GNOME Circle consideration"
-msgstr ""
+msgstr "Aktualizace pro zvážení GNOME Circle"
 
 #: data/metainfo.appdata.xml.in:58
 msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr ""
+msgstr "Zavřete s Ctrl+Q a Ctrl+W"
 
 #: data/metainfo.appdata.xml.in:59
 msgid "Selectable answer for improved accessibility"
-msgstr ""
+msgstr "Označitelná odpověď pro vylepšení přístupnosti"
 
 #: data/metainfo.appdata.xml.in:60
 msgid "Shorter summary for app listing"
-msgstr ""
+msgstr "Kratší souhrn pro seznam aplikací"
 
 #: data/metainfo.appdata.xml.in:66
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
+"Jemně vylepšena ikona; měla by být lépe vydět v mřížce aplikací, dashi, a "
+"všude jinde na tmavém pozadí"
 
 #: data/metainfo.appdata.xml.in:71
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
+"Rychlá oprava: opraveno okno O aplikaci při zavření a opětovném otevření"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Více zábavy pro všechny"
 
 #: data/metainfo.appdata.xml.in:78
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Přidáno 8 víc originálních odpovědí"
 
 #: data/metainfo.appdata.xml.in:79
 msgid "Added “About” window"
-msgstr ""
+msgstr "Přidáno okno \"O aplikaci\""
 
 #: data/metainfo.appdata.xml.in:80
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Vylepšení pro vývojářské nástroje za účelem lepšího udržení aktuálnosti "
+"překladů"
 
 #: data/metainfo.appdata.xml.in:81
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Italský překlad díky Albano Battistella"
 
 #: data/metainfo.appdata.xml.in:82
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Aktualizován runtime na GNOME 43"
 
 #: data/metainfo.appdata.xml.in:88
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Rychlá oprava: opraveno padání při spouštění z pokusu o přístup k "
+"neexistujícímu nastavení"
 
 #: data/metainfo.appdata.xml.in:93
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Ahoj, GNOME"
 
 #: data/metainfo.appdata.xml.in:95
 msgid "Whole new UI"
-msgstr ""
+msgstr "Zcela nové UI"
 
 #: data/metainfo.appdata.xml.in:96
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "elementary → stylování GNOME"
 
 #: data/metainfo.appdata.xml.in:97
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
+"Technický upgrade na nejnovější platformu GNOME zahrnující GTK4 a LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:103
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Ahoj, Odin"
 
 #: data/metainfo.appdata.xml.in:105
 msgid "Updated for OS 6 and Flatpak"
-msgstr ""
+msgstr "Aktualizováno pro OS 6 a Flatpak"
 
 #: data/metainfo.appdata.xml.in:106
 msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
+msgstr "Turecký překlad díky Safak GENISOL"
 
 #: data/metainfo.appdata.xml.in:107
 msgid "Portuguese translations thanks to André Barata"
-msgstr ""
+msgstr "Portugalský překlad díky André Barata"
 
 #: data/metainfo.appdata.xml.in:108
 msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
+msgstr "Španělská překlad díky @kevincos5"
 
 #: data/metainfo.appdata.xml.in:114
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+msgstr "Osvěžena ikona díky Micah Ilbery"
 
 #: data/metainfo.appdata.xml.in:119
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgstr "Polský překlad díky Michał Nowakowski"
 
 #: data/metainfo.appdata.xml.in:124
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Holandský překlad díky Heimen Stoffels"
 
 #: data/metainfo.appdata.xml.in:129
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Francouzský překlad díky @NathanBnm"
 
 #: data/metainfo.appdata.xml.in:134
 msgid "Clairvoyant is now translatable."
-msgstr ""
+msgstr "Clairvoyant je nyní přeložitelný."
 
 #: data/metainfo.appdata.xml.in:139
 msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
+msgstr "Šťastný nový rok! Toto vydání obsahuje opravy AppDat."
 
 #: data/metainfo.appdata.xml.in:144
 msgid "Fix 48px icon"
-msgstr ""
+msgstr "Opravena 48px ikona"
 
 #: data/metainfo.appdata.xml.in:149
 msgid "Post-release update"
-msgstr ""
+msgstr "Aktualizace po vydání"
 
 #: data/metainfo.appdata.xml.in:151
 msgid "Clean up AppStream data"
-msgstr ""
+msgstr "Vyčištěny AppStream data"
 
 #: data/metainfo.appdata.xml.in:152
 msgid "Expand on the description"
-msgstr ""
+msgstr "Rozšířený popisek"
 
 #: data/metainfo.appdata.xml.in:153
 msgid "Change price to $1"
-msgstr ""
+msgstr "Změněna cena na $1"
 
 #: data/metainfo.appdata.xml.in:159 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Rozhodně tomu tak je."
 
 #: data/metainfo.appdata.xml.in:161
 msgid "Initial release"
-msgstr ""
+msgstr "První vydání"
 
 #: data/metainfo.appdata.xml.in:167
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: src/FortuneLabel.vala:16
 msgid "It is certain."
-msgstr ""
+msgstr "Je to jisté."
 
 #: src/FortuneLabel.vala:24
 msgid "Without a doubt."
-msgstr ""
+msgstr "Bez pochyby."
 
 #: src/FortuneLabel.vala:28
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Ano—definitivně."
 
 #: src/FortuneLabel.vala:32
 msgid "You may rely on it."
-msgstr ""
+msgstr "Na to můžete spolehnout."
 
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Jak to vidím, ano."
 
 #: src/FortuneLabel.vala:40
 msgid "Most likely."
-msgstr ""
+msgstr "S největší pravděpodobností."
 
 #: src/FortuneLabel.vala:44
 msgid "Outlook good."
-msgstr ""
+msgstr "Skvělý výhled."
 
 #: src/FortuneLabel.vala:48
 msgid "Yes."
-msgstr ""
+msgstr "Ano."
 
 #: src/FortuneLabel.vala:52
 msgid "Signs point to yes."
-msgstr ""
+msgstr "Vše naznačuje, že ano."
 
 #: src/FortuneLabel.vala:56
 msgid "Yep!"
-msgstr ""
+msgstr "Jep!"
 
 #: src/FortuneLabel.vala:60
 msgid "Absolutely!"
-msgstr ""
+msgstr "Absolutně!"
 
 #: src/FortuneLabel.vala:64
 msgid "You bet!"
-msgstr ""
+msgstr "Si piš!"
 
 #: src/FortuneLabel.vala:68
 msgid "Confirmed."
-msgstr ""
+msgstr "Potvrzuji."
 
 #: src/FortuneLabel.vala:72
 msgid "Don’t count on it."
-msgstr ""
+msgstr "S tím nepočítejte."
 
 #: src/FortuneLabel.vala:76
 msgid "My reply is no."
-msgstr ""
+msgstr "Moje odpověď je ne."
 
 #: src/FortuneLabel.vala:80
 msgid "My sources say no."
-msgstr ""
+msgstr "Mé zdroje říkají ne."
 
 #: src/FortuneLabel.vala:84
 msgid "Outlook not so good."
-msgstr ""
+msgstr "Výhled není tak dobrý."
 
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
-msgstr ""
+msgstr "Velmi pochybně."
 
 #: src/FortuneLabel.vala:92
 msgid "Naw."
-msgstr ""
+msgstr "Ne, ne."
 
 #: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "O tom mám špatný pocit…"
 
 #: src/FortuneLabel.vala:100
 msgid "Reply hazy, try again."
-msgstr ""
+msgstr "Odpověď mlhavá, zkuste znovu."
 
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
-msgstr ""
+msgstr "Zeptejte se znovu později."
 
 #: src/FortuneLabel.vala:108
 msgid "Better not tell you now."
-msgstr ""
+msgstr "Radši vám teď nepovím."
 
 #: src/FortuneLabel.vala:112
 msgid "Cannot predict now."
-msgstr ""
+msgstr "Nyní nelze předpovědět."
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Soustřeďte se a zeptejte se znovu."
 
 #: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Nemožné vidět, budoucnost je."
 
 #: src/FortuneLabel.vala:124
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 Odpověď Nenalezena"
 
 #: src/MainWindow.vala:20
 msgid "About"
-msgstr ""
+msgstr "O aplikaci"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:42
 msgid "translator-credits"
-msgstr ""
+msgstr "@pisekpiskovec"
 
 #: src/MainWindow.vala:57
 msgid "Ask Again"
-msgstr ""
+msgstr "Zeptat se Znova"
