@@ -1,5 +1,5 @@
 /*
-* Copyright © 2018–2020 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2023 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -54,6 +54,8 @@ public class Clairvoyant : Gtk.Application {
         set_accels_for_action ("app.quit", {"Escape"});
 
         var gtk_settings = Gtk.Settings.get_default ();
+        gtk_settings.gtk_icon_theme_name = "elementary";
+        gtk_settings.gtk_theme_name = "io.elementary.stylesheet.slate";
         gtk_settings.gtk_application_prefer_dark_theme = true;
 
         var provider = new Gtk.CssProvider ();
