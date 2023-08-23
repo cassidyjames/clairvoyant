@@ -168,6 +168,7 @@
   <url type="homepage">https://cassidyjames.com</url>
   <url type="bugtracker">https://github.com/cassidyjames/clairvoyant/issues</url>
   <url type="translate">https://github.com/cassidyjames/clairvoyant/tree/main/po#readme</url>
+  <url type="vcs-browser">https://github.com/cassidyjames/clairvoyant/</url>
   <url type="donation">https://cassidyjames.com/pay</url>
   <url type="help">https://cassidyjames.com/support</url>
   <branding>
