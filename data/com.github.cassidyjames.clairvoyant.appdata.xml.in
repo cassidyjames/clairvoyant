@@ -38,6 +38,8 @@
         <p>Maintenance Update</p>
         <ul>
           <li>Always use the elementary stylesheet and icons</li>
+          <li>Added captions to screenshots in AppCenter</li>
+          <li>Added brand colors to AppCenter listing</li>
           <li>Fixed screenshot URLs</li>
           <li>Updated to the latest elementary Platform</li>
         </ul>
