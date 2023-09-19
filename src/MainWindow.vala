@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2022 Cassidy James Blaede <c@ssidyjam.es>
+ * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
  */
 
 public class MainWindow : Adw.Window {
@@ -28,7 +28,10 @@ public class MainWindow : Adw.Window {
             /// The translator credits. Please translate this with your name(s).
             translator_credits = _("translator-credits"),
         };
-        about_window.copyright = "© 2018–2023 %s".printf (about_window.developer_name);
+        about_window.copyright = "© 2018–%i %s".printf (
+            new DateTime.now_local ().get_year (),
+            about_window.developer_name
+        );
 
         // Set MainWindow properties from the AppData already fetched and parsed
         // by the AboutWindow construction
@@ -46,6 +49,7 @@ public class MainWindow : Adw.Window {
         var ask_button = new Gtk.Button.with_label (_("Ask Again")) {
             halign = Gtk.Align.CENTER
         };
+        ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {

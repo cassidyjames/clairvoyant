@@ -1,0 +1,6 @@
+@define-color window_bg_color @light_2;
+@define-color window_fg_color @dark_3;
+
+@define-color accent_color @dark_3;
+@define-color accent_bg_color @dark_3;
+@define-color accent_fg_color @light_1;
