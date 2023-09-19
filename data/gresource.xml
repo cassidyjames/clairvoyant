@@ -3,4 +3,7 @@
   <gresource prefix="/com/github/cassidyjames/clairvoyant/icons/scalable/actions/">
     <file alias="about-symbolic.svg" preprocess="xml-stripblanks">icons/about-symbolic.svg</file>
   </gresource>
+  <gresource prefix="/com/github/cassidyjames/clairvoyant/">
+    <file alias="metainfo.xml" preprocess="xml-stripblanks">metainfo.appdata.xml.in</file>
+  </gresource>
 </gresources>

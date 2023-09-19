@@ -54,11 +54,11 @@
   </screenshots>
 
   <releases>
-    <release version="3.0.7" date="2023-08-23">
+    <release version="3.1.0" date="2023-09-19">
       <description>
         <p>Maintenance Release</p>
         <ul>
-          <li></li>
+          <li>Simplify how the About window is constructed</li>
         </ul>
       </description>
     </release>
