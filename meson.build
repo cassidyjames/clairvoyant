@@ -1,7 +1,8 @@
 project(
     'com.github.cassidyjames.clairvoyant',
     'vala', 'c',
-    version: '3.0.6'
+    version: '3.1.0',
+    meson_version: '>=0.58',
 )
 
 gnome = import('gnome')
@@ -10,15 +11,17 @@ i18n = import('i18n')
 add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()), language:'c')
 
 add_project_arguments(
-    ['--vapidir', meson.current_source_dir() / 'vapi'],
-    language: 'vala'
+  ['--vapidir', meson.current_source_dir() / 'vapi'],
+  language: 'vala'
 )
 
 conf = configuration_data()
 # Get the package data directory under Meson
-pkgdatadir = join_paths([ get_option('prefix'),
-                          get_option('datadir'),
-                          meson.project_name() ])
+pkgdatadir = join_paths([
+  get_option('prefix'),
+  get_option('datadir'),
+  meson.project_name()
+])
 conf.set_quoted('APP_ID', meson.project_name())
 conf.set_quoted('VERSION', meson.project_version())
 conf.set_quoted('PKGDATADIR', pkgdatadir)
@@ -37,7 +40,7 @@ c_args = [
 ]
 
 # Arguments for Vala
-vala_args = ['--target-glib=2.50', meson.source_root() + '/src/config.vapi']
+vala_args = ['--target-glib=2.50', meson.project_source_root() + '/src/config.vapi']
 
 asresources = gnome.compile_resources(
   'as-resources', 'data' / 'gresource.xml',
@@ -60,7 +63,7 @@ executable(
   config_file,
   dependencies: [
     dependency('gtk4'),
-    dependency('libadwaita-1'),
+    dependency('libadwaita-1', version: '>=1.4'),
   ],
   c_args: c_args, vala_args: vala_args,
   install: true
@@ -68,5 +71,3 @@ executable(
 
 subdir('data')
 subdir('po')
-
-meson.add_install_script('meson' / 'post_install.py')

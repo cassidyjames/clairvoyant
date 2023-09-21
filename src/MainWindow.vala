@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2022 Cassidy James Blaede <c@ssidyjam.es>
+ * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
  */
 
 public class MainWindow : Adw.Window {
@@ -9,9 +9,7 @@ public class MainWindow : Adw.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: APP_ID,
-            resizable: false,
-            title: Clairvoyant.NAME
+            resizable: false
         );
     }
 
@@ -21,30 +19,24 @@ public class MainWindow : Adw.Window {
         };
         about_button.add_css_class ("dim-label");
 
-        var about_window = new Adw.AboutWindow () {
+        var about_window = new Adw.AboutWindow.from_appdata (
+            "/com/github/cassidyjames/clairvoyant/metainfo.xml", VERSION
+        ) {
             transient_for = this,
             hide_on_close = true,
 
-            application_icon = APP_ID,
-            application_name = Clairvoyant.NAME,
-            developer_name = Clairvoyant.DEVELOPER,
-            version = VERSION,
-
-            website = "https://cassidyjames.com/apps",
-            issue_url = "https://github.com/cassidyjames/clairvoyant/issues",
-
-            // Credits
-            developers = { Clairvoyant.DEVELOPER },
-            artists = {
-                Clairvoyant.DEVELOPER,
-            },
             /// The translator credits. Please translate this with your name(s).
             translator_credits = _("translator-credits"),
-
-            // Legal
-            copyright = "© 2018–2023 %s".printf (Clairvoyant.DEVELOPER),
-            license_type = Gtk.License.GPL_3_0,
         };
+        about_window.copyright = "© 2018–%i %s".printf (
+            new DateTime.now_local ().get_year (),
+            about_window.developer_name
+        );
+
+        // Set MainWindow properties from the AppData already fetched and parsed
+        // by the AboutWindow construction
+        this.icon_name = about_window.application_icon;
+        this.title = about_window.application_name;
 
         var header = new Gtk.HeaderBar () {
             title_widget = new Gtk.Label (null)
@@ -57,6 +49,7 @@ public class MainWindow : Adw.Window {
         var ask_button = new Gtk.Button.with_label (_("Ask Again")) {
             halign = Gtk.Align.CENTER
         };
+        ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {

@@ -1,17 +1,16 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2022 Cassidy James Blaede <c@ssidyjam.es>
+ * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
  */
 
 public class Clairvoyant : Adw.Application {
-    public const string NAME = "Clairvoyant";
-    public const string DEVELOPER = "Cassidy James Blaede";
-
     public static GLib.Settings settings;
 
     public Clairvoyant () {
-        Object (application_id: APP_ID,
-        flags: ApplicationFlags.FLAGS_NONE);
+        Object (
+            application_id: APP_ID,
+            flags: ApplicationFlags.FLAGS_NONE
+        );
     }
 
     protected override void activate () {
