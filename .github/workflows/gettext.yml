@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-devel
     steps:
       - uses: actions/checkout@v4
       - name: Install deps
