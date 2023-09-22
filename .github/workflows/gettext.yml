@@ -10,6 +10,7 @@ on:
       - 'data/metainfo.appdata.xml.in'
       - 'po/LINGUAS'
       - 'po/POTFILES.in'
+      - '.github/workflows/gettext.yml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
