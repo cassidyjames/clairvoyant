@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install deps
         run: |
           sudo apt-get update
@@ -39,7 +39,7 @@ jobs:
         run: |
           git clone https://gitlab.gnome.org/GNOME/libadwaita.git /tmp/libadwaita
           cd /tmp/libadwaita
-          git checkout 1.2.0
+          git checkout 1.4.0
           meson . _build -Dexamples=false
           ninja -C _build
           sudo ninja -C _build install
