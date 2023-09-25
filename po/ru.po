@@ -372,7 +372,7 @@ msgstr "О приложении"
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:42
 msgid "translator-credits"
-msgstr "Alex Kryuchkov"
+msgstr "Alex Kryuchkov, Sergej A."
 
 #: src/MainWindow.vala:57
 msgid "Ask Again"
