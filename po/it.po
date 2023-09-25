@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 20:29+0000\n"
+"POT-Creation-Date: 2023-09-25 20:44+0000\n"
 "PO-Revision-Date: 2023-03-17 23:21+0100\n"
 "Last-Translator: Davide Ferracin <davide.ferracin@protonmail.com>\n"
 "Language-Team: Italian\n"
@@ -69,28 +69,33 @@ msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 "Faʼ quello che vuoi con le risposte, ma ricorda, ambasciator non porta pena!"
 
-#: data/metainfo.appdata.xml.in:31 src/FortuneLabel.vala:32
-msgid "You may rely on it."
+#: data/metainfo.appdata.xml.in:31
+#, fuzzy
+msgid "A positive answer, \"You may rely on it.\""
 msgstr "Ci puoi fare affidamento."
 
-#: data/metainfo.appdata.xml.in:35 src/FortuneLabel.vala:52
-msgid "Signs point to yes."
+#: data/metainfo.appdata.xml.in:35
+#, fuzzy
+msgid "A positive answer, \"Signs point to yes.\""
 msgstr "I segnali indicano di sì."
 
-#: data/metainfo.appdata.xml.in:39 src/FortuneLabel.vala:108
-msgid "Better not tell you now."
+#: data/metainfo.appdata.xml.in:39
+#, fuzzy
+msgid "A neutral answer, \"Better not tell you now.\""
 msgstr "Meglio non dirtelo adesso."
 
-#: data/metainfo.appdata.xml.in:43 src/FortuneLabel.vala:112
-msgid "Cannot predict now."
+#: data/metainfo.appdata.xml.in:43
+#, fuzzy
+msgid "A neutral answer, \"Cannot predict now.\""
 msgstr "Non posso prevederlo ora."
 
-#: data/metainfo.appdata.xml.in:47 src/FortuneLabel.vala:92
-msgid "Naw."
-msgstr "Nah."
+#: data/metainfo.appdata.xml.in:47
+msgid "A negative answer, \"Naw.\""
+msgstr ""
 
-#: data/metainfo.appdata.xml.in:51 src/FortuneLabel.vala:84
-msgid "Outlook not so good."
+#: data/metainfo.appdata.xml.in:51
+#, fuzzy
+msgid "A negative answer, \"Outlook not so good.\""
 msgstr "Le prospettive non sono così buone."
 
 #: data/metainfo.appdata.xml.in:59
@@ -318,6 +323,10 @@ msgstr "Senza dubbio."
 msgid "Yes—definitely."
 msgstr "Sì, sicuramente."
 
+#: src/FortuneLabel.vala:32
+msgid "You may rely on it."
+msgstr "Ci puoi fare affidamento."
+
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
 msgstr "Per come la vedo io, sì."
@@ -333,6 +342,10 @@ msgstr "Ci sono buone prospettive."
 #: src/FortuneLabel.vala:48
 msgid "Yes."
 msgstr "Sì."
+
+#: src/FortuneLabel.vala:52
+msgid "Signs point to yes."
+msgstr "I segnali indicano di sì."
 
 #: src/FortuneLabel.vala:56
 msgid "Yep!"
@@ -362,9 +375,17 @@ msgstr "La mia risposta è no."
 msgid "My sources say no."
 msgstr "Le mie fonti dicono di no."
 
+#: src/FortuneLabel.vala:84
+msgid "Outlook not so good."
+msgstr "Le prospettive non sono così buone."
+
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
 msgstr "Molto incerto."
+
+#: src/FortuneLabel.vala:92
+msgid "Naw."
+msgstr "Nah."
 
 # Is this a Star Wars quote?
 #: src/FortuneLabel.vala:96
@@ -378,6 +399,14 @@ msgstr "Risposta dubbiosa, riprova."
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
 msgstr "Richiedilo più tardi."
+
+#: src/FortuneLabel.vala:108
+msgid "Better not tell you now."
+msgstr "Meglio non dirtelo adesso."
+
+#: src/FortuneLabel.vala:112
+msgid "Cannot predict now."
+msgstr "Non posso prevederlo ora."
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."

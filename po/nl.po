@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 20:29+0000\n"
+"POT-Creation-Date: 2023-09-25 20:44+0000\n"
 "PO-Revision-Date: 2022-09-29 19:52+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
@@ -68,28 +68,33 @@ msgstr ""
 "Interpreteer de antwoorden op uw eigen manier, maar spreek mij er niet op "
 "aan!"
 
-#: data/metainfo.appdata.xml.in:31 src/FortuneLabel.vala:32
-msgid "You may rely on it."
+#: data/metainfo.appdata.xml.in:31
+#, fuzzy
+msgid "A positive answer, \"You may rely on it.\""
 msgstr "Je kunt er op vertrouwen."
 
-#: data/metainfo.appdata.xml.in:35 src/FortuneLabel.vala:52
-msgid "Signs point to yes."
+#: data/metainfo.appdata.xml.in:35
+#, fuzzy
+msgid "A positive answer, \"Signs point to yes.\""
 msgstr "De tekenen wijzen op 'ja'."
 
-#: data/metainfo.appdata.xml.in:39 src/FortuneLabel.vala:108
-msgid "Better not tell you now."
+#: data/metainfo.appdata.xml.in:39
+#, fuzzy
+msgid "A neutral answer, \"Better not tell you now.\""
 msgstr "Ik kan het u nu beter niet vertellen."
 
-#: data/metainfo.appdata.xml.in:43 src/FortuneLabel.vala:112
-msgid "Cannot predict now."
+#: data/metainfo.appdata.xml.in:43
+#, fuzzy
+msgid "A neutral answer, \"Cannot predict now.\""
 msgstr "Dat is nu niet te voorspellen."
 
-#: data/metainfo.appdata.xml.in:47 src/FortuneLabel.vala:92
-msgid "Naw."
-msgstr "Noppes."
+#: data/metainfo.appdata.xml.in:47
+msgid "A negative answer, \"Naw.\""
+msgstr ""
 
-#: data/metainfo.appdata.xml.in:51 src/FortuneLabel.vala:84
-msgid "Outlook not so good."
+#: data/metainfo.appdata.xml.in:51
+#, fuzzy
+msgid "A negative answer, \"Outlook not so good.\""
 msgstr "Het vooruitzicht is niet best."
 
 #: data/metainfo.appdata.xml.in:59
@@ -315,6 +320,10 @@ msgstr "Geen twijfel mogelijk."
 msgid "Yes—definitely."
 msgstr "Zeer zeker."
 
+#: src/FortuneLabel.vala:32
+msgid "You may rely on it."
+msgstr "Je kunt er op vertrouwen."
+
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
 msgstr "Volgens mij wel."
@@ -330,6 +339,10 @@ msgstr "Het vooruitzicht is goed."
 #: src/FortuneLabel.vala:48
 msgid "Yes."
 msgstr "Ja."
+
+#: src/FortuneLabel.vala:52
+msgid "Signs point to yes."
+msgstr "De tekenen wijzen op 'ja'."
 
 #: src/FortuneLabel.vala:56
 msgid "Yep!"
@@ -359,9 +372,17 @@ msgstr "Mijn antwoord is ‘nee’."
 msgid "My sources say no."
 msgstr "Mijn bronnen zeggen ‘nee’."
 
+#: src/FortuneLabel.vala:84
+msgid "Outlook not so good."
+msgstr "Het vooruitzicht is niet best."
+
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
 msgstr "Zeer twijfelachtig."
+
+#: src/FortuneLabel.vala:92
+msgid "Naw."
+msgstr "Noppes."
 
 #: src/FortuneLabel.vala:96
 msgid "I’ve got a bad feeling about this…"
@@ -374,6 +395,14 @@ msgstr "De reactie is wazig; probeer het opnieuw."
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
 msgstr "Vraag het later nog eens."
+
+#: src/FortuneLabel.vala:108
+msgid "Better not tell you now."
+msgstr "Ik kan het u nu beter niet vertellen."
+
+#: src/FortuneLabel.vala:112
+msgid "Cannot predict now."
+msgstr "Dat is nu niet te voorspellen."
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."

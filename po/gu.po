@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 20:29+0000\n"
+"POT-Creation-Date: 2023-09-25 20:44+0000\n"
 "PO-Revision-Date: 2019-01-25 21:19-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -59,28 +59,28 @@ msgstr ""
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:31 src/FortuneLabel.vala:32
-msgid "You may rely on it."
+#: data/metainfo.appdata.xml.in:31
+msgid "A positive answer, \"You may rely on it.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:35 src/FortuneLabel.vala:52
-msgid "Signs point to yes."
+#: data/metainfo.appdata.xml.in:35
+msgid "A positive answer, \"Signs point to yes.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:39 src/FortuneLabel.vala:108
-msgid "Better not tell you now."
+#: data/metainfo.appdata.xml.in:39
+msgid "A neutral answer, \"Better not tell you now.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:43 src/FortuneLabel.vala:112
-msgid "Cannot predict now."
+#: data/metainfo.appdata.xml.in:43
+msgid "A neutral answer, \"Cannot predict now.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:47 src/FortuneLabel.vala:92
-msgid "Naw."
+#: data/metainfo.appdata.xml.in:47
+msgid "A negative answer, \"Naw.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:51 src/FortuneLabel.vala:84
-msgid "Outlook not so good."
+#: data/metainfo.appdata.xml.in:51
+msgid "A negative answer, \"Outlook not so good.\""
 msgstr ""
 
 #: data/metainfo.appdata.xml.in:59
@@ -295,6 +295,10 @@ msgstr ""
 msgid "Yes—definitely."
 msgstr ""
 
+#: src/FortuneLabel.vala:32
+msgid "You may rely on it."
+msgstr ""
+
 #: src/FortuneLabel.vala:36
 msgid "As I see it, yes."
 msgstr ""
@@ -309,6 +313,10 @@ msgstr ""
 
 #: src/FortuneLabel.vala:48
 msgid "Yes."
+msgstr ""
+
+#: src/FortuneLabel.vala:52
+msgid "Signs point to yes."
 msgstr ""
 
 #: src/FortuneLabel.vala:56
@@ -339,8 +347,16 @@ msgstr ""
 msgid "My sources say no."
 msgstr ""
 
+#: src/FortuneLabel.vala:84
+msgid "Outlook not so good."
+msgstr ""
+
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
+msgstr ""
+
+#: src/FortuneLabel.vala:92
+msgid "Naw."
 msgstr ""
 
 #: src/FortuneLabel.vala:96
@@ -353,6 +369,14 @@ msgstr ""
 
 #: src/FortuneLabel.vala:104
 msgid "Ask again later."
+msgstr ""
+
+#: src/FortuneLabel.vala:108
+msgid "Better not tell you now."
+msgstr ""
+
+#: src/FortuneLabel.vala:112
+msgid "Cannot predict now."
 msgstr ""
 
 #: src/FortuneLabel.vala:116
