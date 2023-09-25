@@ -54,13 +54,18 @@
   </screenshots>
 
   <releases>
-    <release version="3.1.0" date="2023-09-21">
+    <release version="3.1.0" date="2023-09-25">
       <description>
         <p>Deep Purple</p>
         <ul>
           <li>New look inspired by the deep purples from the icon</li>
           <li>More information in the About window</li>
           <li>Updated for GNOME 45 and Adwaita 1.4</li>
+        </ul>
+        <p>Updated translations</p>
+        <ul>
+          <li>Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)</li>
+          <li>Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)</li>
         </ul>
       </description>
     </release>
