@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-26 22:53+0000\n"
-"PO-Revision-Date: 2023-09-22 21:37+0300\n"
+"PO-Revision-Date: 2023-09-27 09:25+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -71,70 +71,60 @@ msgstr ""
 "Робить з цими відповідями що бажаєте - головне не пристрельте відправника!"
 
 #: data/metainfo.appdata.xml.in:31
-#, fuzzy
 msgid "A positive answer, \"You may rely on it.\""
-msgstr "Ви можете покластися на це."
+msgstr "(Позитивна відповідь) \"Ви можете покластися на це.\""
 
 #: data/metainfo.appdata.xml.in:35
-#, fuzzy
 msgid "A positive answer, \"Signs point to yes.\""
-msgstr "Знаки вказують на так."
+msgstr "(Позитивна відповідь) \"Знаки вказують на так.\""
 
 #: data/metainfo.appdata.xml.in:39
-#, fuzzy
 msgid "A neutral answer, \"Better not tell you now.\""
-msgstr "Краще не буду казати вам."
+msgstr "(Нейтральна відповідь) \"Краще не буду казати вам.\""
 
 #: data/metainfo.appdata.xml.in:43
-#, fuzzy
 msgid "A neutral answer, \"Cannot predict now.\""
-msgstr "Не можу передбачити зараз."
+msgstr "(Нейтральна відповідь) \"Не можу передбачити зараз.\""
 
 #: data/metainfo.appdata.xml.in:47
 msgid "A negative answer, \"Naw.\""
-msgstr ""
+msgstr "(Негативна відповідь) \"Нє.\""
 
 #: data/metainfo.appdata.xml.in:51
-#, fuzzy
 msgid "A negative answer, \"Outlook not so good.\""
-msgstr "Не дуже хороша перспектива."
+msgstr "(Негативна відповідь) \"Не дуже хороша перспектива.\""
 
 #: data/metainfo.appdata.xml.in:59 data/metainfo.appdata.xml.in:74
 msgid "Updated translations"
-msgstr ""
+msgstr "Оновлено переклади"
 
 #: data/metainfo.appdata.xml.in:61
-#, fuzzy
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr "Оновлено французький переклад дякуючи @rene-coty у GitHub"
+msgstr "Оновлено український переклад дякуючи Volkov (@Vovkiv у GitHub)"
 
 #: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:77
-#, fuzzy
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
-msgstr ""
-"Оновлено окситанський переклад дякуючи Quentin PAGÈS (@Mejans у GitHub)"
+msgstr "Оновлено російський переклад дякуючи Sergej A. (@Ser82-png у GitHub)"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Deep Purple"
-msgstr ""
+msgstr "Deep Purple"
 
 #: data/metainfo.appdata.xml.in:70
 msgid "New look inspired by the deep purples from the icon"
-msgstr ""
+msgstr "Новий візуальний дизайн"
 
 #: data/metainfo.appdata.xml.in:71
 msgid "More information in the About window"
-msgstr ""
+msgstr "Більше інформації в вікні \"Про додаток\""
 
 #: data/metainfo.appdata.xml.in:72
-#, fuzzy
 msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr "Оновлено для OS 6 і Flatpak"
+msgstr "Оновлено для GNOME версії 45 і бібліотеки Adwaita 1.4"
 
 #: data/metainfo.appdata.xml.in:76
-#, fuzzy
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr "Оновлено німецький переклад дякуючи @FineFindus у GitHub"
+msgstr "Український переклад дякуючи Volkov (@Vovkiv у GitHub)"
 
 #: data/metainfo.appdata.xml.in:83
 msgid "Translations and GNOME 44"
@@ -204,7 +194,7 @@ msgstr "Додано ще 8 оригінальних реплік"
 
 #: data/metainfo.appdata.xml.in:118
 msgid "Added “About” window"
-msgstr "Додано вікно \"Про програму\""
+msgstr "Додано вікно \"Про додаток\""
 
 #: data/metainfo.appdata.xml.in:119
 msgid ""
