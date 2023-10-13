@@ -1,7 +1,7 @@
 # Portuguese translations for com.github.cassidyjames.clairvoyant package.
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
-# Translated by Elder Martins <eldermartins [at] fastmail.com>
+# Translated by Elder Martins <hello [at] eldermartins.com>
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-13 16:20-0300\n"
 "PO-Revision-Date: 2023-10-13 19:20-0300\n"
-"Last-Translator: Elder Martins <eldermartins [at] fastmail.com>\n"
+"Last-Translator: Elder Martins <hello [at] eldermartins.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
