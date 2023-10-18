@@ -2,21 +2,22 @@
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
 # NathanBnm, 2019.
+# Irénée THIRION <irenee.thirion@e.email>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-26 22:53+0000\n"
-"PO-Revision-Date: 2023-03-16 10:40+0100\n"
-"Last-Translator: Irénée Thirion <irenee.thirion@e.email>\n"
-"Language-Team: Français\n"
+"PO-Revision-Date: 2023-10-18 20:18+0200\n"
+"Last-Translator: Irénée THIRION <irenee.thirion@e.email>\n"
+"Language-Team: French <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 45.2\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
@@ -70,98 +71,90 @@ msgstr ""
 "messager !"
 
 #: data/metainfo.appdata.xml.in:31
-#, fuzzy
 msgid "A positive answer, \"You may rely on it.\""
-msgstr "Vous pouvez vous y fier."
+msgstr "Une réponse positive : « Vous pouvez vous y fier. »"
 
 #: data/metainfo.appdata.xml.in:35
-#, fuzzy
 msgid "A positive answer, \"Signs point to yes.\""
-msgstr "Tout porte à croire que oui."
+msgstr "Une réponse positive : « Tout porte à croire que oui. »"
 
 #: data/metainfo.appdata.xml.in:39
-#, fuzzy
 msgid "A neutral answer, \"Better not tell you now.\""
-msgstr "Je ferais mieux de ne pas vous le dire maintenant."
+msgstr ""
+"Une réponse neutre : « Je ferais mieux de ne pas vous le dire maintenant. »"
 
 #: data/metainfo.appdata.xml.in:43
-#, fuzzy
 msgid "A neutral answer, \"Cannot predict now.\""
-msgstr "Je ne peux pas prédire maintenant."
+msgstr "Une réponse neutre : « Je ne peux pas prédire maintenant. »"
 
 #: data/metainfo.appdata.xml.in:47
 msgid "A negative answer, \"Naw.\""
-msgstr ""
+msgstr "Une réponse négative : « Nan »"
 
 #: data/metainfo.appdata.xml.in:51
-#, fuzzy
 msgid "A negative answer, \"Outlook not so good.\""
-msgstr "Les perspectives ne sont pas si bonnes."
+msgstr "Une réponse négative : « Les perspectives ne sont pas si bonnes. »"
 
 #: data/metainfo.appdata.xml.in:59 data/metainfo.appdata.xml.in:74
 msgid "Updated translations"
-msgstr ""
+msgstr "Traductions mises à jour"
 
 #: data/metainfo.appdata.xml.in:61
-#, fuzzy
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr "Traductions espagnoles grâce à @kevincos5"
+msgstr "Traduction ukrainienne mise à jour grâce à Volkov (@Vovkiv sur GitHub)"
 
 #: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:77
-#, fuzzy
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
-msgstr "Traductions françaises grâce à @NathanBnm"
+msgstr "Traduction russe mise à jour grâce à Sergei A. (@Ser82-png sur GitHub)"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Deep Purple"
-msgstr ""
+msgstr "Violet profond"
 
 #: data/metainfo.appdata.xml.in:70
 msgid "New look inspired by the deep purples from the icon"
-msgstr ""
+msgstr "Nouveau look inspiré par les nuances violettes profondes de l’icône"
 
 #: data/metainfo.appdata.xml.in:71
 msgid "More information in the About window"
-msgstr ""
+msgstr "Plus d’informations dans la fenêtre À propos"
 
 #: data/metainfo.appdata.xml.in:72
-#, fuzzy
 msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr "Mise à jour vers elementary OS 6 et Flatpak"
+msgstr "Mise à jour pour GNOME 45 et Adwaita 1.4"
 
 #: data/metainfo.appdata.xml.in:76
-#, fuzzy
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr "Traductions espagnoles grâce à @kevincos5"
+msgstr "Traduction ukrainienne grâce à Volkov (@Vovkiv sur GitHub)"
 
 #: data/metainfo.appdata.xml.in:83
 msgid "Translations and GNOME 44"
-msgstr ""
+msgstr "Traductions et GNOME 44"
 
 #: data/metainfo.appdata.xml.in:85
-#, fuzzy
 msgid "German translations thanks to @FineFindus on GitHub"
-msgstr "Traductions espagnoles grâce à @kevincos5"
+msgstr "Traduction allemande grâce à @FineFindus sur GitHub"
 
 #: data/metainfo.appdata.xml.in:86
-#, fuzzy
 msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr "Traductions françaises grâce à @NathanBnm"
+msgstr "Traduction française mise à jour grâce à @rene-coty sur GitHub"
 
 #: data/metainfo.appdata.xml.in:87
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
+"Traduction italienne mise à jour grâce à Davide Ferracin (@phaerrax sur "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:88
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
+"Traduction occitane mise à jour grâce à Quentin PAGÈS (@Mejans sur GitHub)"
 
 #: data/metainfo.appdata.xml.in:89
-#, fuzzy
 msgid "Updated to the latest GNOME runtime"
-msgstr "Mise à jour de l’environnement d’exécution vers GNOME 43"
+msgstr "Mise à jour vers le dernier environnement d’exécution GNOME"
 
 #: data/metainfo.appdata.xml.in:95
 msgid "Update for GNOME Circle consideration"
