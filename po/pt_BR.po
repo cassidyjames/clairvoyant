@@ -403,7 +403,7 @@ msgstr "Sobre"
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:29
 msgid "translator-credits"
-msgstr ""
+msgstr "Elder Martins <hello@eldermartins.com>"
 
 #: src/MainWindow.vala:49
 msgid "Ask Again"
