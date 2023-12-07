@@ -56,7 +56,9 @@ msgstr "Faça uma pergunta e abra o Clarividente para obter a resposta."
 
 #: data/metainfo.appdata.xml.in:15
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr "Não foi suficiente? Pergunte novamente e depois clique em \"Perguntar novamente\" para tentar mais uma vez."
+msgstr ""
+"Não foi suficiente? Pergunte novamente e depois clique em \"Perguntar "
+"novamente\" para tentar mais uma vez."
 
 #: data/metainfo.appdata.xml.in:16
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
@@ -288,7 +290,8 @@ msgstr "Expansão na descrição"
 msgid "Change price to $1"
 msgstr "Alteração do preço para $1"
 
-#: data/metainfo.appdata.xml.in:198 src/FortuneLabel.vala:20
+#. /TRANSLATORS: Positive response
+#: data/metainfo.appdata.xml.in:198 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "Com certeza!"
 
@@ -296,112 +299,138 @@ msgstr "Com certeza!"
 msgid "Initial release"
 msgstr "Lançamento inicial"
 
-#: src/FortuneLabel.vala:16
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/FortuneLabel.vala:17
 msgid "It is certain."
 msgstr "Isso é certo."
 
-#: src/FortuneLabel.vala:24
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:27
 msgid "Without a doubt."
 msgstr "Sem dúvida."
 
-#: src/FortuneLabel.vala:28
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/FortuneLabel.vala:32
 msgid "Yes—definitely."
 msgstr "Definitivamente sim."
 
-#: src/FortuneLabel.vala:32
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:37
 msgid "You may rely on it."
 msgstr "Pode confiar."
 
-#: src/FortuneLabel.vala:36
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
 msgstr "Da forma que eu vejo, sim."
 
-#: src/FortuneLabel.vala:40
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:47
 msgid "Most likely."
 msgstr "Muito provavelmente."
 
-#: src/FortuneLabel.vala:44
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:52
 msgid "Outlook good."
 msgstr "Parece bom."
 
-#: src/FortuneLabel.vala:48
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:57
 msgid "Yes."
 msgstr "Sim."
 
-#: src/FortuneLabel.vala:52
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:62
 msgid "Signs point to yes."
 msgstr "Sinais me apontam que sim."
 
 # A intenção é um "sim" mais informal - Rafael
-#: src/FortuneLabel.vala:56
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:67
 msgid "Yep!"
 msgstr "É!"
 
-#: src/FortuneLabel.vala:60
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:72
 msgid "Absolutely!"
 msgstr "Absolutamente!"
 
-#: src/FortuneLabel.vala:64
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:77
 msgid "You bet!"
 msgstr "Pode apostar!"
 
-#: src/FortuneLabel.vala:68
+#: src/FortuneLabel.vala:81
 msgid "Confirmed."
 msgstr "Confirmado."
 
-#: src/FortuneLabel.vala:72
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
 msgstr "Não conte com isso."
 
-#: src/FortuneLabel.vala:76
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:91
 msgid "My reply is no."
 msgstr "Minha resposta é não."
 
-#: src/FortuneLabel.vala:80
+#. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
+#: src/FortuneLabel.vala:96
 msgid "My sources say no."
 msgstr "Minhas fontes dizem que não."
 
-#: src/FortuneLabel.vala:84
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
 msgstr "A perspectiva não é boa."
 
-#: src/FortuneLabel.vala:88
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:106
 msgid "Very doubtful."
 msgstr "Bastante duvidoso."
 
-#: src/FortuneLabel.vala:92
+#. /TRANSLATORS: Negative response, casual
+#: src/FortuneLabel.vala:111
 msgid "Naw."
 msgstr "Não."
 
-#: src/FortuneLabel.vala:96
+#. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
+#: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
 msgstr "Eu tenho um mau pressentimento sobre isso…"
 
-#: src/FortuneLabel.vala:100
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:121
 msgid "Reply hazy, try again."
 msgstr "Resposta nebulosa, tente novamente."
 
-#: src/FortuneLabel.vala:104
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:126
 msgid "Ask again later."
 msgstr "Pergunte novamente em outra hora."
 
-#: src/FortuneLabel.vala:108
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:131
 msgid "Better not tell you now."
 msgstr "Melhor não te contar agora."
 
-#: src/FortuneLabel.vala:112
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:136
 msgid "Cannot predict now."
 msgstr "Não é possível prever agora."
 
-#: src/FortuneLabel.vala:116
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:141
 msgid "Concentrate and ask again."
 msgstr "Se concentre e pergunte novamente."
 
-#: src/FortuneLabel.vala:120
+#. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
+#: src/FortuneLabel.vala:146
 msgid "Impossible to see, the future is."
 msgstr "Impossível de ver, o futuro é."
 
-#: src/FortuneLabel.vala:124
+#. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
+#: src/FortuneLabel.vala:151
 msgid "404 Answer Not Found"
 msgstr "Erro 404 Resposta não encontrada"
 
