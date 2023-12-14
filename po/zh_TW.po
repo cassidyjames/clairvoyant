@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-03 17:41+0000\n"
-"PO-Revision-Date: 2023-08-02 21:19-0700\n"
+"PO-Revision-Date: 2023-12-14 21:19-0700\n"
 "Last-Translator: Oliver Tzeng（曾嘉禾）\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -46,9 +46,9 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
-"他喜歡你嗎？台灣會被武統嗎？X 會換回 Twitter 標誌嗎？"
-"Clairvoyant，辣個算命師即將幫你解答"
-"你的智障問題"
+"他喜歡你嗎？晚餐要吃滷肉飯嗎有問題的是人還是問題本身？"
+"Clairvoyant 算命師即將幫你解答"
+"你的問題"
 
 #: data/metainfo.appdata.xml.in:14
 msgid "Ask a question, then open Clairvoyant for an answer."
@@ -56,19 +56,19 @@ msgstr "先想好一個問題，然後開啟 Clairvoyant 取得答案"
 
 #: data/metainfo.appdata.xml.in:15
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr "不滿意得到的答案ㄇ？你可以按\"再問一次\"。"
+msgstr "不滿意得到的答案嗎？你可以按\"再問一次\"。"
 
 #: data/metainfo.appdata.xml.in:16
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr "你可以不相信你得到的答案，但請不要幹譙這位可黏的算命師"
+msgstr "你可以不相信你得到的答案，但請不要罵這位可憐的算命師"
 
 #: data/metainfo.appdata.xml.in:31 src/FortuneLabel.vala:32
 msgid "You may rely on it."
-msgstr "你可以依賴他"
+msgstr "你可能依賴他"
 
 #: data/metainfo.appdata.xml.in:35 src/FortuneLabel.vala:52
 msgid "Signs point to yes."
-msgstr "肯定的"
+msgstr "跡象顯示這可能為「是」"
 
 #: data/metainfo.appdata.xml.in:39 src/FortuneLabel.vala:108
 msgid "Better not tell you now."
@@ -88,31 +88,31 @@ msgstr "不會有太好的結局"
 
 #: data/metainfo.appdata.xml.in:59
 msgid "Deep Purple"
-msgstr ""
+msgstr "深紫色"
 
 #: data/metainfo.appdata.xml.in:61
 msgid "New look inspired by the deep purples from the icon"
-msgstr ""
+msgstr "以紫色圖示為底的新介面"
 
 #: data/metainfo.appdata.xml.in:62
 msgid "More information in the About window"
-msgstr ""
+msgstr "更多資訊在「關於」內"
 
 #: data/metainfo.appdata.xml.in:63
 msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr ""
+msgstr "增加 Gnome 45 和 Adwaita 1.4 支援"
 
 #: data/metainfo.appdata.xml.in:65
 msgid "Updated translations"
-msgstr ""
+msgstr "更新翻譯"
 
 #: data/metainfo.appdata.xml.in:67
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr ""
+msgstr "感謝 Volkov （GitHub：@Vovkiv）翻譯烏克蘭文"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
-msgstr ""
+msgstr "感謝 Sergej A.（GitHub：@Ser82-png）更新俄羅斯文翻譯"
 
 #: data/metainfo.appdata.xml.in:74
 msgid "Translations and GNOME 44"
@@ -120,25 +120,25 @@ msgstr "翻譯和 Gnome 44"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "German translations thanks to @FineFindus on GitHub"
-msgstr "感謝 FineFindus 在 GitHub 上翻譯德文"
+msgstr "感謝 @FineFindus 在 GitHub 上翻譯德文"
 
 #: data/metainfo.appdata.xml.in:77
 msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr "感謝 FineFindus 在 GitHub 上翻譯德文"
+msgstr "感謝 @rene-coty 在 GitHub 上翻譯法文"
 
 #: data/metainfo.appdata.xml.in:78
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
-msgstr "感謝 David Ferracin（GitHub: @phaerrax）在 GitHub 上翻譯德文"
+msgstr "感謝 David Ferracin（GitHub：@phaerrax）在 GitHub 上翻譯義大利文"
 
 #: data/metainfo.appdata.xml.in:79
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
-msgstr "感謝 Quentin PAGES（GitHub: @Mejans）在 GitHub 上翻譯奧克西坦文"
+msgstr "感謝 Quentin PAGÈS（GitHub：@Mejans）在 GitHub 上翻譯奧克西坦文"
 
 #: data/metainfo.appdata.xml.in:80
 msgid "Updated to the latest GNOME runtime"
-msgstr "已更新 Gnome 執行環境"
+msgstr "已更新至最新的 Gnome 執行環境"
 
 #: data/metainfo.appdata.xml.in:86
 msgid "Update for GNOME Circle consideration"
@@ -146,11 +146,11 @@ msgstr "Gnome Circle 的更新"
 
 #: data/metainfo.appdata.xml.in:88
 msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr "Ctrl+Q 或 Ctrl+W 關閉應用程式"
+msgstr "Ctrl+Q 或 Ctrl+W 以關閉應用程式"
 
 #: data/metainfo.appdata.xml.in:89
 msgid "Selectable answer for improved accessibility"
-msgstr "可更方便的選取的答案"
+msgstr "可更方便的選取答案"
 
 #: data/metainfo.appdata.xml.in:90
 msgid "Shorter summary for app listing"
@@ -160,15 +160,15 @@ msgstr "更短的概要以排序應用程式"
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
-msgstr "更好的圖示，可見度更高"
+msgstr "更好的圖示，在暗黑背景中可見度更高"
 
 #: data/metainfo.appdata.xml.in:101
 msgid "Hotfix: fix About window when closing and re-opening it"
-msgstr "修復「關於」視窗重新開啟時的錯誤"
+msgstr "修復「關於」視窗重新開啟時所產生的錯誤"
 
 #: data/metainfo.appdata.xml.in:106
 msgid "More fun for everyone"
-msgstr "更加好玩！"
+msgstr "趣味性大幅提升！"
 
 #: data/metainfo.appdata.xml.in:108
 msgid "Added eight more original replies"
@@ -187,16 +187,16 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:111
 msgid "Italian translations thanks to Albano Battistella"
-msgstr "感謝 Albano Battistella翻譯義大利文"
+msgstr "感謝 Albano Battistella 翻譯義大利文"
 
 #: data/metainfo.appdata.xml.in:112
 msgid "Updated runtime to GNOME 43"
-msgstr "更新執行環境到 Gnome 43"
+msgstr "更新執行環境至 Gnome 43"
 
 #: data/metainfo.appdata.xml.in:118
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
-msgstr "修復了一些崩潰視窗"
+msgstr "當使用者試圖選取不存在的設定時不會再次崩潰"
 
 #: data/metainfo.appdata.xml.in:123
 msgid "Hello, GNOME"
@@ -213,7 +213,7 @@ msgstr "Elementary → Gnome 風格"
 #: data/metainfo.appdata.xml.in:127
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
-msgstr "更新到最新的 Gnome 平台，包括 GTK4 和 libadwata"
+msgstr "更新至最新的 Gnome 平台，包括 GTK4 和 libadwata"
 
 #: data/metainfo.appdata.xml.in:133
 msgid "Hello, Odin"
@@ -241,7 +241,7 @@ msgstr "感謝 Micah Ilbery 的新圖示"
 
 #: data/metainfo.appdata.xml.in:149
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr "感謝 Michal Nowakoski 翻譯波蘭文"
+msgstr "感謝 Michał Nowakowski 翻譯波蘭文"
 
 #: data/metainfo.appdata.xml.in:154
 msgid "Dutch translations thanks to Heimen Stoffels"
@@ -281,7 +281,7 @@ msgstr "更換價格到 30 元"
 
 #: data/metainfo.appdata.xml.in:189 src/FortuneLabel.vala:20
 msgid "It is decidedly so."
-msgstr "當然"
+msgstr "這已是既定的事實"
 
 #: data/metainfo.appdata.xml.in:191
 msgid "Initial release"
@@ -321,11 +321,11 @@ msgstr "是的！"
 
 #: src/FortuneLabel.vala:60
 msgid "Absolutely!"
-msgstr "肯定是的"
+msgstr "這肯定的！"
 
 #: src/FortuneLabel.vala:64
 msgid "You bet!"
-msgstr "答案是肯定的"
+msgstr "答案是肯定的！"
 
 #: src/FortuneLabel.vala:68
 msgid "Confirmed."
@@ -341,7 +341,7 @@ msgstr "答案是否定的"
 
 #: src/FortuneLabel.vala:80
 msgid "My sources say no."
-msgstr "當然不會"
+msgstr "依目前情況推斷應該不會"
 
 #: src/FortuneLabel.vala:88
 msgid "Very doubtful."
@@ -361,7 +361,7 @@ msgstr "等等再問吧"
 
 #: src/FortuneLabel.vala:116
 msgid "Concentrate and ask again."
-msgstr "再問一次吧"
+msgstr "集中精神後再問一次吧"
 
 #: src/FortuneLabel.vala:120
 msgid "Impossible to see, the future is."
