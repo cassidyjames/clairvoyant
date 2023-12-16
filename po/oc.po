@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 20:44+0000\n"
+"POT-Creation-Date: 2023-12-07 20:59+0000\n"
 "PO-Revision-Date: 2023-03-21 19:20+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: none\n"
@@ -85,311 +85,342 @@ msgstr ""
 msgid "A negative answer, \"Outlook not so good.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:59
-msgid "Deep Purple"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:61
-msgid "New look inspired by the deep purples from the icon"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:62
-msgid "More information in the About window"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:63
-msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:65
+#: data/metainfo.appdata.xml.in:59 data/metainfo.appdata.xml.in:74
 msgid "Updated translations"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:67
-msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+#: data/metainfo.appdata.xml.in:61
+msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:68
+#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:77
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:74
-msgid "Translations and GNOME 44"
+#: data/metainfo.appdata.xml.in:68
+msgid "Deep Purple"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:70
+msgid "New look inspired by the deep purples from the icon"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:71
+msgid "More information in the About window"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:72
+msgid "Updated for GNOME 45 and Adwaita 1.4"
 msgstr ""
 
 #: data/metainfo.appdata.xml.in:76
+msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:83
+msgid "Translations and GNOME 44"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:85
 msgid "German translations thanks to @FineFindus on GitHub"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:77
+#: data/metainfo.appdata.xml.in:86
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:78
+#: data/metainfo.appdata.xml.in:87
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:79
+#: data/metainfo.appdata.xml.in:88
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:80
+#: data/metainfo.appdata.xml.in:89
 msgid "Updated to the latest GNOME runtime"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:86
+#: data/metainfo.appdata.xml.in:95
 msgid "Update for GNOME Circle consideration"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:88
+#: data/metainfo.appdata.xml.in:97
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:89
+#: data/metainfo.appdata.xml.in:98
 msgid "Selectable answer for improved accessibility"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:90
+#: data/metainfo.appdata.xml.in:99
 msgid "Shorter summary for app listing"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:96
+#: data/metainfo.appdata.xml.in:105
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:101
+#: data/metainfo.appdata.xml.in:110
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:106
+#: data/metainfo.appdata.xml.in:115
 msgid "More fun for everyone"
 msgstr "Mai de divertiment per totes"
 
-#: data/metainfo.appdata.xml.in:108
+#: data/metainfo.appdata.xml.in:117
 msgid "Added eight more original replies"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:109
+#: data/metainfo.appdata.xml.in:118
 msgid "Added “About” window"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:110
+#: data/metainfo.appdata.xml.in:119
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:111
+#: data/metainfo.appdata.xml.in:120
 msgid "Italian translations thanks to Albano Battistella"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:112
+#: data/metainfo.appdata.xml.in:121
 msgid "Updated runtime to GNOME 43"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:118
-msgid ""
-"Hotfix: fix a crash on startup from trying to access nonexistent settings"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:123
-msgid "Hello, GNOME"
-msgstr "Adiu, GNOME"
-
-#: data/metainfo.appdata.xml.in:125
-msgid "Whole new UI"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:126
-msgid "elementary → GNOME styling"
 msgstr ""
 
 #: data/metainfo.appdata.xml.in:127
 msgid ""
-"Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
+"Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:133
-msgid "Hello, Odin"
-msgstr "Adiu, Odin"
+#: data/metainfo.appdata.xml.in:132
+msgid "Hello, GNOME"
+msgstr "Adiu, GNOME"
+
+#: data/metainfo.appdata.xml.in:134
+msgid "Whole new UI"
+msgstr ""
 
 #: data/metainfo.appdata.xml.in:135
-msgid "Updated for OS 6 and Flatpak"
+msgid "elementary → GNOME styling"
 msgstr ""
 
 #: data/metainfo.appdata.xml.in:136
+msgid ""
+"Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:142
+msgid "Hello, Odin"
+msgstr "Adiu, Odin"
+
+#: data/metainfo.appdata.xml.in:144
+msgid "Updated for OS 6 and Flatpak"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:145
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:137
+#: data/metainfo.appdata.xml.in:146
 msgid "Portuguese translations thanks to André Barata"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:138
+#: data/metainfo.appdata.xml.in:147
 msgid "Spanish translations thanks to @kevincos5"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:144
+#: data/metainfo.appdata.xml.in:153
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:149
+#: data/metainfo.appdata.xml.in:158
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:154
+#: data/metainfo.appdata.xml.in:163
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:159
+#: data/metainfo.appdata.xml.in:168
 msgid "French translations thanks to @NathanBnm"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:164
+#: data/metainfo.appdata.xml.in:173
 msgid "Clairvoyant is now translatable."
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:169
+#: data/metainfo.appdata.xml.in:178
 msgid "Happy new year! This release contains AppData fixes."
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:174
+#: data/metainfo.appdata.xml.in:183
 msgid "Fix 48px icon"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:179
+#: data/metainfo.appdata.xml.in:188
 msgid "Post-release update"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:181
+#: data/metainfo.appdata.xml.in:190
 msgid "Clean up AppStream data"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:182
+#: data/metainfo.appdata.xml.in:191
 msgid "Expand on the description"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:183
+#: data/metainfo.appdata.xml.in:192
 msgid "Change price to $1"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:189 src/FortuneLabel.vala:20
+#. /TRANSLATORS: Positive response
+#: data/metainfo.appdata.xml.in:198 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "Es totalament aital."
 
-#: data/metainfo.appdata.xml.in:191
+#: data/metainfo.appdata.xml.in:200
 msgid "Initial release"
 msgstr "Primièr version"
 
-#: src/FortuneLabel.vala:16
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/FortuneLabel.vala:17
 msgid "It is certain."
 msgstr "Es segur."
 
-#: src/FortuneLabel.vala:24
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:27
 msgid "Without a doubt."
 msgstr "Sens cap de dobte."
 
-#: src/FortuneLabel.vala:28
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/FortuneLabel.vala:32
 msgid "Yes—definitely."
 msgstr "Òc—de segur."
 
-#: src/FortuneLabel.vala:32
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:37
 msgid "You may rely on it."
 msgstr ""
 
-#: src/FortuneLabel.vala:36
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
 msgstr "Coma o vesi, òc."
 
-#: src/FortuneLabel.vala:40
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:47
 msgid "Most likely."
 msgstr "Plan probablament."
 
-#: src/FortuneLabel.vala:44
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:52
 msgid "Outlook good."
 msgstr ""
 
-#: src/FortuneLabel.vala:48
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:57
 msgid "Yes."
 msgstr "Òc."
 
-#: src/FortuneLabel.vala:52
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:62
 msgid "Signs point to yes."
 msgstr ""
 
-#: src/FortuneLabel.vala:56
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:67
 msgid "Yep!"
 msgstr ""
 
-#: src/FortuneLabel.vala:60
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:72
 msgid "Absolutely!"
 msgstr "Absoludament !"
 
-#: src/FortuneLabel.vala:64
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:77
 msgid "You bet!"
 msgstr ""
 
-#: src/FortuneLabel.vala:68
+#: src/FortuneLabel.vala:81
 msgid "Confirmed."
 msgstr "Confirmat."
 
-#: src/FortuneLabel.vala:72
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
 msgstr "I comptetz pas."
 
-#: src/FortuneLabel.vala:76
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:91
 msgid "My reply is no."
 msgstr "Ma responsa es non."
 
-#: src/FortuneLabel.vala:80
+#. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
+#: src/FortuneLabel.vala:96
 msgid "My sources say no."
 msgstr "Mas fonts dison de non."
 
-#: src/FortuneLabel.vala:84
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
 msgstr ""
 
-#: src/FortuneLabel.vala:88
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:106
 msgid "Very doubtful."
 msgstr ""
 
-#: src/FortuneLabel.vala:92
+#. /TRANSLATORS: Negative response, casual
+#: src/FortuneLabel.vala:111
 msgid "Naw."
 msgstr "Nah."
 
-#: src/FortuneLabel.vala:96
+#. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
+#: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
 msgstr ""
 
-#: src/FortuneLabel.vala:100
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:121
 msgid "Reply hazy, try again."
 msgstr ""
 
-#: src/FortuneLabel.vala:104
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:126
 msgid "Ask again later."
 msgstr "Tornatz demandar mai tard."
 
-#: src/FortuneLabel.vala:108
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:131
 msgid "Better not tell you now."
 msgstr "Val mai vos dire pas ara."
 
-#: src/FortuneLabel.vala:112
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:136
 msgid "Cannot predict now."
 msgstr ""
 
-#: src/FortuneLabel.vala:116
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:141
 msgid "Concentrate and ask again."
 msgstr "Concentratz-vos e demandatz tornamai."
 
-#: src/FortuneLabel.vala:120
+#. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
+#: src/FortuneLabel.vala:146
 msgid "Impossible to see, the future is."
 msgstr ""
 
-#: src/FortuneLabel.vala:124
+#. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
+#: src/FortuneLabel.vala:151
 msgid "404 Answer Not Found"
 msgstr "404 Responsa pas trobada"
 
