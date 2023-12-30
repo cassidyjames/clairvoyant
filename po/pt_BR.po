@@ -1,15 +1,15 @@
-# Portuguese translations for com.github.cassidyjames.clairvoyant package.
-# Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# Brazilian Portuguese translations for com.github.cassidyjames.clairvoyant package.
+# Copyright (C) 2023 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
-# Automatically generated, 2019.
+# Translated by Elder Martins <hello [at] eldermartins.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-23 22:06+0000\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2023-10-13 16:20-0300\n"
+"PO-Revision-Date: 2023-12-03 12:24-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -19,340 +19,432 @@ msgstr ""
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clarividente"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Vidente"
 
 #: data/launcher.desktop.in:5
 msgid "Ask questions and get psychic answers"
-msgstr ""
+msgstr "Faça perguntas e obtenha respostas psíquicas"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "magia;oito;bola;8;cristal;🔮;médium;🎱;"
 
 #: data/metainfo.appdata.xml.in:9
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Faça perguntas e obtenha respostas psíquicas"
 
 #: data/metainfo.appdata.xml.in:10
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/metainfo.appdata.xml.in:12
 msgid ""
 "Does he love you? Should you have pizza for dinner? Is there such thing as a "
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
-msgstr ""
+msgstr "Será que ele te ama? Você deveria jantar pizza? Existe alguma pergunta "
+"que seja idiota? Descubra as respostas para essas e outras perguntas com "
+"Clarividente, o vidente inspirado na Bola 8 Mágica."
 
 #: data/metainfo.appdata.xml.in:14
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr ""
+msgstr "Faça uma pergunta e abra o Clarividente para obter a resposta."
 
 #: data/metainfo.appdata.xml.in:15
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
+"Não foi suficiente? Pergunte novamente e depois clique em \"Perguntar "
+"novamente\" para tentar mais uma vez."
 
 #: data/metainfo.appdata.xml.in:16
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "Faça o que quiser com as respostas, apenas não atire no mensageiro!"
 
-#: data/metainfo.appdata.xml.in:31 src/FortuneLabel.vala:52
-msgid "Signs point to yes."
-msgstr ""
+#: data/metainfo.appdata.xml.in:31
+msgid "A positive answer, \"You may rely on it.\""
+msgstr "Uma resposta positiva, \"Pode contar com isso.\""
 
-#: data/metainfo.appdata.xml.in:35 src/FortuneLabel.vala:60
-msgid "Absolutely!"
-msgstr ""
+#: data/metainfo.appdata.xml.in:35
+msgid "A positive answer, \"Signs point to yes.\""
+msgstr "Uma resposta positiva, \"Os sinais apontam que sim.\""
 
-#: data/metainfo.appdata.xml.in:39 src/FortuneLabel.vala:124
-msgid "404 Answer Not Found"
-msgstr ""
+#: data/metainfo.appdata.xml.in:39
+msgid "A neutral answer, \"Better not tell you now.\""
+msgstr "Uma resposta neutra, \"Melhor não saber agora.\""
 
-#: data/metainfo.appdata.xml.in:43 src/FortuneLabel.vala:120
-msgid "Impossible to see, the future is."
-msgstr ""
+#: data/metainfo.appdata.xml.in:43
+msgid "A neutral answer, \"Cannot predict now.\""
+msgstr "Uma resposta neutra, \"Impossível prever agora.\""
 
-#: data/metainfo.appdata.xml.in:47 src/FortuneLabel.vala:96
-msgid "I’ve got a bad feeling about this…"
-msgstr ""
+#: data/metainfo.appdata.xml.in:47
+msgid "A negative answer, \"Naw.\""
+msgstr "Uma resposta negativa, \"Não.\""
 
-#: data/metainfo.appdata.xml.in:51 src/FortuneLabel.vala:72
-msgid "Don’t count on it."
-msgstr ""
+#: data/metainfo.appdata.xml.in:51
+msgid "A negative answer, \"Outlook not so good.\""
+msgstr "Uma resposta negativa, \"A perspectiva não é muito boa.\""
 
-#: data/metainfo.appdata.xml.in:59
-msgid "Maintenance Release"
-msgstr ""
+#: data/metainfo.appdata.xml.in:59 data/metainfo.appdata.xml.in:74
+msgid "Updated translations"
+msgstr "Traduções atualizadas"
 
-#: data/metainfo.appdata.xml.in:67
-msgid "Translations and GNOME 44"
-msgstr ""
+#: data/metainfo.appdata.xml.in:61
+msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+msgstr "Traduções atualizadas para ucraniano por a Volkov (@Vovkiv no GitHub)"
 
-#: data/metainfo.appdata.xml.in:69
-msgid "German translations thanks to @FineFindus on GitHub"
-msgstr ""
+#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:77
+msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
+msgstr "Traduções atualizadas para o russo por a Sergej A. (@Ser82-png no GitHub)"
+
+#: data/metainfo.appdata.xml.in:68
+msgid "Deep Purple"
+msgstr "Deep Purple"
 
 #: data/metainfo.appdata.xml.in:70
-msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr ""
+msgid "New look inspired by the deep purples from the icon"
+msgstr "Novo visual inspirado pelo roxo escuro do ícone"
 
 #: data/metainfo.appdata.xml.in:71
-msgid ""
-"Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
-msgstr ""
+msgid "More information in the About window"
+msgstr "Mais informações na janela Sobre"
 
 #: data/metainfo.appdata.xml.in:72
-msgid ""
-"Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
-msgstr ""
+msgid "Updated for GNOME 45 and Adwaita 1.4"
+msgstr "Atualizado para o GNOME 45 e Adwaita 1.4"
 
-#: data/metainfo.appdata.xml.in:73
-msgid "Updated to the latest GNOME runtime"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:79
-msgid "Update for GNOME Circle consideration"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:81
-msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:82
-msgid "Selectable answer for improved accessibility"
-msgstr ""
+#: data/metainfo.appdata.xml.in:76
+msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+msgstr "Tradução para ucraniano graças a Volkov (@Vovkiv no GitHub)"
 
 #: data/metainfo.appdata.xml.in:83
-msgid "Shorter summary for app listing"
-msgstr ""
+msgid "Translations and GNOME 44"
+msgstr "Traduções e GNOME 44"
+
+#: data/metainfo.appdata.xml.in:85
+msgid "German translations thanks to @FineFindus on GitHub"
+msgstr "Tradução para alemão graças a @FineFindus no GitHub"
+
+#: data/metainfo.appdata.xml.in:86
+msgid "Updated French translations thanks to @rene-coty on GitHub"
+msgstr "Tradução para francês atualizada graça a @rene-coty no GitHub"
+
+#: data/metainfo.appdata.xml.in:87
+msgid "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
+msgstr "Tradução para italiano atualizada graças a Davide Ferracin (@phaerrax no GitHub)"
+
+#: data/metainfo.appdata.xml.in:88
+msgid "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
+msgstr "Tradução para occitano atualizada graças a Quentin PAGÈS (@Mejans no GitHub)"
 
 #: data/metainfo.appdata.xml.in:89
+msgid "Updated to the latest GNOME runtime"
+msgstr "Atualizado para o mais novo runtime do GNOME"
+
+#: data/metainfo.appdata.xml.in:95
+msgid "Update for GNOME Circle consideration"
+msgstr "Atualização para considerações do GNOME Circle"
+
+#: data/metainfo.appdata.xml.in:97
+msgid "Close with Ctrl+Q and Ctrl+W"
+msgstr "Fecha com Ctrl+Q e Ctrl+W"
+
+#: data/metainfo.appdata.xml.in:98
+msgid "Selectable answer for improved accessibility"
+msgstr "Resposta selecionável para uma melhor acessibilidade"
+
+#: data/metainfo.appdata.xml.in:99
+msgid "Shorter summary for app listing"
+msgstr "Resumo mais curto para listagem do aplicativo"
+
+#: data/metainfo.appdata.xml.in:105
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
+"Ícone sutilmente melhorado; deve estar mais visível na grade de aplicativos, "
+"no painel e em qualquer outro lugar com fundo escuro"
 
-#: data/metainfo.appdata.xml.in:94
+#: data/metainfo.appdata.xml.in:110
 msgid "Hotfix: fix About window when closing and re-opening it"
-msgstr ""
+msgstr "Hotfix: corrige a janela Sobre ao fechá-la e reabri-la"
 
-#: data/metainfo.appdata.xml.in:99
+#: data/metainfo.appdata.xml.in:115
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Mais diversão para todos"
 
-#: data/metainfo.appdata.xml.in:101
+#: data/metainfo.appdata.xml.in:117
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Adicionada mais oito respostas originais"
 
-#: data/metainfo.appdata.xml.in:102
+#: data/metainfo.appdata.xml.in:118
 msgid "Added “About” window"
-msgstr ""
+msgstr "Adicionada janela “Sobre”"
 
-#: data/metainfo.appdata.xml.in:103
+#: data/metainfo.appdata.xml.in:119
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Melhorias nas ferramentas do desenvolvedor para facilitar a atualização das "
+"traduções"
 
-#: data/metainfo.appdata.xml.in:104
+#: data/metainfo.appdata.xml.in:120
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Traduções para italiano graças a Albano Battistella"
 
-#: data/metainfo.appdata.xml.in:105
+#: data/metainfo.appdata.xml.in:121
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Runtime atualizado para GNOME 43"
 
-#: data/metainfo.appdata.xml.in:111
+#: data/metainfo.appdata.xml.in:127
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Hotfix: corrige uma falha na inicialização ao tentar acessar configurações "
+"inexistentes"
 
-#: data/metainfo.appdata.xml.in:116
+#: data/metainfo.appdata.xml.in:132
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Olá, GNOME"
 
-#: data/metainfo.appdata.xml.in:118
+#: data/metainfo.appdata.xml.in:134
 msgid "Whole new UI"
-msgstr ""
+msgstr "Toda uma nova UI"
 
-#: data/metainfo.appdata.xml.in:119
+#: data/metainfo.appdata.xml.in:135
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "Estilo elementary → GNOME"
 
-#: data/metainfo.appdata.xml.in:120
+#: data/metainfo.appdata.xml.in:136
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
-
-#: data/metainfo.appdata.xml.in:126
-msgid "Hello, Odin"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:128
-msgid "Updated for OS 6 and Flatpak"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:129
-msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:130
-msgid "Portuguese translations thanks to André Barata"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:131
-msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:137
-msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+"Atualização técnica para a plataforma GNOME mais recente, incluindo GTK4 e "
+"LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:142
-msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgid "Hello, Odin"
+msgstr "Olá, Odin"
+
+#: data/metainfo.appdata.xml.in:144
+msgid "Updated for OS 6 and Flatpak"
+msgstr "Atualizado para OS 6 e Flatpak"
+
+#: data/metainfo.appdata.xml.in:145
+msgid "Turkish translations thanks to Safak GENISOL"
+msgstr "Traduções para turco graças a Safak GENISOL"
+
+#: data/metainfo.appdata.xml.in:146
+msgid "Portuguese translations thanks to André Barata"
+msgstr "Traduções para português graças a André Barata"
 
 #: data/metainfo.appdata.xml.in:147
+msgid "Spanish translations thanks to @kevincos5"
+msgstr "Traduções para espanhol graças a @kevincos5"
+
+#: data/metainfo.appdata.xml.in:153
+msgid "Refreshed icons thanks to Micah Ilbery"
+msgstr "Ícones atualizados graças a Micah Ilbery"
+
+#: data/metainfo.appdata.xml.in:158
+msgid "Polish translations thanks to Michał Nowakowski"
+msgstr "Traduções para polonês graças a Michał Nowakowski"
+
+#: data/metainfo.appdata.xml.in:163
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Traduções para holandês graças a Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:152
+#: data/metainfo.appdata.xml.in:168
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Traduções para francês graças a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:157
+#: data/metainfo.appdata.xml.in:173
 msgid "Clairvoyant is now translatable."
-msgstr ""
+msgstr "Clarividente agora pode ser traduzido."
 
-#: data/metainfo.appdata.xml.in:162
+#: data/metainfo.appdata.xml.in:178
 msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
+msgstr "Feliz ano novo! Este lançamento contém correções de AppData."
 
-#: data/metainfo.appdata.xml.in:167
+#: data/metainfo.appdata.xml.in:183
 msgid "Fix 48px icon"
-msgstr ""
+msgstr "Corrige o ícone de 48px"
 
-#: data/metainfo.appdata.xml.in:172
+#: data/metainfo.appdata.xml.in:188
 msgid "Post-release update"
-msgstr ""
+msgstr "Atualização pós-lançamento"
 
-#: data/metainfo.appdata.xml.in:174
+#: data/metainfo.appdata.xml.in:190
 msgid "Clean up AppStream data"
-msgstr ""
+msgstr "Limpeza dos dados de AppStream"
 
-#: data/metainfo.appdata.xml.in:175
+#: data/metainfo.appdata.xml.in:191
 msgid "Expand on the description"
-msgstr ""
+msgstr "Expansão na descrição"
 
-#: data/metainfo.appdata.xml.in:176
+#: data/metainfo.appdata.xml.in:192
 msgid "Change price to $1"
-msgstr ""
+msgstr "Alteração do preço para $1"
 
-#: data/metainfo.appdata.xml.in:182 src/FortuneLabel.vala:20
+#. /TRANSLATORS: Positive response
+#: data/metainfo.appdata.xml.in:198 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Com certeza!"
 
-#: data/metainfo.appdata.xml.in:184
+#: data/metainfo.appdata.xml.in:200
 msgid "Initial release"
-msgstr ""
+msgstr "Lançamento inicial"
 
-#: src/FortuneLabel.vala:16
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/FortuneLabel.vala:17
 msgid "It is certain."
-msgstr ""
+msgstr "Isso é certo."
 
-#: src/FortuneLabel.vala:24
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:27
 msgid "Without a doubt."
-msgstr ""
+msgstr "Sem dúvida."
 
-#: src/FortuneLabel.vala:28
-msgid "Yes—definitely."
-msgstr ""
-
+#. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:32
+msgid "Yes—definitely."
+msgstr "Definitivamente sim."
+
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:37
 msgid "You may rely on it."
-msgstr ""
+msgstr "Pode confiar."
 
-#: src/FortuneLabel.vala:36
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Da forma que eu vejo, sim."
 
-#: src/FortuneLabel.vala:40
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:47
 msgid "Most likely."
-msgstr ""
+msgstr "Muito provavelmente."
 
-#: src/FortuneLabel.vala:44
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:52
 msgid "Outlook good."
-msgstr ""
+msgstr "Parece bom."
 
-#: src/FortuneLabel.vala:48
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:57
 msgid "Yes."
-msgstr ""
+msgstr "Sim."
 
-#: src/FortuneLabel.vala:56
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:62
+msgid "Signs point to yes."
+msgstr "Sinais me apontam que sim."
+
+# A intenção é um "sim" mais informal - Rafael
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:67
 msgid "Yep!"
-msgstr ""
+msgstr "É!"
 
-#: src/FortuneLabel.vala:64
+#. /TRANSLATORS: Positive response
+#: src/FortuneLabel.vala:72
+msgid "Absolutely!"
+msgstr "Absolutamente!"
+
+#. /TRANSLATORS: Positive response, casual
+#: src/FortuneLabel.vala:77
 msgid "You bet!"
-msgstr ""
+msgstr "Pode apostar!"
 
-#: src/FortuneLabel.vala:68
+#: src/FortuneLabel.vala:81
 msgid "Confirmed."
-msgstr ""
+msgstr "Confirmado."
 
-#: src/FortuneLabel.vala:76
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:86
+msgid "Don’t count on it."
+msgstr "Não conte com isso."
+
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:91
 msgid "My reply is no."
-msgstr ""
+msgstr "Minha resposta é não."
 
-#: src/FortuneLabel.vala:80
+#. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
+#: src/FortuneLabel.vala:96
 msgid "My sources say no."
-msgstr ""
+msgstr "Minhas fontes dizem que não."
 
-#: src/FortuneLabel.vala:84
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
-msgstr ""
+msgstr "A perspectiva não é boa."
 
-#: src/FortuneLabel.vala:88
+#. /TRANSLATORS: Negative response
+#: src/FortuneLabel.vala:106
 msgid "Very doubtful."
-msgstr ""
+msgstr "Bastante duvidoso."
 
-#: src/FortuneLabel.vala:92
+#. /TRANSLATORS: Negative response, casual
+#: src/FortuneLabel.vala:111
 msgid "Naw."
-msgstr ""
+msgstr "Não."
 
-#: src/FortuneLabel.vala:100
-msgid "Reply hazy, try again."
-msgstr ""
-
-#: src/FortuneLabel.vala:104
-msgid "Ask again later."
-msgstr ""
-
-#: src/FortuneLabel.vala:108
-msgid "Better not tell you now."
-msgstr ""
-
-#: src/FortuneLabel.vala:112
-msgid "Cannot predict now."
-msgstr ""
-
+#. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
 #: src/FortuneLabel.vala:116
-msgid "Concentrate and ask again."
-msgstr ""
+msgid "I’ve got a bad feeling about this…"
+msgstr "Eu tenho um mau pressentimento sobre isso…"
 
-#: src/MainWindow.vala:20
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:121
+msgid "Reply hazy, try again."
+msgstr "Resposta nebulosa, tente novamente."
+
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:126
+msgid "Ask again later."
+msgstr "Pergunte novamente em outra hora."
+
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:131
+msgid "Better not tell you now."
+msgstr "Melhor não te contar agora."
+
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:136
+msgid "Cannot predict now."
+msgstr "Não é possível prever agora."
+
+#. /TRANSLATORS: Neutral response
+#: src/FortuneLabel.vala:141
+msgid "Concentrate and ask again."
+msgstr "Se concentre e pergunte novamente."
+
+#. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
+#: src/FortuneLabel.vala:146
+msgid "Impossible to see, the future is."
+msgstr "Impossível de ver, o futuro é."
+
+#. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
+#: src/FortuneLabel.vala:151
+msgid "404 Answer Not Found"
+msgstr "Erro 404 Resposta não encontrada"
+
+#: src/MainWindow.vala:18
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:42
+#: src/MainWindow.vala:29
 msgid "translator-credits"
 msgstr ""
+"Elder Martins <hello@eldermartins.com>\n"
+"Rafael Fontenelle <rafaelff@gnome.org>"
 
-#: src/MainWindow.vala:57
+#: src/MainWindow.vala:49
 msgid "Ask Again"
-msgstr ""
+msgstr "Pergunte novamente"

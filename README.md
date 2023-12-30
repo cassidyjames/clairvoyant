@@ -14,9 +14,14 @@ Does he love you? Should you have pizza for dinner? Is there such thing as a stu
 
 ## Made for GNOME
 
-Clairvoyant 3 was designed and developed on and for GNOME. As such, contributors agree to abide by the [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct).
+Clairvoyant is designed and developed on and for GNOME. As such, contributors agree to abide by the [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct).
 
-<a href='https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant'><img width='180' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.svg'/></a>
+<a href='https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant'><img width='196' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.svg'/></a>
+
+> [!IMPORTANT]
+> **Clairvoyant is on Flathub!** 🎉️ Get the latest version with a refreshed design from [Flathub].
+>
+>If you're on elementary OS, **the AppCenter version is no longer maintained or receiving updates.** Install from [Flathub] to get the latest design and future updates.
 
 ## Developing and Building
 

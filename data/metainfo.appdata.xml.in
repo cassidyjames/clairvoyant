@@ -28,33 +28,42 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>You may rely on it.</caption>
+      <caption>A positive answer, "You may rely on it."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes.png</image>
     </screenshot>
     <screenshot>
-      <caption>Signs point to yes.</caption>
+      <caption>A positive answer, "Signs point to yes."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>Better not tell you now.</caption>
+      <caption>A neutral answer, "Better not tell you now."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe.png</image>
     </screenshot>
     <screenshot>
-      <caption>Cannot predict now.</caption>
+      <caption>A neutral answer, "Cannot predict now."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>Naw.</caption>
+      <caption>A negative answer, "Naw."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no.png</image>
     </screenshot>
     <screenshot>
-      <caption>Outlook not so good.</caption>
+      <caption>A negative answer, "Outlook not so good."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no-dark.png</image>
     </screenshot>
   </screenshots>
 
   <releases>
-    <release version="3.1.0" date="2023-09-25">
+    <release version="3.1.3">
+      <description>
+        <p>Updated translations</p>
+        <ul>
+          <li>Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)</li>
+          <li>Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.2" date="2023-09-25">
       <description>
         <p>Deep Purple</p>
         <ul>
