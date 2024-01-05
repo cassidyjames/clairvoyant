@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 20:59+0000\n"
+"POT-Creation-Date: 2024-01-05 21:48+0000\n"
 "PO-Revision-Date: 2022-09-29 19:52+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
@@ -40,11 +40,7 @@ msgstr "magisch;acht;ball;8;kristal;🔮;medium;🎱;"
 msgid "Ask questions, get psychic answers"
 msgstr "Stel vragen en krijg paranormale antwoorden"
 
-#: data/metainfo.appdata.xml.in:10
-msgid "Cassidy James Blaede"
-msgstr "Cassidy James Blaede"
-
-#: data/metainfo.appdata.xml.in:12
+#: data/metainfo.appdata.xml.in:15
 msgid ""
 "Does he love you? Should you have pizza for dinner? Is there such thing as a "
 "stupid question? Discover the answers to these questions and more with "
@@ -54,153 +50,148 @@ msgstr ""
 "als een ‘domme vraag’? Vind de antwoorden op deze vragen met Clairvoyant, de "
 "door de magische 8-ball geïnspireerde waarzegger."
 
-#: data/metainfo.appdata.xml.in:14
+#: data/metainfo.appdata.xml.in:17
 msgid "Ask a question, then open Clairvoyant for an answer."
 msgstr "Stel een vraag en open Clairvoyant om een antwoord te krijgen."
 
-#: data/metainfo.appdata.xml.in:15
+#: data/metainfo.appdata.xml.in:18
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr "Ontevreden? Vraag het opnieuw en klik op ‘Opnieuw vragen’."
 
-#: data/metainfo.appdata.xml.in:16
+#: data/metainfo.appdata.xml.in:19
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 "Interpreteer de antwoorden op uw eigen manier, maar spreek mij er niet op "
 "aan!"
 
-#: data/metainfo.appdata.xml.in:31
+#: data/metainfo.appdata.xml.in:34
 #, fuzzy
 msgid "A positive answer, \"You may rely on it.\""
 msgstr "Je kunt er op vertrouwen."
 
-#: data/metainfo.appdata.xml.in:35
+#: data/metainfo.appdata.xml.in:38
 #, fuzzy
 msgid "A positive answer, \"Signs point to yes.\""
 msgstr "De tekenen wijzen op 'ja'."
 
-#: data/metainfo.appdata.xml.in:39
+#: data/metainfo.appdata.xml.in:42
 #, fuzzy
 msgid "A neutral answer, \"Better not tell you now.\""
 msgstr "Ik kan het u nu beter niet vertellen."
 
-#: data/metainfo.appdata.xml.in:43
+#: data/metainfo.appdata.xml.in:46
 #, fuzzy
 msgid "A neutral answer, \"Cannot predict now.\""
 msgstr "Dat is nu niet te voorspellen."
 
-#: data/metainfo.appdata.xml.in:47
+#: data/metainfo.appdata.xml.in:50
 msgid "A negative answer, \"Naw.\""
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:51
+#: data/metainfo.appdata.xml.in:54
 #, fuzzy
 msgid "A negative answer, \"Outlook not so good.\""
 msgstr "Het vooruitzicht is niet best."
 
-#: data/metainfo.appdata.xml.in:59 data/metainfo.appdata.xml.in:74
-msgid "Updated translations"
-msgstr ""
-
-#: data/metainfo.appdata.xml.in:61
-#, fuzzy
-msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr "Spaanse vertaling, met dank aan @kevincos5"
-
-#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:77
-#, fuzzy
-msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
-msgstr "Franse vertaling, met dank aan @NathanBnm"
-
-#: data/metainfo.appdata.xml.in:68
+#: data/metainfo.appdata.xml.in:71
 msgid "Deep Purple"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:70
+#: data/metainfo.appdata.xml.in:73
 msgid "New look inspired by the deep purples from the icon"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:71
+#: data/metainfo.appdata.xml.in:74
 msgid "More information in the About window"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:72
+#: data/metainfo.appdata.xml.in:75
 #, fuzzy
 msgid "Updated for GNOME 45 and Adwaita 1.4"
 msgstr "Bijgewerkt voor OS 6 en Flatpak"
 
-#: data/metainfo.appdata.xml.in:76
+#: data/metainfo.appdata.xml.in:77
+msgid "Updated translations"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:79
 #, fuzzy
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "Spaanse vertaling, met dank aan @kevincos5"
 
-#: data/metainfo.appdata.xml.in:83
+#: data/metainfo.appdata.xml.in:80
+#, fuzzy
+msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
+msgstr "Franse vertaling, met dank aan @NathanBnm"
+
+#: data/metainfo.appdata.xml.in:86
 msgid "Translations and GNOME 44"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:85
+#: data/metainfo.appdata.xml.in:88
 #, fuzzy
 msgid "German translations thanks to @FineFindus on GitHub"
 msgstr "Spaanse vertaling, met dank aan @kevincos5"
 
-#: data/metainfo.appdata.xml.in:86
+#: data/metainfo.appdata.xml.in:89
 #, fuzzy
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Franse vertaling, met dank aan @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:87
+#: data/metainfo.appdata.xml.in:90
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:88
+#: data/metainfo.appdata.xml.in:91
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:89
+#: data/metainfo.appdata.xml.in:92
 #, fuzzy
 msgid "Updated to the latest GNOME runtime"
 msgstr "Bijgewerkt: runtime (nu GNOME 43)"
 
-#: data/metainfo.appdata.xml.in:95
+#: data/metainfo.appdata.xml.in:98
 msgid "Update for GNOME Circle consideration"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:97
+#: data/metainfo.appdata.xml.in:100
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:98
+#: data/metainfo.appdata.xml.in:101
 msgid "Selectable answer for improved accessibility"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:99
+#: data/metainfo.appdata.xml.in:102
 msgid "Shorter summary for app listing"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:105
+#: data/metainfo.appdata.xml.in:108
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:110
+#: data/metainfo.appdata.xml.in:113
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr "Opgelost: het venster ‘Over’ werd niet goed getoond na heropenen"
 
-#: data/metainfo.appdata.xml.in:115
+#: data/metainfo.appdata.xml.in:118
 msgid "More fun for everyone"
 msgstr "Meer plezier voor jou en mij"
 
-#: data/metainfo.appdata.xml.in:117
+#: data/metainfo.appdata.xml.in:120
 msgid "Added eight more original replies"
 msgstr "Nieuw: nog eens acht originele antwoorden"
 
-#: data/metainfo.appdata.xml.in:118
+#: data/metainfo.appdata.xml.in:121
 msgid "Added “About” window"
 msgstr "Nieuw: venster ‘Over’"
 
-#: data/metainfo.appdata.xml.in:119
+#: data/metainfo.appdata.xml.in:122
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
@@ -208,109 +199,109 @@ msgstr ""
 "Verbeteringen aan de ontwikkelaarshulpmiddelen om vertalingen eenvoudiger "
 "bij te kunnen werken"
 
-#: data/metainfo.appdata.xml.in:120
+#: data/metainfo.appdata.xml.in:123
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "Nieuw: Italiaanse vertaling, met dank aan Albano Battistella"
 
-#: data/metainfo.appdata.xml.in:121
+#: data/metainfo.appdata.xml.in:124
 msgid "Updated runtime to GNOME 43"
 msgstr "Bijgewerkt: runtime (nu GNOME 43)"
 
-#: data/metainfo.appdata.xml.in:127
+#: data/metainfo.appdata.xml.in:130
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 "Opgelost: crash na het opstarten omdat er gezocht werd naar niet-bestaande "
 "voorkeuren"
 
-#: data/metainfo.appdata.xml.in:132
+#: data/metainfo.appdata.xml.in:135
 msgid "Hello, GNOME"
 msgstr "Hallo, GNOME"
 
-#: data/metainfo.appdata.xml.in:134
+#: data/metainfo.appdata.xml.in:137
 msgid "Whole new UI"
 msgstr "Nieuw: volledig nieuwe vormgeving"
 
-#: data/metainfo.appdata.xml.in:135
+#: data/metainfo.appdata.xml.in:138
 msgid "elementary → GNOME styling"
 msgstr "elementary → GNOME-stijl"
 
-#: data/metainfo.appdata.xml.in:136
+#: data/metainfo.appdata.xml.in:139
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
 "Technische upgrade naar het nieuwste GNOME-platform met GTK4 en LibAdwaita"
 
-#: data/metainfo.appdata.xml.in:142
+#: data/metainfo.appdata.xml.in:145
 msgid "Hello, Odin"
 msgstr "Hallo, Odin"
 
-#: data/metainfo.appdata.xml.in:144
+#: data/metainfo.appdata.xml.in:147
 msgid "Updated for OS 6 and Flatpak"
 msgstr "Bijgewerkt voor OS 6 en Flatpak"
 
-#: data/metainfo.appdata.xml.in:145
+#: data/metainfo.appdata.xml.in:148
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "Turkse vertaling, met dank aan Safak GENISOL"
 
-#: data/metainfo.appdata.xml.in:146
+#: data/metainfo.appdata.xml.in:149
 msgid "Portuguese translations thanks to André Barata"
 msgstr "Portugese vertaling, met dank aan André Barata"
 
-#: data/metainfo.appdata.xml.in:147
+#: data/metainfo.appdata.xml.in:150
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "Spaanse vertaling, met dank aan @kevincos5"
 
-#: data/metainfo.appdata.xml.in:153
+#: data/metainfo.appdata.xml.in:156
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "Nieuwe pictogrammen, met dank aan Micah Ilbery"
 
-#: data/metainfo.appdata.xml.in:158
+#: data/metainfo.appdata.xml.in:161
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "Poolse vertaling, met dank aan Michał Nowakowski"
 
-#: data/metainfo.appdata.xml.in:163
+#: data/metainfo.appdata.xml.in:166
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "Nederlandse vertaling, met dank aan Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:168
+#: data/metainfo.appdata.xml.in:171
 msgid "French translations thanks to @NathanBnm"
 msgstr "Franse vertaling, met dank aan @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:173
+#: data/metainfo.appdata.xml.in:176
 msgid "Clairvoyant is now translatable."
 msgstr "Clairvoyant is nu vertaalbaar."
 
-#: data/metainfo.appdata.xml.in:178
+#: data/metainfo.appdata.xml.in:181
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "Gelukkig nieuwjaar! Deze versie bevat AppData-reparaties."
 
-#: data/metainfo.appdata.xml.in:183
+#: data/metainfo.appdata.xml.in:186
 msgid "Fix 48px icon"
 msgstr "48px-pictogram gerepareerd"
 
-#: data/metainfo.appdata.xml.in:188
+#: data/metainfo.appdata.xml.in:191
 msgid "Post-release update"
 msgstr "Achteraf vrijgegeven update"
 
-#: data/metainfo.appdata.xml.in:190
+#: data/metainfo.appdata.xml.in:193
 msgid "Clean up AppStream data"
 msgstr "AppStream-gegevens herordend"
 
-#: data/metainfo.appdata.xml.in:191
+#: data/metainfo.appdata.xml.in:194
 msgid "Expand on the description"
 msgstr "Omschrijving uitgebreid"
 
-#: data/metainfo.appdata.xml.in:192
+#: data/metainfo.appdata.xml.in:195
 msgid "Change price to $1"
 msgstr "Prijs gewijzigd in $1"
 
 #. /TRANSLATORS: Positive response
-#: data/metainfo.appdata.xml.in:198 src/FortuneLabel.vala:22
+#: data/metainfo.appdata.xml.in:201 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "Het is beslist zo."
 
-#: data/metainfo.appdata.xml.in:200
+#: data/metainfo.appdata.xml.in:203
 msgid "Initial release"
 msgstr "Eerste versie"
 
@@ -460,6 +451,13 @@ msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 #: src/MainWindow.vala:49
 msgid "Ask Again"
 msgstr "Opnieuw vragen"
+
+#~ msgid "Cassidy James Blaede"
+#~ msgstr "Cassidy James Blaede"
+
+#, fuzzy
+#~ msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+#~ msgstr "Spaanse vertaling, met dank aan @kevincos5"
 
 #~ msgid "Get psychic answers from this fortune teller"
 #~ msgstr "Krijg paranormale antwoorden van deze waarzegger"
