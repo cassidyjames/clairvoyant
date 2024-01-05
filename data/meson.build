@@ -9,7 +9,7 @@ install_data(
   rename: meson.project_name() + '-symbolic.svg'
 )
 
-i18n.merge_file(
+desktop_file = i18n.merge_file(
   input: 'launcher.desktop.in',
   output: meson.project_name() + '.desktop',
   po_dir: join_paths(meson.project_source_root(), 'po'),
@@ -18,7 +18,15 @@ i18n.merge_file(
   install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
-i18n.merge_file(
+# Validate Desktop
+desktop_utils = find_program('desktop-file-validate', required: false)
+if desktop_utils.found()
+  test('validate-desktop', desktop_utils,
+    args: [desktop_file]
+  )
+endif
+
+metainfo_file = i18n.merge_file(
   input: 'metainfo.appdata.xml.in',
   output: meson.project_name() + '.metainfo.xml',
   po_dir: join_paths(meson.project_source_root(), 'po'),
@@ -26,3 +34,13 @@ i18n.merge_file(
   install: true,
   install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
+
+# Validate Appdata
+appstreamcli = find_program('appstreamcli', required: false)
+if (appstreamcli.found())
+  test('validate-appdata',
+    appstreamcli,
+    args: ['validate', '--no-net', '--explain', metainfo_file],
+    workdir: meson.current_build_dir()
+  )
+endif
