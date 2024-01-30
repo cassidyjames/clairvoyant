@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-05 21:53+0000\n"
+"POT-Creation-Date: 2024-01-30 06:37+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: \n"
@@ -86,82 +86,118 @@ msgstr "Негативный ответ: «Нет.»"
 msgid "A negative answer, \"Outlook not so good.\""
 msgstr "Негативный ответ: «Перспективы не очень хорошие.»"
 
-#: data/metainfo.appdata.xml.in:71
-msgid "Deep Purple"
-msgstr "Тёмно-фиолетовый"
-
-#: data/metainfo.appdata.xml.in:73
-msgid "New look inspired by the deep purples from the icon"
-msgstr "Новый образ, вдохновленный тёмно-фиолетовыми оттенками значка"
-
-#: data/metainfo.appdata.xml.in:74
-msgid "More information in the About window"
-msgstr "Более подробная информация в окне «О приложении»"
-
-#: data/metainfo.appdata.xml.in:75
-msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr "Обновлено для GNOME 45 и Adwaita 1.4"
-
-#: data/metainfo.appdata.xml.in:77
+#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:82
 msgid "Updated translations"
 msgstr "Обновление переводов"
 
-#: data/metainfo.appdata.xml.in:79
-msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+#: data/metainfo.appdata.xml.in:64
+#, fuzzy
+msgid ""
+"Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
+"GitHub)"
+msgstr ""
+"Обновлён перевод на итальянский язык благодаря Davide Ferracin (@phaerrax on "
+"GitHub)"
+
+#: data/metainfo.appdata.xml.in:65
+#, fuzzy
+msgid ""
+"Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
+"GitHub)"
 msgstr "Перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
 
-#: data/metainfo.appdata.xml.in:80
+#: data/metainfo.appdata.xml.in:66
+msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+msgstr ""
+"Обновлён перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
+
+#: data/metainfo.appdata.xml.in:67 data/metainfo.appdata.xml.in:85
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr ""
 "Обновлён перевод на русский язык благодаря Sergej A. (@Ser82-png на GitHub)"
 
-#: data/metainfo.appdata.xml.in:86
-msgid "Translations and GNOME 44"
-msgstr "Переводы и GNOME 44"
-
-#: data/metainfo.appdata.xml.in:88
-msgid "German translations thanks to @FineFindus on GitHub"
-msgstr "Перевод на немецкий язык благодаря @FineFindus на GitHub"
-
-#: data/metainfo.appdata.xml.in:89
+#: data/metainfo.appdata.xml.in:68 data/metainfo.appdata.xml.in:94
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Обновлён перевод на французский язык благодаря @rene-coty на GitHub"
 
-#: data/metainfo.appdata.xml.in:90
+#: data/metainfo.appdata.xml.in:69
+#, fuzzy
+msgid ""
+"Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
+msgstr ""
+"Обновлён перевод на русский язык благодаря Sergej A. (@Ser82-png на GitHub)"
+
+#: data/metainfo.appdata.xml.in:70
+#, fuzzy
+msgid ""
+"Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
+"(@rffontenelle on GitHub)"
+msgstr ""
+"Обновлён перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
+
+#: data/metainfo.appdata.xml.in:76
+msgid "Deep Purple"
+msgstr "Тёмно-фиолетовый"
+
+#: data/metainfo.appdata.xml.in:78
+msgid "New look inspired by the deep purples from the icon"
+msgstr "Новый образ, вдохновленный тёмно-фиолетовыми оттенками значка"
+
+#: data/metainfo.appdata.xml.in:79
+msgid "More information in the About window"
+msgstr "Более подробная информация в окне «О приложении»"
+
+#: data/metainfo.appdata.xml.in:80
+msgid "Updated for GNOME 45 and Adwaita 1.4"
+msgstr "Обновлено для GNOME 45 и Adwaita 1.4"
+
+#: data/metainfo.appdata.xml.in:84
+msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
+msgstr "Перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
+
+#: data/metainfo.appdata.xml.in:91
+msgid "Translations and GNOME 44"
+msgstr "Переводы и GNOME 44"
+
+#: data/metainfo.appdata.xml.in:93
+msgid "German translations thanks to @FineFindus on GitHub"
+msgstr "Перевод на немецкий язык благодаря @FineFindus на GitHub"
+
+#: data/metainfo.appdata.xml.in:95
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
 "Обновлён перевод на итальянский язык благодаря Davide Ferracin (@phaerrax on "
 "GitHub)"
 
-#: data/metainfo.appdata.xml.in:91
+#: data/metainfo.appdata.xml.in:96
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
 "Обновлён перевод на окситанский язык благодаря Quentin PAGÈS (@Mejans on "
 "GitHub)"
 
-#: data/metainfo.appdata.xml.in:92
+#: data/metainfo.appdata.xml.in:97
 msgid "Updated to the latest GNOME runtime"
 msgstr "Обновлено до последней версии среды выполнения GNOME"
 
-#: data/metainfo.appdata.xml.in:98
+#: data/metainfo.appdata.xml.in:103
 msgid "Update for GNOME Circle consideration"
 msgstr "Обновление для рассмотрения в GNOME Circle"
 
-#: data/metainfo.appdata.xml.in:100
+#: data/metainfo.appdata.xml.in:105
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr "Закрытие с помощью Ctrl+Q и Ctrl+W"
 
-#: data/metainfo.appdata.xml.in:101
+#: data/metainfo.appdata.xml.in:106
 msgid "Selectable answer for improved accessibility"
 msgstr "Выбираемый ответ для расширения возможностей"
 
-#: data/metainfo.appdata.xml.in:102
+#: data/metainfo.appdata.xml.in:107
 msgid "Shorter summary for app listing"
 msgstr "Краткое резюме для списка приложений"
 
-#: data/metainfo.appdata.xml.in:108
+#: data/metainfo.appdata.xml.in:113
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
@@ -169,135 +205,135 @@ msgstr ""
 "Слегка улучшен значок. Он должен быть более заметен в сетке приложения, на "
 "панеле задач и в любом другом месте с тёмным фоном"
 
-#: data/metainfo.appdata.xml.in:113
+#: data/metainfo.appdata.xml.in:118
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
 "Исправление: исправлена ошибка с окном «О приложении» при его закрытии и "
 "повторном открытии"
 
-#: data/metainfo.appdata.xml.in:118
+#: data/metainfo.appdata.xml.in:123
 msgid "More fun for everyone"
 msgstr "Больше веселья для всех"
 
-#: data/metainfo.appdata.xml.in:120
+#: data/metainfo.appdata.xml.in:125
 msgid "Added eight more original replies"
 msgstr "Добавлено ещё восемь оригинальных ответов"
 
-#: data/metainfo.appdata.xml.in:121
+#: data/metainfo.appdata.xml.in:126
 msgid "Added “About” window"
 msgstr "Добавлено окно «О приложении»"
 
-#: data/metainfo.appdata.xml.in:122
+#: data/metainfo.appdata.xml.in:127
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
 "Улучшения в инструментах разработчика, облегчающие обновление переводов"
 
-#: data/metainfo.appdata.xml.in:123
+#: data/metainfo.appdata.xml.in:128
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "Перевод на итальянский язык благодаря Albano Battistella"
 
-#: data/metainfo.appdata.xml.in:124
+#: data/metainfo.appdata.xml.in:129
 msgid "Updated runtime to GNOME 43"
 msgstr "Обновлена среда выполнения до GNOME 43"
 
-#: data/metainfo.appdata.xml.in:130
+#: data/metainfo.appdata.xml.in:135
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 "Исправление: исправлен сбой при запуске из-за попытки доступа к "
 "несуществующим настройкам"
 
-#: data/metainfo.appdata.xml.in:135
+#: data/metainfo.appdata.xml.in:140
 msgid "Hello, GNOME"
 msgstr "Привет, GNOME"
 
-#: data/metainfo.appdata.xml.in:137
+#: data/metainfo.appdata.xml.in:142
 msgid "Whole new UI"
 msgstr "Совершенно новый пользовательский интерфейс"
 
-#: data/metainfo.appdata.xml.in:138
+#: data/metainfo.appdata.xml.in:143
 msgid "elementary → GNOME styling"
 msgstr "elementary → стиль GNOME"
 
-#: data/metainfo.appdata.xml.in:139
+#: data/metainfo.appdata.xml.in:144
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
 "Техническое обновление до последней версии платформы GNOME, включая GTK 4 и "
 "LibAdwaita"
 
-#: data/metainfo.appdata.xml.in:145
+#: data/metainfo.appdata.xml.in:150
 msgid "Hello, Odin"
 msgstr "Привет, Один"
 
-#: data/metainfo.appdata.xml.in:147
+#: data/metainfo.appdata.xml.in:152
 msgid "Updated for OS 6 and Flatpak"
 msgstr "Обновлено для OS 6 и Flatpak"
 
-#: data/metainfo.appdata.xml.in:148
+#: data/metainfo.appdata.xml.in:153
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "Перевод на турецкий язык благодаря Safak GENISOL"
 
-#: data/metainfo.appdata.xml.in:149
+#: data/metainfo.appdata.xml.in:154
 msgid "Portuguese translations thanks to André Barata"
 msgstr "Перевод на португальский язык благодаря André Barata"
 
-#: data/metainfo.appdata.xml.in:150
+#: data/metainfo.appdata.xml.in:155
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "Перевод на испанский язык благодаря @kevincos5"
 
-#: data/metainfo.appdata.xml.in:156
+#: data/metainfo.appdata.xml.in:161
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "Обновлены значки благодаря Micah Ilbery"
 
-#: data/metainfo.appdata.xml.in:161
+#: data/metainfo.appdata.xml.in:166
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "Перевод на польский язык благодаря Michał Nowakowski"
 
-#: data/metainfo.appdata.xml.in:166
+#: data/metainfo.appdata.xml.in:171
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "Перевод на голландский язык благодаря Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:171
+#: data/metainfo.appdata.xml.in:176
 msgid "French translations thanks to @NathanBnm"
 msgstr "Перевод на французский язык благодаря @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:176
+#: data/metainfo.appdata.xml.in:181
 msgid "Clairvoyant is now translatable."
 msgstr "«Провидец» теперь доступен для перевода."
 
-#: data/metainfo.appdata.xml.in:181
+#: data/metainfo.appdata.xml.in:186
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "С Новым Годом! Этот выпуск содержит исправления AppData."
 
-#: data/metainfo.appdata.xml.in:186
+#: data/metainfo.appdata.xml.in:191
 msgid "Fix 48px icon"
 msgstr "Исправлен значок размером 48px"
 
-#: data/metainfo.appdata.xml.in:191
+#: data/metainfo.appdata.xml.in:196
 msgid "Post-release update"
 msgstr "Пострелизное обновление"
 
-#: data/metainfo.appdata.xml.in:193
+#: data/metainfo.appdata.xml.in:198
 msgid "Clean up AppStream data"
 msgstr "Очистка данных AppStream"
 
-#: data/metainfo.appdata.xml.in:194
+#: data/metainfo.appdata.xml.in:199
 msgid "Expand on the description"
 msgstr "Развёрнутое описание"
 
-#: data/metainfo.appdata.xml.in:195
+#: data/metainfo.appdata.xml.in:200
 msgid "Change price to $1"
 msgstr "Изменена цена на $1"
 
 #. /TRANSLATORS: Positive response
-#: data/metainfo.appdata.xml.in:201 src/FortuneLabel.vala:22
+#: data/metainfo.appdata.xml.in:206 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "Это однозначно так."
 
-#: data/metainfo.appdata.xml.in:203
+#: data/metainfo.appdata.xml.in:208
 msgid "Initial release"
 msgstr "Первый выпуск"
 
@@ -446,13 +482,17 @@ msgstr ""
 "Alex Kryuchkov\n"
 "Ser82-png <asvmail.as@gmail.com>, 2023"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:52
 msgid "Ask Again"
 msgstr "Спросить ещё раз"
 
+#: src/MainWindow.vala:62
+msgid "Unsupported version of this app"
+msgstr ""
+
+#: src/MainWindow.vala:63
+msgid "_Learn More…"
+msgstr ""
+
 #~ msgid "Cassidy James Blaede"
 #~ msgstr "Cassidy James Blaede"
-
-#~ msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-#~ msgstr ""
-#~ "Обновлён перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
