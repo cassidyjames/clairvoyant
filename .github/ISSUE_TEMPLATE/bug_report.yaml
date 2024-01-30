@@ -28,11 +28,13 @@ body:
     id: os
     attributes:
       label: Operating system
+      description: What OS are you running the app on?
+      placeholder: e.g. Ubuntu, Fedora Silverblue, GNOME OS…
   - type: dropdown
     id: packaging
     attributes:
-      label: Packaging/distribution of app
-      multiple: false
+      label: Packaging/distribution
+      description: Where did you get Clairvoyant?
       options:
         - Compiled from source
         - Flatpak (Flathub)
@@ -42,6 +44,7 @@ body:
     id: packaging-other
     attributes:
       label: Specify “other” packaging
+      description: If you chose “other” above, name it here
   - type: textarea
     id: logs
     attributes:
