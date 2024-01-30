@@ -24,7 +24,7 @@ Clairvoyant is designed and developed on and for GNOME. As such, contributors ag
 >
 >If you're on elementary OS, **the AppCenter version is no longer maintained or receiving updates.** Install from [Flathub] to get the latest design and future updates.
 
-Clairvoyant is only distributed as a Flatpak via [Flathub]. Other packagaging formats and app stores are **not** supported by me.
+Clairvoyant is only distributed as a Flatpak via [Flathub]. Other packagaging formats and app stores are **not** supported by me. [Learn more →](https://cassidyjam.es/f)
 
 ## Developing and Building
 
