@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2023 Cassidy James Blaede <c@ssidyjam.es>
+ * SPDX-FileCopyrightText: 2018–2024 Cassidy James Blaede <c@ssidyjam.es>
  */
 
 public class MainWindow : Adw.Window {
@@ -44,20 +44,31 @@ public class MainWindow : Adw.Window {
         header.add_css_class ("flat");
         header.pack_start (about_button);
 
-        fortune_label = new FortuneLabel ();
+        fortune_label = new FortuneLabel () {
+            margin_top = 24,
+            margin_bottom = 24
+        };
 
         var ask_button = new Gtk.Button.with_label (_("Ask Again")) {
-            halign = Gtk.Align.CENTER
+            halign = Gtk.Align.CENTER,
+            margin_bottom = 48
         };
         ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
-        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
-            margin_bottom = 48
+        string[] env = Environ.get ();
+        string? container = Environ.get_variable (env, "container");
+
+        var banner = new Adw.Banner (_("Unsupported version of this app")) {
+            button_label = _("_Learn More…"),
+            revealed = container == null
         };
+
+        var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         main_layout.append (header);
         main_layout.append (fortune_label);
         main_layout.append (ask_button);
+        main_layout.append (banner);
 
         var window_handle = new Gtk.WindowHandle () {
             child = main_layout
@@ -71,6 +82,14 @@ public class MainWindow : Adw.Window {
 
         about_button.clicked.connect (() => about_window.present () );
         ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
+
+        banner.button_clicked.connect (() => {
+           try {
+                new Gtk.UriLauncher ("https://cassidyjam.es/f").launch.begin (null, null);
+            } catch (Error e) {
+                critical ("Unable to open link");
+            }
+        });
     }
 
     private void randomize_fortune (

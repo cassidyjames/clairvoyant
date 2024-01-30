@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018–2023 Cassidy James Blaede <c@ssidyjam.es> -->
+<!-- Copyright 2018–2024 Cassidy James Blaede <c@ssidyjam.es> -->
 <component type="desktop">
   <id>com.github.cassidyjames.clairvoyant</id>
   <metadata_license>CC0</metadata_license>
@@ -57,15 +57,19 @@
   </screenshots>
 
   <releases>
-<!--    <release version="3.1.3" date="2023-12-28">
+    <release version="3.1.3" date="2024-01-30">
       <description>
         <p>Updated translations</p>
         <ul>
+          <li>Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on GitHub)</li>
+          <li>Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on GitHub)</li>
           <li>Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)</li>
           <li>Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)</li>
-        </ul>
+          <li>Updated French translations thanks to @rene-coty on GitHub</li>
+          <li>Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)</li>
+          <li>Updated Brazilian Portuguese translations thanks to Rafael Fontenelle (@rffontenelle on GitHub)</li>
       </description>
-    </release>-->
+    </release>
     <release version="3.1.2" date="2023-09-25">
       <description>
         <p>Deep Purple</p>
