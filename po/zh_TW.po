@@ -56,6 +56,7 @@ msgstr "不滿意得到的答案嗎？你可以按\"再問一次\"。"
 
 #: data/metainfo.appdata.xml.in:19
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
+msgstr "你可以不相信你得到的答案，但請不要罵這位可憐的算命師"
 
 #: data/metainfo.appdata.xml.in:34
 msgid "A positive answer, \"You may rely on it.\""
@@ -328,14 +329,10 @@ msgstr ""
 msgid "Yep!"
 msgstr "是的！"
 
-#: src/FortuneLabel.vala:60
-msgid "Absolutely!"
-msgstr "這肯定的！"
-
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:72
 msgid "Absolutely!"
-msgstr ""
+msgstr "這肯定的！"
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:77
@@ -346,14 +343,10 @@ msgstr "答案是肯定的！"
 msgid "Confirmed."
 msgstr "肯定會的"
 
-#: src/FortuneLabel.vala:72
-msgid "Don’t count on it."
-msgstr "未必"
-
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
-msgstr ""
+msgstr "未必"
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:91
@@ -370,14 +363,10 @@ msgstr "依目前情況推斷應該不會"
 msgid "Very doubtful."
 msgstr "非常有可能不會"
 
-#: src/FortuneLabel.vala:96
-msgid "I’ve got a bad feeling about this…"
-msgstr "我有很不好的預感"
-
 #. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
 #: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "我有很不好的預感"
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:121
