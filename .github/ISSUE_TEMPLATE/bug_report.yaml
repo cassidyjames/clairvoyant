@@ -28,7 +28,6 @@ body:
     id: os
     attributes:
       label: Operating system
-      
   - type: dropdown
     id: packaging
     attributes:
@@ -41,7 +40,8 @@ body:
         - Other
   - type: input
     id: packaging-other
-    label: Specify “other” packaging
+    attributes:
+      label: Specify “other” packaging
   - type: textarea
     id: logs
     attributes:
