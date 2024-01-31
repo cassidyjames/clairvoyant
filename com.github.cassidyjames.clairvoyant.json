@@ -12,6 +12,21 @@
   ],
   "modules": [
     {
+      "name": "libportal",
+      "buildsystem": "meson",
+      "config-opts": [
+          "-Ddocs=false",
+          "-Dbackend-gtk4=enabled"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/flatpak/libportal.git",
+          "tag": "0.7.1"
+        }
+      ]
+    },
+    {
       "name": "clairvoyant",
       "buildsystem": "meson",
       "run-tests": true,

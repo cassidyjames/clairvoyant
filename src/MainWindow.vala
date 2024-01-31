@@ -9,6 +9,7 @@ public class MainWindow : Adw.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
+            icon_name: APP_ID,
             resizable: false
         );
     }
@@ -35,7 +36,6 @@ public class MainWindow : Adw.Window {
 
         // Set MainWindow properties from the AppData already fetched and parsed
         // by the AboutWindow construction
-        this.icon_name = about_window.application_icon;
         this.title = about_window.application_name;
 
         var header = new Gtk.HeaderBar () {
@@ -56,12 +56,20 @@ public class MainWindow : Adw.Window {
         ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
+        var portal = new Xdp.Portal ();
+
         string[] env = Environ.get ();
-        string? container = Environ.get_variable (env, "container");
+        string? flatpak = Environ.get_variable (env, "FLATPAK_ID");
+        string? appimage = Environ.get_variable (env, "APPIMAGE");
 
         var banner = new Adw.Banner (_("Unsupported version of this app")) {
             button_label = _("_Learn More…"),
-            revealed = container == null
+            revealed = (
+                appimage != null ||
+                flatpak != APP_ID ||
+                portal.running_under_snap () ||
+                ! portal.running_under_flatpak ()
+            )
         };
 
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
@@ -85,7 +93,7 @@ public class MainWindow : Adw.Window {
 
         banner.button_clicked.connect (() => {
            try {
-                new Gtk.UriLauncher ("https://cassidyjam.es/f").launch.begin (null, null);
+                new Gtk.UriLauncher (about_window.website).launch.begin (null, null);
             } catch (Error e) {
                 critical ("Unable to open link");
             }

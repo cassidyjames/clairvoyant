@@ -1,7 +1,7 @@
 project(
     'com.github.cassidyjames.clairvoyant',
     'vala', 'c',
-    version: '3.1.3',
+    version: '3.1.4',
     meson_version: '>=0.58',
 )
 
@@ -64,6 +64,7 @@ executable(
   dependencies: [
     dependency('gtk4'),
     dependency('libadwaita-1', version: '>=1.4'),
+    dependency('libportal'),
   ],
   c_args: c_args, vala_args: vala_args,
   install: true
