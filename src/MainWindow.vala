@@ -56,21 +56,22 @@ public class MainWindow : Adw.Window {
         ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
-        var portal = new Xdp.Portal ();
-
-        string[] env = Environ.get ();
-        string? flatpak = Environ.get_variable (env, "FLATPAK_ID");
-        string? appimage = Environ.get_variable (env, "APPIMAGE");
-
         var banner = new Adw.Banner (_("Unsupported version of this app")) {
             button_label = _("_Learn More…"),
-            revealed = (
-                appimage != null ||
-                flatpak != APP_ID ||
-                portal.running_under_snap () ||
-                ! portal.running_under_flatpak ()
-            )
+            revealed = true
         };
+
+        string[] env = Environ.get ();
+        try {
+            banner.revealed = (
+                ! Xdp.Portal.running_under_flatpak () ||
+                Xdp.Portal.running_under_snap () ||
+                Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
+                Environ.get_variable (env, "APPIMAGE") != null
+            );
+        } catch (Error e) {
+            critical ("Unable to detect sandbox");
+        }
 
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         main_layout.append (header);
