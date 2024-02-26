@@ -105,7 +105,6 @@ public class MainWindow : Adw.Window {
 
         close_request.connect (() => {
             Clairvoyant.settings.set_int64 ("last-used", new DateTime.now_utc ().to_unix ());
-            critical("last-used after checking: %" + int64.FORMAT, Clairvoyant.settings.get_int64("last-used"));
             return Gdk.EVENT_PROPAGATE;
         });
     }
