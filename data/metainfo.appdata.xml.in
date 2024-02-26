@@ -57,11 +57,12 @@
   </screenshots>
 
   <releases>
-    <release version="3.1.4" date="2024-01-31">
+    <release version="3.1.4" date="2024-02-26">
       <description>
         <p>Under-the-hood fixes</p>
         <ul>
           <li>More consistent URLs in the About window and metadata</li>
+          <li>Fixed icon by removing subtle texture</li>
           <li>Improvements for GNOME Circle</li>
         </ul>
       </description>
