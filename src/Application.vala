@@ -25,9 +25,6 @@ public class Clairvoyant : Adw.Application {
 
         var main_window = new MainWindow (this);
         main_window.show ();
-        // settings.set_int64 ("last-opened", -9223372036854775808);
-        critical("last-used when opened: %" + int64.FORMAT, settings.get_int64("last-used"));
-        critical("debug: %s", settings.get_string("debug"));
 
         var quit_action = new SimpleAction ("quit", null);
 

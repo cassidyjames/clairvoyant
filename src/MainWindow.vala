@@ -65,12 +65,12 @@ public class MainWindow : Adw.Window {
         try {
             banner.revealed = (
                 Clairvoyant.settings.get_int64 ("last-used") < new DateTime.now_utc ().to_unix () - 86400 &&
-                Clairvoyant.settings.get_int64 ("last-used") != int64.MIN /*&& (
+                Clairvoyant.settings.get_int64 ("last-used") != int64.MIN && (
                     ! Xdp.Portal.running_under_flatpak () ||
                     Xdp.Portal.running_under_snap () ||
                     Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
                     Environ.get_variable (env, "APPIMAGE") != null
-                )*/
+                )
             );
         } catch (Error e) {
             critical ("Unable to detect sandbox");
