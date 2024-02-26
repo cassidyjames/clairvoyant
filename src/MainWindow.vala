@@ -64,10 +64,13 @@ public class MainWindow : Adw.Window {
         string[] env = Environ.get ();
         try {
             banner.revealed = (
-                ! Xdp.Portal.running_under_flatpak () ||
-                Xdp.Portal.running_under_snap () ||
-                Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
-                Environ.get_variable (env, "APPIMAGE") != null
+                Clairvoyant.settings.get_int64 ("last-used") < new DateTime.now_utc ().to_unix () - 86400 &&
+                Clairvoyant.settings.get_int64 ("last-used") != int64.MIN /*&& (
+                    ! Xdp.Portal.running_under_flatpak () ||
+                    Xdp.Portal.running_under_snap () ||
+                    Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
+                    Environ.get_variable (env, "APPIMAGE") != null
+                )*/
             );
         } catch (Error e) {
             critical ("Unable to detect sandbox");
@@ -94,10 +97,16 @@ public class MainWindow : Adw.Window {
 
         banner.button_clicked.connect (() => {
            try {
-                new Gtk.UriLauncher (about_window.website).launch.begin (null, null);
+                new Gtk.UriLauncher (about_window.website + "#only-on-flathub").launch.begin (null, null);
             } catch (Error e) {
                 critical ("Unable to open link");
             }
+        });
+
+        close_request.connect (() => {
+            Clairvoyant.settings.set_int64 ("last-used", new DateTime.now_utc ().to_unix ());
+            critical("last-used after checking: %" + int64.FORMAT, Clairvoyant.settings.get_int64("last-used"));
+            return Gdk.EVENT_PROPAGATE;
         });
     }
 
