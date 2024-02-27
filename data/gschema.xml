@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/github/cassidyjames/clairvoyant/" id="com.github.cassidyjames.clairvoyant">
+    <key name="last-used" type="x">
+      <!-- int64 min -->
+      <default>-9223372036854775808</default>
+      <summary>Last used</summary>
+      <description>The last time (Unix timestamp in UTC) the app was used</description>
+    </key>
+  </schema>
+</schemalist>
+
