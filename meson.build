@@ -1,7 +1,7 @@
 project(
     'com.github.cassidyjames.clairvoyant',
     'vala', 'c',
-    version: '3.1.3',
+    version: '3.1.4',
     meson_version: '>=0.58',
 )
 
@@ -43,7 +43,8 @@ c_args = [
 vala_args = ['--target-glib=2.50', meson.project_source_root() + '/src/config.vapi']
 
 asresources = gnome.compile_resources(
-  'as-resources', 'data' / 'gresource.xml',
+  'as-resources',
+  'data' / 'gresource.xml',
   source_dir: 'data',
   c_name: 'as'
 )
@@ -62,8 +63,10 @@ executable(
   asresources,
   config_file,
   dependencies: [
+    dependency('glib-2.0'),
     dependency('gtk4'),
     dependency('libadwaita-1', version: '>=1.4'),
+    dependency('libportal'),
   ],
   c_args: c_args, vala_args: vala_args,
   install: true
@@ -71,3 +74,5 @@ executable(
 
 subdir('data')
 subdir('po')
+
+meson.add_install_script('build-aux' / 'meson'/ 'post_install.py')

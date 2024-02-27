@@ -34,6 +34,7 @@ jobs:
             git \
             gtk4-devel \
             libadwaita-devel \
+            libportal-devel \
             libxml2-devel \
             meson \
             vala

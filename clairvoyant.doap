@@ -7,7 +7,7 @@
   xmlns="http://usefulinc.com/ns/doap#"
 >
   <name>Clairvoyant</name>
-  <shortdesc xml:lang="en">Get psychic answers from this fortune teller</shortdesc>
+  <shortdesc xml:lang="en">Ask questions, get psychic answers</shortdesc>
   <description xml:lang="en">Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</description>
   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
 
@@ -22,6 +22,18 @@
       <foaf:name>Cassidy James Blaede</foaf:name>
       <foaf:mbox rdf:resource="mailto:c@ssidyjam.es" />
       <gnome:userid>cassidyjames</gnome:userid>
+      <foaf:account>
+        <foaf:OnlineAccount>
+          <foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org"/>
+          <foaf:accountName>cassidyjames</foaf:accountName>
+        </foaf:OnlineAccount>
+      </foaf:account>
+      <foaf:account>
+        <foaf:OnlineAccount>
+          <foaf:accountServiceHomepage rdf:resource="https://github.com"/>
+          <foaf:accountName>cassidyjames</foaf:accountName>
+        </foaf:OnlineAccount>
+      </foaf:account>
     </foaf:Person>
   </maintainer>
 </Project>

@@ -13,6 +13,10 @@ public class Clairvoyant : Adw.Application {
         );
     }
 
+    static construct {
+        settings = new Settings (APP_ID);
+    }
+
     protected override void activate () {
         if (get_windows ().length () > 0) {
             get_windows ().data.present ();
