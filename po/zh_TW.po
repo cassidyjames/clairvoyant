@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 06:37+0000\n"
+"POT-Creation-Date: 2024-02-27 00:19+0000\n"
 "PO-Revision-Date: 2023-12-14 21:19-0700\n"
 "Last-Translator: Oliver Tzeng（曾嘉禾）\n"
 "Language-Team: none\n"
@@ -24,17 +24,13 @@ msgstr "Clairvoyant"
 msgid "Fortune Teller"
 msgstr "算命師"
 
-#: data/launcher.desktop.in:5
-msgid "Ask questions and get psychic answers"
+#: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
+msgid "Ask questions, get psychic answers"
 msgstr "問問題，得答案"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "魔法;八號;球;水晶;🔮;中等;🎱;"
-
-#: data/metainfo.appdata.xml.in:9
-msgid "Ask questions, get psychic answers"
-msgstr "問問題，得答案"
 
 #: data/metainfo.appdata.xml.in:15
 msgid ""
@@ -81,236 +77,253 @@ msgstr "應該不會"
 msgid "A negative answer, \"Outlook not so good.\""
 msgstr "不會有太好的結局"
 
-#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:82
+#: data/metainfo.appdata.xml.in:62
+msgid "Under-the-hood fixes"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:64
+#, fuzzy
+msgid "More consistent URLs in the About window and metadata"
+msgstr "更多資訊在「關於」內"
+
+#: data/metainfo.appdata.xml.in:65
+msgid "Fixed icon by removing subtle texture"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:66
+msgid "Improvements for GNOME Circle"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:72 data/metainfo.appdata.xml.in:92
 msgid "Updated translations"
 msgstr "更新翻譯"
 
-#: data/metainfo.appdata.xml.in:64
+#: data/metainfo.appdata.xml.in:74
 #, fuzzy
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr "感謝 David Ferracin（GitHub：@phaerrax）在 GitHub 上翻譯義大利文"
 
-#: data/metainfo.appdata.xml.in:65
+#: data/metainfo.appdata.xml.in:75
 #, fuzzy
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
 msgstr "感謝 Volkov （GitHub：@Vovkiv）翻譯烏克蘭文"
 
-#: data/metainfo.appdata.xml.in:66
+#: data/metainfo.appdata.xml.in:76
 #, fuzzy
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "感謝 Volkov （GitHub：@Vovkiv）翻譯烏克蘭文"
 
-#: data/metainfo.appdata.xml.in:67 data/metainfo.appdata.xml.in:85
+#: data/metainfo.appdata.xml.in:77 data/metainfo.appdata.xml.in:95
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr "感謝 Sergej A.（GitHub：@Ser82-png）更新俄羅斯文翻譯"
 
-#: data/metainfo.appdata.xml.in:68 data/metainfo.appdata.xml.in:94
+#: data/metainfo.appdata.xml.in:78 data/metainfo.appdata.xml.in:104
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "感謝 @rene-coty 在 GitHub 上翻譯法文"
 
-#: data/metainfo.appdata.xml.in:69
+#: data/metainfo.appdata.xml.in:79
 #, fuzzy
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr "感謝 Sergej A.（GitHub：@Ser82-png）更新俄羅斯文翻譯"
 
-#: data/metainfo.appdata.xml.in:70
+#: data/metainfo.appdata.xml.in:80
 #, fuzzy
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
 msgstr "感謝 David Ferracin（GitHub：@phaerrax）在 GitHub 上翻譯義大利文"
 
-#: data/metainfo.appdata.xml.in:76
+#: data/metainfo.appdata.xml.in:86
 msgid "Deep Purple"
 msgstr "深紫色"
 
-#: data/metainfo.appdata.xml.in:78
+#: data/metainfo.appdata.xml.in:88
 msgid "New look inspired by the deep purples from the icon"
 msgstr "以紫色圖示為底的新介面"
 
-#: data/metainfo.appdata.xml.in:79
+#: data/metainfo.appdata.xml.in:89
 msgid "More information in the About window"
 msgstr "更多資訊在「關於」內"
 
-#: data/metainfo.appdata.xml.in:80
+#: data/metainfo.appdata.xml.in:90
 msgid "Updated for GNOME 45 and Adwaita 1.4"
 msgstr "增加 Gnome 45 和 Adwaita 1.4 支援"
 
-#: data/metainfo.appdata.xml.in:84
+#: data/metainfo.appdata.xml.in:94
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "感謝 Volkov （GitHub：@Vovkiv）翻譯烏克蘭文"
 
-#: data/metainfo.appdata.xml.in:91
+#: data/metainfo.appdata.xml.in:101
 msgid "Translations and GNOME 44"
 msgstr "翻譯和 Gnome 44"
 
-#: data/metainfo.appdata.xml.in:93
+#: data/metainfo.appdata.xml.in:103
 msgid "German translations thanks to @FineFindus on GitHub"
 msgstr "感謝 @FineFindus 在 GitHub 上翻譯德文"
 
-#: data/metainfo.appdata.xml.in:95
+#: data/metainfo.appdata.xml.in:105
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr "感謝 David Ferracin（GitHub：@phaerrax）在 GitHub 上翻譯義大利文"
 
-#: data/metainfo.appdata.xml.in:96
+#: data/metainfo.appdata.xml.in:106
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr "感謝 Quentin PAGÈS（GitHub：@Mejans）在 GitHub 上翻譯奧克西坦文"
 
-#: data/metainfo.appdata.xml.in:97
+#: data/metainfo.appdata.xml.in:107
 msgid "Updated to the latest GNOME runtime"
 msgstr "已更新至最新的 Gnome 執行環境"
 
-#: data/metainfo.appdata.xml.in:103
+#: data/metainfo.appdata.xml.in:113
 msgid "Update for GNOME Circle consideration"
 msgstr "Gnome Circle 的更新"
 
-#: data/metainfo.appdata.xml.in:105
+#: data/metainfo.appdata.xml.in:115
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr "Ctrl+Q 或 Ctrl+W 以關閉應用程式"
 
-#: data/metainfo.appdata.xml.in:106
+#: data/metainfo.appdata.xml.in:116
 msgid "Selectable answer for improved accessibility"
 msgstr "可更方便的選取答案"
 
-#: data/metainfo.appdata.xml.in:107
+#: data/metainfo.appdata.xml.in:117
 msgid "Shorter summary for app listing"
 msgstr "更短的概要以排序應用程式"
 
-#: data/metainfo.appdata.xml.in:113
+#: data/metainfo.appdata.xml.in:123
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr "更好的圖示，在暗黑背景中可見度更高"
 
-#: data/metainfo.appdata.xml.in:118
+#: data/metainfo.appdata.xml.in:128
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr "修復「關於」視窗重新開啟時所產生的錯誤"
 
-#: data/metainfo.appdata.xml.in:123
+#: data/metainfo.appdata.xml.in:133
 msgid "More fun for everyone"
 msgstr "趣味性大幅提升！"
 
-#: data/metainfo.appdata.xml.in:125
+#: data/metainfo.appdata.xml.in:135
 msgid "Added eight more original replies"
 msgstr "增加了八個答案"
 
-#: data/metainfo.appdata.xml.in:126
+#: data/metainfo.appdata.xml.in:136
 msgid "Added “About” window"
 msgstr "增加了「關於」視窗"
 
-#: data/metainfo.appdata.xml.in:127
+#: data/metainfo.appdata.xml.in:137
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr "讓翻譯更加容易。有新辭條時能即時更新翻譯。"
 
-#: data/metainfo.appdata.xml.in:128
+#: data/metainfo.appdata.xml.in:138
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "感謝 Albano Battistella 翻譯義大利文"
 
-#: data/metainfo.appdata.xml.in:129
+#: data/metainfo.appdata.xml.in:139
 msgid "Updated runtime to GNOME 43"
 msgstr "更新執行環境至 Gnome 43"
 
-#: data/metainfo.appdata.xml.in:135
+#: data/metainfo.appdata.xml.in:145
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr "當使用者試圖選取不存在的設定時不會再次崩潰"
 
-#: data/metainfo.appdata.xml.in:140
+#: data/metainfo.appdata.xml.in:150
 msgid "Hello, GNOME"
 msgstr "Gnome，你好！"
 
-#: data/metainfo.appdata.xml.in:142
+#: data/metainfo.appdata.xml.in:152
 msgid "Whole new UI"
 msgstr "全新的界面"
 
-#: data/metainfo.appdata.xml.in:143
+#: data/metainfo.appdata.xml.in:153
 msgid "elementary → GNOME styling"
 msgstr "Elementary → Gnome 風格"
 
-#: data/metainfo.appdata.xml.in:144
+#: data/metainfo.appdata.xml.in:154
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr "更新至最新的 Gnome 平台，包括 GTK4 和 libadwata"
 
-#: data/metainfo.appdata.xml.in:150
+#: data/metainfo.appdata.xml.in:160
 msgid "Hello, Odin"
 msgstr "奧丁好！"
 
-#: data/metainfo.appdata.xml.in:152
+#: data/metainfo.appdata.xml.in:162
 msgid "Updated for OS 6 and Flatpak"
 msgstr "對 OS 6 和 Flatpak 的更新"
 
-#: data/metainfo.appdata.xml.in:153
+#: data/metainfo.appdata.xml.in:163
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "感謝 Safak GENISOL 翻譯土耳其文"
 
-#: data/metainfo.appdata.xml.in:154
+#: data/metainfo.appdata.xml.in:164
 msgid "Portuguese translations thanks to André Barata"
 msgstr "感謝 André Barata 翻譯葡萄牙文"
 
-#: data/metainfo.appdata.xml.in:155
+#: data/metainfo.appdata.xml.in:165
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "感謝 @kevincos5 翻譯西班牙文"
 
-#: data/metainfo.appdata.xml.in:161
+#: data/metainfo.appdata.xml.in:171
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "感謝 Micah Ilbery 的新圖示"
 
-#: data/metainfo.appdata.xml.in:166
+#: data/metainfo.appdata.xml.in:176
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "感謝 Michał Nowakowski 翻譯波蘭文"
 
-#: data/metainfo.appdata.xml.in:171
+#: data/metainfo.appdata.xml.in:181
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "感謝 Heimen Stoffels 翻譯荷蘭文"
 
-#: data/metainfo.appdata.xml.in:176
+#: data/metainfo.appdata.xml.in:186
 msgid "French translations thanks to @NathanBnm"
 msgstr "感謝 @NathanBnm 翻譯法文"
 
-#: data/metainfo.appdata.xml.in:181
+#: data/metainfo.appdata.xml.in:191
 msgid "Clairvoyant is now translatable."
 msgstr "現在 ClairVoyant 可以被翻譯了"
 
-#: data/metainfo.appdata.xml.in:186
+#: data/metainfo.appdata.xml.in:196
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "新年快樂！此更新包括 AppData 補丁"
 
-#: data/metainfo.appdata.xml.in:191
+#: data/metainfo.appdata.xml.in:201
 msgid "Fix 48px icon"
 msgstr "修復 48px 圖示"
 
-#: data/metainfo.appdata.xml.in:196
+#: data/metainfo.appdata.xml.in:206
 msgid "Post-release update"
 msgstr "例行更新"
 
-#: data/metainfo.appdata.xml.in:198
+#: data/metainfo.appdata.xml.in:208
 msgid "Clean up AppStream data"
 msgstr "清理 AppStream 資料"
 
-#: data/metainfo.appdata.xml.in:199
+#: data/metainfo.appdata.xml.in:209
 msgid "Expand on the description"
 msgstr "擴增敘述"
 
-#: data/metainfo.appdata.xml.in:200
+#: data/metainfo.appdata.xml.in:210
 msgid "Change price to $1"
 msgstr "更換價格到 30 元"
 
 #. /TRANSLATORS: Positive response
-#: data/metainfo.appdata.xml.in:206 src/FortuneLabel.vala:22
+#: data/metainfo.appdata.xml.in:216 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "這已是既定的事實"
 
-#: data/metainfo.appdata.xml.in:208
+#: data/metainfo.appdata.xml.in:218
 msgid "Initial release"
 msgstr "最初版本"
 
@@ -452,12 +465,12 @@ msgstr "無法看清，那個模糊的未來"
 msgid "404 Answer Not Found"
 msgstr "404 找不到答案"
 
-#: src/MainWindow.vala:18
+#: src/MainWindow.vala:19
 msgid "About"
 msgstr "關於"
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:30
 msgid "translator-credits"
 msgstr "Oliver Tzeng（曾嘉禾）[GitHub](https://github.com/olivertzeng)"
 
@@ -465,10 +478,13 @@ msgstr "Oliver Tzeng（曾嘉禾）[GitHub](https://github.com/olivertzeng)"
 msgid "Ask Again"
 msgstr "再問一次"
 
-#: src/MainWindow.vala:62
+#: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
 msgstr ""
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:60
 msgid "_Learn More…"
 msgstr ""
+
+#~ msgid "Ask questions and get psychic answers"
+#~ msgstr "問問題，得答案"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 06:37+0000\n"
+"POT-Creation-Date: 2024-02-27 00:19+0000\n"
 "PO-Revision-Date: 2023-10-17 12:09+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -28,17 +28,13 @@ msgstr "Clairvoyant"
 msgid "Fortune Teller"
 msgstr "Falcı"
 
-#: data/launcher.desktop.in:5
-msgid "Ask questions and get psychic answers"
+#: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
+msgid "Ask questions, get psychic answers"
 msgstr "Sorular sorun ve psişik cevaplar alın"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "büyü;sekiz;top;8;kristal;🔮;orta;🎱;sihirli;"
-
-#: data/metainfo.appdata.xml.in:9
-msgid "Ask questions, get psychic answers"
-msgstr "Sorular sorun ve psişik cevaplar alın"
 
 #: data/metainfo.appdata.xml.in:15
 msgid ""
@@ -88,11 +84,28 @@ msgstr "Olumsuz bir cevap, \"Hayır.\""
 msgid "A negative answer, \"Outlook not so good.\""
 msgstr "Olumsuz bir cevap, \"Görünüm o kadar iyi değil.\""
 
-#: data/metainfo.appdata.xml.in:62 data/metainfo.appdata.xml.in:82
+#: data/metainfo.appdata.xml.in:62
+msgid "Under-the-hood fixes"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:64
+#, fuzzy
+msgid "More consistent URLs in the About window and metadata"
+msgstr "Hakkında penceresinde daha çok bilgi"
+
+#: data/metainfo.appdata.xml.in:65
+msgid "Fixed icon by removing subtle texture"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:66
+msgid "Improvements for GNOME Circle"
+msgstr ""
+
+#: data/metainfo.appdata.xml.in:72 data/metainfo.appdata.xml.in:92
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/metainfo.appdata.xml.in:64
+#: data/metainfo.appdata.xml.in:74
 #, fuzzy
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
@@ -101,35 +114,35 @@ msgstr ""
 "İtalyanca çeviri güncellendi, teşekkürler Davide Ferracin (@phaerrax GitHub "
 "üstünden)"
 
-#: data/metainfo.appdata.xml.in:65
+#: data/metainfo.appdata.xml.in:75
 #, fuzzy
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
 msgstr "Ukraynaca çeviri eklendi, teşekkürler Volkov (@Vovkiv on GitHub)"
 
-#: data/metainfo.appdata.xml.in:66
+#: data/metainfo.appdata.xml.in:76
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr ""
 "Ukraynaca çeviri güncellendi, teşekkürler Volkov (@Vovkiv GitHub üstünden)"
 
-#: data/metainfo.appdata.xml.in:67 data/metainfo.appdata.xml.in:85
+#: data/metainfo.appdata.xml.in:77 data/metainfo.appdata.xml.in:95
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr ""
 "Rusça çeviri güncellendi, teşekkürler Sergej A. (@Ser82-png GitHub üstünden)"
 
-#: data/metainfo.appdata.xml.in:68 data/metainfo.appdata.xml.in:94
+#: data/metainfo.appdata.xml.in:78 data/metainfo.appdata.xml.in:104
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Fransızca çeviri güncellendi, teşekkürler @rene-coty GitHub üstünden"
 
-#: data/metainfo.appdata.xml.in:69
+#: data/metainfo.appdata.xml.in:79
 #, fuzzy
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr ""
 "Rusça çeviri güncellendi, teşekkürler Sergej A. (@Ser82-png GitHub üstünden)"
 
-#: data/metainfo.appdata.xml.in:70
+#: data/metainfo.appdata.xml.in:80
 #, fuzzy
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
@@ -137,69 +150,69 @@ msgid ""
 msgstr ""
 "Ukraynaca çeviri güncellendi, teşekkürler Volkov (@Vovkiv GitHub üstünden)"
 
-#: data/metainfo.appdata.xml.in:76
+#: data/metainfo.appdata.xml.in:86
 msgid "Deep Purple"
 msgstr "Koyu Mor"
 
-#: data/metainfo.appdata.xml.in:78
+#: data/metainfo.appdata.xml.in:88
 msgid "New look inspired by the deep purples from the icon"
 msgstr "Simgedeki derin morlardan ilham alan yeni görünüm"
 
-#: data/metainfo.appdata.xml.in:79
+#: data/metainfo.appdata.xml.in:89
 msgid "More information in the About window"
 msgstr "Hakkında penceresinde daha çok bilgi"
 
-#: data/metainfo.appdata.xml.in:80
+#: data/metainfo.appdata.xml.in:90
 msgid "Updated for GNOME 45 and Adwaita 1.4"
 msgstr "GNOME 45 ve Adwaita 1.4 güncellemesi"
 
-#: data/metainfo.appdata.xml.in:84
+#: data/metainfo.appdata.xml.in:94
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "Ukraynaca çeviri eklendi, teşekkürler Volkov (@Vovkiv on GitHub)"
 
-#: data/metainfo.appdata.xml.in:91
+#: data/metainfo.appdata.xml.in:101
 msgid "Translations and GNOME 44"
 msgstr "Çeviriler ve GNOME 44"
 
-#: data/metainfo.appdata.xml.in:93
+#: data/metainfo.appdata.xml.in:103
 msgid "German translations thanks to @FineFindus on GitHub"
 msgstr "Almanca çeviri eklendi, teşekkürler @FineFindus GitHub üstünden"
 
-#: data/metainfo.appdata.xml.in:95
+#: data/metainfo.appdata.xml.in:105
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
 "İtalyanca çeviri güncellendi, teşekkürler Davide Ferracin (@phaerrax GitHub "
 "üstünden)"
 
-#: data/metainfo.appdata.xml.in:96
+#: data/metainfo.appdata.xml.in:106
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
 "Oksitanca çeviri güncellendi, teşekkürler Quentin PAGÈS (@Mejans GitHub "
 "üstünden)"
 
-#: data/metainfo.appdata.xml.in:97
+#: data/metainfo.appdata.xml.in:107
 msgid "Updated to the latest GNOME runtime"
 msgstr "Son GNOME çalışma zamanına güncellendi"
 
-#: data/metainfo.appdata.xml.in:103
+#: data/metainfo.appdata.xml.in:113
 msgid "Update for GNOME Circle consideration"
 msgstr "GNOME Circle değerlendirmesi için güncellendi"
 
-#: data/metainfo.appdata.xml.in:105
+#: data/metainfo.appdata.xml.in:115
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr "Ctrl+Q ve Ctrl+W ile kapat"
 
-#: data/metainfo.appdata.xml.in:106
+#: data/metainfo.appdata.xml.in:116
 msgid "Selectable answer for improved accessibility"
 msgstr "Gelişmiş erişilebilirlik için seçilebilir cevap"
 
-#: data/metainfo.appdata.xml.in:107
+#: data/metainfo.appdata.xml.in:117
 msgid "Shorter summary for app listing"
 msgstr "Uygulama listeleme için daha kısa özet"
 
-#: data/metainfo.appdata.xml.in:113
+#: data/metainfo.appdata.xml.in:123
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
@@ -207,25 +220,25 @@ msgstr ""
 "Simge hafiften iyileştirildi; uygulama ızgarasında, gösterge panelinde ve "
 "koyu arka plana sahip başka herhangi bir yerde daha görünür oldu"
 
-#: data/metainfo.appdata.xml.in:118
+#: data/metainfo.appdata.xml.in:128
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
 "Düzeltme: Hakkında penceresini kapatırken ve yeniden açarken oluşan hata "
 "düzeltildi"
 
-#: data/metainfo.appdata.xml.in:123
+#: data/metainfo.appdata.xml.in:133
 msgid "More fun for everyone"
 msgstr "Herkes için daha fazla eğlence"
 
-#: data/metainfo.appdata.xml.in:125
+#: data/metainfo.appdata.xml.in:135
 msgid "Added eight more original replies"
 msgstr "Sekiz özgün yanıt daha eklendi"
 
-#: data/metainfo.appdata.xml.in:126
+#: data/metainfo.appdata.xml.in:136
 msgid "Added “About” window"
 msgstr "“Hakkında” penceresi eklendi"
 
-#: data/metainfo.appdata.xml.in:127
+#: data/metainfo.appdata.xml.in:137
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
@@ -233,110 +246,110 @@ msgstr ""
 "Çevirilerin güncel tutulmasını kolaylaştırmak için geliştirici araçlarında "
 "iyileştirmeler yapıldı"
 
-#: data/metainfo.appdata.xml.in:128
+#: data/metainfo.appdata.xml.in:138
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "İtalyanca çeviri eklendi, teşekkürler Albano Battistella"
 
-#: data/metainfo.appdata.xml.in:129
+#: data/metainfo.appdata.xml.in:139
 msgid "Updated runtime to GNOME 43"
 msgstr "Çalışma zamanı GNOME 43'e güncellendi"
 
-#: data/metainfo.appdata.xml.in:135
+#: data/metainfo.appdata.xml.in:145
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 "Düzeltme: var olmayan ayarlara erişmeye çalışırken başlangıçta oluşan çökme "
 "düzeltildi"
 
-#: data/metainfo.appdata.xml.in:140
+#: data/metainfo.appdata.xml.in:150
 msgid "Hello, GNOME"
 msgstr "Merhaba GNOME"
 
-#: data/metainfo.appdata.xml.in:142
+#: data/metainfo.appdata.xml.in:152
 msgid "Whole new UI"
 msgstr "Tamamen yeni arayüz"
 
-#: data/metainfo.appdata.xml.in:143
+#: data/metainfo.appdata.xml.in:153
 msgid "elementary → GNOME styling"
 msgstr "elementary → GNOME biçemi"
 
-#: data/metainfo.appdata.xml.in:144
+#: data/metainfo.appdata.xml.in:154
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
 "GTK4 ve LibAdwaita dahil olmak üzere en son GNOME platformuna teknik "
 "yükseltme yapıldı"
 
-#: data/metainfo.appdata.xml.in:150
+#: data/metainfo.appdata.xml.in:160
 msgid "Hello, Odin"
 msgstr "Merhaba Odin"
 
-#: data/metainfo.appdata.xml.in:152
+#: data/metainfo.appdata.xml.in:162
 msgid "Updated for OS 6 and Flatpak"
 msgstr "OS 6 ve Flatpak için güncellendi"
 
-#: data/metainfo.appdata.xml.in:153
+#: data/metainfo.appdata.xml.in:163
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "Türkçe çeviri eklenti, teşekkürler Safak Genisol"
 
-#: data/metainfo.appdata.xml.in:154
+#: data/metainfo.appdata.xml.in:164
 msgid "Portuguese translations thanks to André Barata"
 msgstr "Portekizce çeviri eklendi, teşekkürler André Barata"
 
-#: data/metainfo.appdata.xml.in:155
+#: data/metainfo.appdata.xml.in:165
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "İspanyolca çeviri eklendi, teşekkürler @kevincos5"
 
-#: data/metainfo.appdata.xml.in:161
+#: data/metainfo.appdata.xml.in:171
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "Micah Ilbery sayesinde yenilenen simgeler"
 
-#: data/metainfo.appdata.xml.in:166
+#: data/metainfo.appdata.xml.in:176
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "Lehçe çeviri eklendi, teşekkürler Michał Nowakowski"
 
-#: data/metainfo.appdata.xml.in:171
+#: data/metainfo.appdata.xml.in:181
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "Flemenkçe çeviri eklendi, teşekkürler Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:176
+#: data/metainfo.appdata.xml.in:186
 msgid "French translations thanks to @NathanBnm"
 msgstr "Fransızca çeviri eklendi, teşekkürler @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:181
+#: data/metainfo.appdata.xml.in:191
 msgid "Clairvoyant is now translatable."
 msgstr "Clairvoyant artık tercüme edilebilir."
 
-#: data/metainfo.appdata.xml.in:186
+#: data/metainfo.appdata.xml.in:196
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "Yeni Yılınız mutlu olsun! Bu sürüm, AppData düzeltmelerini içerir."
 
-#: data/metainfo.appdata.xml.in:191
+#: data/metainfo.appdata.xml.in:201
 msgid "Fix 48px icon"
 msgstr "48px simgesini düzeltildi"
 
-#: data/metainfo.appdata.xml.in:196
+#: data/metainfo.appdata.xml.in:206
 msgid "Post-release update"
 msgstr "Yayın sonrası güncelleme"
 
-#: data/metainfo.appdata.xml.in:198
+#: data/metainfo.appdata.xml.in:208
 msgid "Clean up AppStream data"
 msgstr "AppStream verilerini temizleyin"
 
-#: data/metainfo.appdata.xml.in:199
+#: data/metainfo.appdata.xml.in:209
 msgid "Expand on the description"
 msgstr "Açıklamayı genişletin"
 
-#: data/metainfo.appdata.xml.in:200
+#: data/metainfo.appdata.xml.in:210
 msgid "Change price to $1"
 msgstr "Fiyatı 1 $ olarak değiştirin"
 
 #. /TRANSLATORS: Positive response
-#: data/metainfo.appdata.xml.in:206 src/FortuneLabel.vala:22
+#: data/metainfo.appdata.xml.in:216 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
 msgstr "Kesinlikle öyle."
 
-#: data/metainfo.appdata.xml.in:208
+#: data/metainfo.appdata.xml.in:218
 msgid "Initial release"
 msgstr "İlk sürüm"
 
@@ -474,12 +487,12 @@ msgstr "Geleceği görmek imkansız."
 msgid "404 Answer Not Found"
 msgstr "404 Yanıt Bulunamadı"
 
-#: src/MainWindow.vala:18
+#: src/MainWindow.vala:19
 msgid "About"
 msgstr "Hakkında"
 
 #. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:30
 msgid "translator-credits"
 msgstr ""
 "Safak Genisol <bjksafak45@gmail.com>\n"
@@ -489,13 +502,16 @@ msgstr ""
 msgid "Ask Again"
 msgstr "Tekrar Sor"
 
-#: src/MainWindow.vala:62
+#: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
 msgstr ""
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:60
 msgid "_Learn More…"
 msgstr ""
+
+#~ msgid "Ask questions and get psychic answers"
+#~ msgstr "Sorular sorun ve psişik cevaplar alın"
 
 #~ msgid "Cassidy James Blaede"
 #~ msgstr "Cassidy James Blaede"
