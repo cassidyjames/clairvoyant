@@ -57,6 +57,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.5" date="2024-02-27">
+      <description>
+        <p>Updated translations</p>
+        <ul>
+          <li>Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.4" date="2024-02-26">
       <description>
         <p>Under-the-hood fixes</p>

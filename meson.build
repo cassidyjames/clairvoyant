@@ -1,8 +1,8 @@
 project(
-    'com.github.cassidyjames.clairvoyant',
-    'vala', 'c',
-    version: '3.1.4',
-    meson_version: '>=0.58',
+  'com.github.cassidyjames.clairvoyant',
+  'vala', 'c',
+  version: '3.1.5',
+  meson_version: '>=0.58',
 )
 
 gnome = import('gnome')
