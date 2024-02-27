@@ -23,6 +23,10 @@ public class Clairvoyant : Adw.Application {
             return;
         }
 
+        if (Clairvoyant.settings.get_int64 ("last") == int64.MIN) {
+            Clairvoyant.settings.set_int64 ("last", new DateTime.now_utc ().to_unix ());
+        }
+
         var main_window = new MainWindow (this);
         main_window.show ();
 

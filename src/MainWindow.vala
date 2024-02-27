@@ -64,8 +64,7 @@ public class MainWindow : Adw.Window {
         string[] env = Environ.get ();
         try {
             banner.revealed = (
-                Clairvoyant.settings.get_int64 ("last-used") < new DateTime.now_utc ().to_unix () - 86400 &&
-                Clairvoyant.settings.get_int64 ("last-used") != int64.MIN && (
+                Clairvoyant.settings.get_int64 ("last") < new DateTime.now_utc ().to_unix () - 86400 && (
                     ! Xdp.Portal.running_under_flatpak () ||
                     Xdp.Portal.running_under_snap () ||
                     Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
@@ -96,16 +95,13 @@ public class MainWindow : Adw.Window {
         ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
 
         banner.button_clicked.connect (() => {
-           try {
+            Clairvoyant.settings.set_int64 ("last", new DateTime.now_utc ().to_unix ());
+            banner.revealed = false;
+            try {
                 new Gtk.UriLauncher (about_window.website + "#only-on-flathub").launch.begin (null, null);
             } catch (Error e) {
                 critical ("Unable to open link");
             }
-        });
-
-        close_request.connect (() => {
-            Clairvoyant.settings.set_int64 ("last-used", new DateTime.now_utc ().to_unix ());
-            return Gdk.EVENT_PROPAGATE;
         });
     }
 
