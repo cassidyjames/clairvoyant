@@ -15,14 +15,19 @@
       "name": "libportal",
       "buildsystem": "meson",
       "config-opts": [
-          "-Ddocs=false",
-          "-Dbackend-gtk4=enabled"
+        "-Ddocs=false",
+        "-Dbackend-gtk4=enabled"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/flatpak/libportal.git",
-          "tag": "0.7.1"
+          "tag": "0.7.1",
+          "commit": "e9ed3a50cdde321eaf42361212480a66eb94a57a",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         }
       ]
     },
