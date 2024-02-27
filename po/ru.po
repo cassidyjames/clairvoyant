@@ -84,40 +84,39 @@ msgstr "Негативный ответ: «Перспективы не очен�
 
 #: data/metainfo.appdata.xml.in:62
 msgid "Under-the-hood fixes"
-msgstr ""
+msgstr "Скрытые от глаз исправления"
 
 #: data/metainfo.appdata.xml.in:64
-#, fuzzy
 msgid "More consistent URLs in the About window and metadata"
-msgstr "Более подробная информация в окне «О приложении»"
+msgstr "Более согласованные URL в окне «О приложении»"
 
 #: data/metainfo.appdata.xml.in:65
 msgid "Fixed icon by removing subtle texture"
-msgstr ""
+msgstr "Исправлен значок путём удаления тонкой текстуры"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Improvements for GNOME Circle"
-msgstr ""
+msgstr "Улучшения для GNOME Circle"
 
 #: data/metainfo.appdata.xml.in:72 data/metainfo.appdata.xml.in:92
 msgid "Updated translations"
 msgstr "Обновление переводов"
 
 #: data/metainfo.appdata.xml.in:74
-#, fuzzy
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr ""
-"Обновлён перевод на итальянский язык благодаря Davide Ferracin (@phaerrax on "
-"GitHub)"
+"Обновлён перевод на португальский язык благодаря Elder Martins "
+"(@eldermartins on GitHub)"
 
 #: data/metainfo.appdata.xml.in:75
-#, fuzzy
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
-msgstr "Перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
+msgstr ""
+"Перевод на китайский (традиционный) язык благодаря Oliver Tzeng "
+"(@olivertzeng on GitHub)"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
@@ -134,19 +133,18 @@ msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Обновлён перевод на французский язык благодаря @rene-coty на GitHub"
 
 #: data/metainfo.appdata.xml.in:79
-#, fuzzy
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr ""
-"Обновлён перевод на русский язык благодаря Sergej A. (@Ser82-png на GitHub)"
+"Обновлён перевод на турецкий язык благодаря Sabri Ünal (@sabriunal on GitHub)"
 
 #: data/metainfo.appdata.xml.in:80
-#, fuzzy
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
 msgstr ""
-"Обновлён перевод на украинский язык благодаря Volkov (@Vovkiv на GitHub)"
+"Обновлён перевод на бразильский (португальский) язык благодаря Rafael "
+"Fontenelle (@rffontenelle on GitHub)"
 
 #: data/metainfo.appdata.xml.in:86
 msgid "Deep Purple"
@@ -493,7 +491,7 @@ msgstr "О приложении"
 msgid "translator-credits"
 msgstr ""
 "Alex Kryuchkov\n"
-"Ser82-png <asvmail.as@gmail.com>, 2023"
+"Ser82-png <asvmail.as@gmail.com>, 2023-2024"
 
 #: src/MainWindow.vala:52
 msgid "Ask Again"
@@ -501,11 +499,11 @@ msgstr "Спросить ещё раз"
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
-msgstr ""
+msgstr "Неподдерживаемая версия этого приложения"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
-msgstr ""
+msgstr "_Узнать больше…"
 
 #~ msgid "Ask questions and get psychic answers"
 #~ msgstr "Задавайте вопросы и получайте предсказания"
