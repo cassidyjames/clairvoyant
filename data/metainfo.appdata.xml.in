@@ -7,10 +7,16 @@
 
   <name>Clairvoyant</name>
   <summary>Ask questions, get psychic answers</summary>
+  <branding>
+    <color type="primary" scheme_preference="light">#f6f5f4</color>
+    <color type="primary" scheme_preference="dark">#16131f</color>
+  </branding>
+
   <developer_name translatable="no">Cassidy James Blaede</developer_name>
-  <developer id="cassidyjames.com">
+  <developer id="com.cassidyjames">
     <name translatable="no">Cassidy James Blaede</name>
   </developer>
+
   <description>
     <p>Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</p>
     <ul>
@@ -24,10 +30,6 @@
     <binary>com.github.cassidyjames.clairvoyant</binary>
   </provides>
   <launchable type="desktop-id">com.github.cassidyjames.clairvoyant.desktop</launchable>
-
-  <branding>
-    <color type="primary">#241f31</color>
-  </branding>
 
   <screenshots>
     <screenshot type="default">
@@ -57,6 +59,11 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.6" date="2024-03-01">
+      <description>
+        <p>Added brand colors for Flathub and app store clients</p>
+      </description>
+    </release>
     <release version="3.1.5" date="2024-02-27">
       <description>
         <p>Updated translations</p>
