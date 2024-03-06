@@ -12,7 +12,7 @@
   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
 
   <homepage rdf:resource="https://cassidyjames.com/apps" />
-  <download-page rdf:resource="https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant" />
+  <download-page rdf:resource="https://flathub.org/apps/com.github.cassidyjames.clairvoyant" />
   <bug-database rdf:resource="https://github.com/cassidyjames/clairvoyant/issues" />
 
   <programming-language>Vala</programming-language>
