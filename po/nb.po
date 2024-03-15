@@ -8,30 +8,31 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 00:20+0000\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-03-12 17:55+0100\n"
+"Last-Translator: Brage <bragefuglseth@gnome.org>\n"
 "Language-Team: none\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clairvoyant"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Krystallkule"
 
 #: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Få mystiske svar på spørsmålene dine"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "magi;spåkone;krystallkule;fremtiden;8;ball;spørsmål;svar;🔮;🎱;"
 
 #: data/metainfo.appdata.xml.in:21
 msgid ""
@@ -39,42 +40,45 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
+"Lurer du på om din store kjærlighet elsker deg tilbake? Eller om du bør ha "
+"pizza til middag? Finnes det i det hele tatt dumme spørsmål? Finn svar på "
+"alt dette og mer med Clairvoyant, din egen virtuelle krystallkule."
 
 #: data/metainfo.appdata.xml.in:23
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr ""
+msgstr "Still et spørsmål, og åpne Clairvoyant for å få svar."
 
 #: data/metainfo.appdata.xml.in:24
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
-msgstr ""
+msgstr "Misfornøyd med svaret? Bare spør på nytt."
 
 #: data/metainfo.appdata.xml.in:25
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "Gjør hva du vil med det Clairvoyant forteller deg."
 
 #: data/metainfo.appdata.xml.in:36
 msgid "A positive answer, \"You may rely on it.\""
-msgstr ""
+msgstr "Positivt svar"
 
 #: data/metainfo.appdata.xml.in:40
 msgid "A positive answer, \"Signs point to yes.\""
-msgstr ""
+msgstr "Positivt svar"
 
 #: data/metainfo.appdata.xml.in:44
 msgid "A neutral answer, \"Better not tell you now.\""
-msgstr ""
+msgstr "Nøytralt svar"
 
 #: data/metainfo.appdata.xml.in:48
 msgid "A neutral answer, \"Cannot predict now.\""
-msgstr ""
+msgstr "Nøytralt svar"
 
 #: data/metainfo.appdata.xml.in:52
 msgid "A negative answer, \"Naw.\""
-msgstr ""
+msgstr "Negativt svar"
 
 #: data/metainfo.appdata.xml.in:56
 msgid "A negative answer, \"Outlook not so good.\""
-msgstr ""
+msgstr "Negativt svar"
 
 #: data/metainfo.appdata.xml.in:64
 msgid "Added brand colors for Flathub and app store clients"
@@ -320,7 +324,7 @@ msgstr ""
 #. /TRANSLATORS: Positive response
 #: data/metainfo.appdata.xml.in:231 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Absolutt."
 
 #: data/metainfo.appdata.xml.in:233
 msgid "Initial release"
@@ -329,154 +333,154 @@ msgstr ""
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:17
 msgid "It is certain."
-msgstr ""
+msgstr "Helt sikkert."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:27
 msgid "Without a doubt."
-msgstr ""
+msgstr "Uten tvil."
 
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:32
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Ja, definitivt."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:37
 msgid "You may rely on it."
-msgstr ""
+msgstr "Ja, selvfølgelig."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Ser ut som det."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:47
 msgid "Most likely."
-msgstr ""
+msgstr "Mest sannsynlig."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:52
 msgid "Outlook good."
-msgstr ""
+msgstr "Så klart."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:57
 msgid "Yes."
-msgstr ""
+msgstr "Ja."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:62
 msgid "Signs point to yes."
-msgstr ""
+msgstr "Ser sånn ut."
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:67
 msgid "Yep!"
-msgstr ""
+msgstr "Ja!"
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:72
 msgid "Absolutely!"
-msgstr ""
+msgstr "Absolutt!"
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:77
 msgid "You bet!"
-msgstr ""
+msgstr "Gjett om!"
 
 #: src/FortuneLabel.vala:81
 msgid "Confirmed."
-msgstr ""
+msgstr "Riktig."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
-msgstr ""
+msgstr "Ikke regn med det."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:91
 msgid "My reply is no."
-msgstr ""
+msgstr "Nei, dessverre."
 
 #. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
 #: src/FortuneLabel.vala:96
 msgid "My sources say no."
-msgstr ""
+msgstr "Kildene mine sier nei."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
-msgstr ""
+msgstr "Ser ikke sånn ut."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:106
 msgid "Very doubtful."
-msgstr ""
+msgstr "Tviler på det."
 
 #. /TRANSLATORS: Negative response, casual
 #: src/FortuneLabel.vala:111
 msgid "Naw."
-msgstr ""
+msgstr "Niks."
 
 #. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
 #: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "Dette føles ikke riktig…"
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:121
 msgid "Reply hazy, try again."
-msgstr ""
+msgstr "Uklart spørsmål, prøv igjen."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:126
 msgid "Ask again later."
-msgstr ""
+msgstr "Spør igjen senere."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:131
 msgid "Better not tell you now."
-msgstr ""
+msgstr "Kan ikke røpe det ennå."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:136
 msgid "Cannot predict now."
-msgstr ""
+msgstr "Kan ikke forutsi det nå."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:141
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Konsentrer deg og spør igjen."
 
 #. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
 #: src/FortuneLabel.vala:146
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Umulig å forutsi."
 
 #. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
 #: src/FortuneLabel.vala:151
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "Ikke godt å si."
 
 #: src/MainWindow.vala:19
 msgid "About"
-msgstr ""
+msgstr "Om Clairvoyant"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:30
 msgid "translator-credits"
-msgstr ""
+msgstr "Brage Fuglseth https://bragefuglseth.dev"
 
 #: src/MainWindow.vala:52
 msgid "Ask Again"
-msgstr ""
+msgstr "Spør igjen"
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
-msgstr ""
+msgstr "Ustøttet versjon"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
-msgstr ""
+msgstr "_Lær mer…"
