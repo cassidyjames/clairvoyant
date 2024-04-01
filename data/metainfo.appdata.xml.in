@@ -8,8 +8,8 @@
   <name>Clairvoyant</name>
   <summary>Ask questions, get psychic answers</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#f6f5f4</color>
-    <color type="primary" scheme_preference="dark">#16131f</color>
+    <color type="primary" scheme_preference="light">#dad1f0</color>
+    <color type="primary" scheme_preference="dark">#231541</color>
   </branding>
 
   <developer_name translatable="no">Cassidy James Blaede</developer_name>
@@ -33,32 +33,37 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>A positive answer, "You may rely on it."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes.png</image>
-    </screenshot>
-    <screenshot>
       <caption>A positive answer, "Signs point to yes."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>A neutral answer, "Better not tell you now."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe.png</image>
+      <caption>A positive answer, "You may rely on it."</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes.png</image>
     </screenshot>
     <screenshot>
       <caption>A neutral answer, "Cannot predict now."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>A negative answer, "Naw."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no.png</image>
+      <caption>A neutral answer, "Better not tell you now."</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe.png</image>
     </screenshot>
     <screenshot>
       <caption>A negative answer, "Outlook not so good."</caption>
       <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no-dark.png</image>
     </screenshot>
+    <screenshot>
+      <caption>A negative answer, "Naw."</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no.png</image>
+    </screenshot>
   </screenshots>
 
   <releases>
+    <release version="3.1.7" date="2024-03-29">
+      <description>
+        <p>Updated brand colors for Flathub and app store clients</p>
+      </description>
+    </release>
     <release version="3.1.6" date="2024-03-01">
       <description>
         <p>Added brand colors for Flathub and app store clients</p>

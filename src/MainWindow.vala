@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2018–2024 Cassidy James Blaede <c@ssidyjam.es>
  */
 
-public class MainWindow : Adw.Window {
+public class MainWindow : Adw.ApplicationWindow {
     private FortuneLabel fortune_label;
 
     public MainWindow (Gtk.Application application) {
