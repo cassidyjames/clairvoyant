@@ -59,9 +59,14 @@
   </screenshots>
 
   <releases>
-    <release version="3.1.7" date="2024-03-29">
+    <release version="3.1.7" date="2024-04-01">
       <description>
-        <p>Updated brand colors for Flathub and app store clients</p>
+        <p>No foolin'</p>
+        <ul>
+          <li>Updated brand colors for Flathub and app store clients</li>
+          <li>Updated for GNOME 46 and Adwaita 1.5</li>
+          <li>Norwegian Bokmål translations thanks to Brage Fuglseth</li>
+        </ul>
       </description>
     </release>
     <release version="3.1.6" date="2024-03-01">
