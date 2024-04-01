@@ -23,7 +23,7 @@ jobs:
   gettext:
     runs-on: ubuntu-latest
     container:
-      image: fedora:39
+      image: fedora:40
     steps:
       - name: Install deps
         run: |
