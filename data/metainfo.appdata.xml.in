@@ -8,8 +8,8 @@
   <name>Clairvoyant</name>
   <summary>Ask questions, get psychic answers</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#dad1f0</color>
-    <color type="primary" scheme_preference="dark">#231541</color>
+    <color type="primary" scheme_preference="light">#6d45c4</color>
+    <color type="primary" scheme_preference="dark">#452981</color>
   </branding>
 
   <developer_name translatable="no">Cassidy James Blaede</developer_name>
@@ -59,6 +59,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.8" date="2024-04-02">
+      <description>
+        <p>Tweaks</p>
+        <ul>
+          <li>Updated brand colors for Flathub and app store clients</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.7" date="2024-04-01">
       <description>
         <p>No foolin'</p>
