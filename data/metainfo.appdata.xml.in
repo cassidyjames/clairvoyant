@@ -59,6 +59,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.8" date="2024-07-26">
+      <description>
+        <p>GUADEC 2024</p>
+        <ul>
+          <li>Updated Croatian translations thanks to Milo Ivir</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.7" date="2024-04-01">
       <description>
         <p>No foolin'</p>
