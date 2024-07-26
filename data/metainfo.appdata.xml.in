@@ -8,8 +8,8 @@
   <name>Clairvoyant</name>
   <summary>Ask questions, get psychic answers</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#dad1f0</color>
-    <color type="primary" scheme_preference="dark">#231541</color>
+    <color type="primary" scheme_preference="light">#6d45c4</color>
+    <color type="primary" scheme_preference="dark">#452981</color>
   </branding>
 
   <developer_name translatable="no">Cassidy James Blaede</developer_name>
@@ -63,6 +63,7 @@
       <description>
         <p>GUADEC 2024</p>
         <ul>
+          <li>Updated brand colors for Flathub and app store clients</li>
           <li>Updated Croatian translations thanks to Milo Ivir</li>
         </ul>
       </description>
