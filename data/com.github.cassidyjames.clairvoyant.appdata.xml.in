@@ -33,6 +33,16 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.0.2" date="2024-08-28">
+      <description>
+        <p>Maintenance Update</p>
+        <ul>
+          <li>Marked as end-of-life since the maintained version is available on Flathub</li>
+          <li>Removed suggested price</li>
+          <li>Updated to the latest elementary Platform</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.1" date="2023-08-23">
       <description>
         <p>Maintenance Update</p>
@@ -126,8 +136,6 @@
   <custom>
     <value key="x-appcenter-color-primary">#0e141f</value>
     <value key="x-appcenter-color-primary-text">#fff</value>
-    <value key="x-appcenter-suggested-price">1</value>
-    <value key="x-appcenter-stripe">pk_live_MzEz9Fza8ow47eRWJUuXktda00xmU0FR9J</value>
   </custom>
 </component>
 
