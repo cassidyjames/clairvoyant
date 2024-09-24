@@ -8,8 +8,8 @@
   <name>Clairvoyant</name>
   <summary>Ask questions, get psychic answers</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#6d45c4</color>
-    <color type="primary" scheme_preference="dark">#452981</color>
+    <color type="primary" scheme_preference="light">#deddda</color>
+    <color type="primary" scheme_preference="dark">#3d3846</color>
   </branding>
 
   <developer_name translatable="no">Cassidy James Blaede</developer_name>
@@ -59,11 +59,12 @@
   </screenshots>
 
   <releases>
-    <release version="3.1.8" date="2024-07-26">
+    <release version="3.1.8" date="2024-09-23">
       <description>
-        <p>GUADEC 2024</p>
+        <p>GNOME 47 “Denver”</p>
         <ul>
-          <li>Updated brand colors for Flathub and app store clients</li>
+          <li>Fresh new adaptive look powered by GNOME accent colors!</li>
+          <li>Updated with the latest GNOME 47 platform and Adwaita 1.6</li>
           <li>Updated Croatian translations thanks to Milo Ivir</li>
         </ul>
       </description>
