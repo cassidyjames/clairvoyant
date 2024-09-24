@@ -33,28 +33,28 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>A positive answer, "Signs point to yes."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes-dark.png</image>
+      <caption>A positive answer, “Without a doubt.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/yes.png</image>
     </screenshot>
     <screenshot>
-      <caption>A positive answer, "You may rely on it."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/yes.png</image>
+      <caption>A neutral answer, “Reply hazy, try again.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/maybe.png</image>
     </screenshot>
     <screenshot>
-      <caption>A neutral answer, "Cannot predict now."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe-dark.png</image>
+      <caption>A negative answer, “My reply is no.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/no.png</image>
     </screenshot>
     <screenshot>
-      <caption>A neutral answer, "Better not tell you now."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/maybe.png</image>
+      <caption>A positive answer, “Without a doubt.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/yes-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>A negative answer, "Outlook not so good."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no-dark.png</image>
+      <caption>A neutral answer, “Reply hazy, try again.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/maybe-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>A negative answer, "Naw."</caption>
-      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3.1.0/data/screenshots/no.png</image>
+      <caption>A negative answer, “My reply is no.”</caption>
+      <image>https://raw.githubusercontent.com/cassidyjames/clairvoyant/3f42f4d8d11c77e372db739daa61c81d22a9ace5/data/screenshots/no-dark.png</image>
     </screenshot>
   </screenshots>
 
