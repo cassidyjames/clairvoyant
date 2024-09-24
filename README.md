@@ -29,3 +29,4 @@ I recommend using GNOME Builder for development.
 
 [Only on Flathub]: https://cassidyjames.com/apps#only-on-flathub
 [Flathub]: https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant
+

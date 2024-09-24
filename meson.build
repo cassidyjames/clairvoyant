@@ -1,8 +1,8 @@
 project(
   'com.github.cassidyjames.clairvoyant',
   'vala', 'c',
-  version: '3.1.7',
-  meson_version: '>=0.58',
+  version: '3.1.8',
+  meson_version: '>=1.5.1',
 )
 
 gnome = import('gnome')
@@ -63,10 +63,10 @@ executable(
   asresources,
   config_file,
   dependencies: [
-    dependency('glib-2.0'),
-    dependency('gtk4'),
-    dependency('libadwaita-1', version: '>=1.5'),
-    dependency('libportal'),
+    dependency('glib-2.0', version: '>=2.82.0'),
+    dependency('gtk4', version: '>=4.16.1'),
+    dependency('libadwaita-1', version: '>=1.6.0'),
+    dependency('libportal', version: '>=0.8.1'),
   ],
   c_args: c_args, vala_args: vala_args,
   install: true
