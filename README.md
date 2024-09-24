@@ -27,6 +27,6 @@ If you're on elementary OS, **the AppCenter version is no longer maintained or r
 
 I recommend using GNOME Builder for development.
 
-[Only on Flathub]: https://cassidyjam.es/apps#only-on-flathub
+[Only on Flathub]: https://cassidyjames.com/apps#only-on-flathub
 [Flathub]: https://flathub.org/apps/details/com.github.cassidyjames.clairvoyant
 
