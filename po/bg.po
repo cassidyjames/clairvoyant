@@ -2,40 +2,42 @@
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
 # Automatically generated, 2019.
+# twlvnn kraftwerk <kraft_werk@tutanota.com>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 21:49-0600\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-12 22:01+0200\n"
+"Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
+"Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 46.1\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Ясновидец"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Гадател"
 
 #: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Задавайте въпроси, получавайте ясновидски отговори"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "магически;осем;топка;кристал;медиум;"
 
 #: data/metainfo.appdata.xml.in:15 data/metainfo.appdata.xml.in:17
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/metainfo.appdata.xml.in:21
 msgid ""
@@ -43,464 +45,498 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
+"Обича ли ви? Трябва ли да хапнете пица за вечеря? Има ли глупав въпрос? "
+"Открийте отговорите на тези и други въпроси с „Ясновидец“, вдъхновения от "
+"магическата топка гадател."
 
 #: data/metainfo.appdata.xml.in:23
 msgid "Ask a question, then open Clairvoyant for an answer."
 msgstr ""
+"Задайте въпрос, а след това отворете „Ясновидец“, за да получите отговор."
 
 #: data/metainfo.appdata.xml.in:24
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
+"Не сте доволни? Попитайте отново, след което натиснете „Попитай отново“."
 
 #: data/metainfo.appdata.xml.in:25
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "Правете с отговорите каквото искате - само не стреляйте по пратеника!"
 
 #: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
 msgid "A positive answer, “Without a doubt.”"
-msgstr ""
+msgstr "Положителен отговор: „Без съмнение.“"
 
 #: data/metainfo.appdata.xml.in:40 data/metainfo.appdata.xml.in:52
 msgid "A neutral answer, “Reply hazy, try again.”"
-msgstr ""
+msgstr "Неутрален отговор: „Неясен отговор, питай пак“"
 
 #: data/metainfo.appdata.xml.in:44 data/metainfo.appdata.xml.in:56
 msgid "A negative answer, “My reply is no.”"
-msgstr ""
+msgstr "Отрицателен отговор: „Отговорът ми е не.“"
 
 #: data/metainfo.appdata.xml.in:64
 msgid "GNOME 47 “Denver”"
-msgstr ""
+msgstr "GNOME 47 “Denver”"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
 msgstr ""
+"Свеж нов адаптивен външен вид, благодарения на цветовите акценти на GNOME!"
 
 #: data/metainfo.appdata.xml.in:67
 msgid "Updated with the latest GNOME 47 platform and Adwaita 1.6"
-msgstr ""
+msgstr "Обновено за най-новата GNOME 47 платформа и Adwaita 1.6"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Updated Croatian translations thanks to Milo Ivir"
-msgstr ""
+msgstr "Преводът на хърватски е обновен благодарение на Мило Ивир"
 
 #: data/metainfo.appdata.xml.in:74
 msgid "No foolin'"
-msgstr ""
+msgstr "Без глупости"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Updated brand colors for Flathub and app store clients"
 msgstr ""
+"Цветове на марката са обновени за Flathub и клиентите на магазини за програми"
 
 #: data/metainfo.appdata.xml.in:77
 msgid "Updated for GNOME 46 and Adwaita 1.5"
-msgstr ""
+msgstr "Обновено за GNOME 46 и Adwaita 1.5"
 
 #: data/metainfo.appdata.xml.in:78
 msgid "Norwegian Bokmål translations thanks to Brage Fuglseth"
-msgstr ""
+msgstr "Норвежки Букмол превод благодарение на Brage Fuglseth"
 
 #: data/metainfo.appdata.xml.in:84
 msgid "Added brand colors for Flathub and app store clients"
 msgstr ""
+"Цветове на марката са добавени за Flathub и клиентите на магазини за програми"
 
 #: data/metainfo.appdata.xml.in:89 data/metainfo.appdata.xml.in:107
 #: data/metainfo.appdata.xml.in:127
 msgid "Updated translations"
-msgstr ""
+msgstr "Обновени преводи"
 
 #: data/metainfo.appdata.xml.in:91 data/metainfo.appdata.xml.in:112
 #: data/metainfo.appdata.xml.in:130
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr ""
+"Преводът на руски език е обновен благодарение на Sergej A. (@Ser82-png в "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:97
 msgid "Under-the-hood fixes"
-msgstr ""
+msgstr "Вътрешни поправки"
 
 #: data/metainfo.appdata.xml.in:99
 msgid "More consistent URLs in the About window and metadata"
-msgstr ""
+msgstr "По-консистентни адреси в прозореца „Относно“ и метаданните"
 
 #: data/metainfo.appdata.xml.in:100
 msgid "Fixed icon by removing subtle texture"
-msgstr ""
+msgstr "Иконката е поправена чрез премахване на несъществената текстура"
 
 #: data/metainfo.appdata.xml.in:101
 msgid "Improvements for GNOME Circle"
-msgstr ""
+msgstr "Подобрения за GNOME Circle"
 
 #: data/metainfo.appdata.xml.in:109
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr ""
+"Превод на бразилски португалски благодарение на Elder Martins (@eldermartins "
+"в GitHub)"
 
 #: data/metainfo.appdata.xml.in:110
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
 msgstr ""
+"Превод на китайски традиционен преводи благодарение на Oliver Tzeng "
+"(@olivertzeng в GitHub)"
 
 #: data/metainfo.appdata.xml.in:111
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr ""
+"Преводът на украински език е обновен благодарение на Volkov (@Vovkiv в "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:113 data/metainfo.appdata.xml.in:139
 msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr ""
+msgstr "Преводът на френски език е обновен благодарение на @rene-coty в GitHub"
 
 #: data/metainfo.appdata.xml.in:114
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr ""
+"Преводът на турски език е обновен благодарение на Sabri Ünal (@sabriunal в "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:115
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
 msgstr ""
+"Преводът на бразилски португалски език е обновен благодарение на Рафаел "
+"Фонтенел (@rffontenelle в GitHub)"
 
 #: data/metainfo.appdata.xml.in:121
 msgid "Deep Purple"
-msgstr ""
+msgstr "Дълбоко лилаво"
 
 #: data/metainfo.appdata.xml.in:123
 msgid "New look inspired by the deep purples from the icon"
-msgstr ""
+msgstr "Нов изглед, вдъхновен от дълбоките лилави цветове от иконката"
 
 #: data/metainfo.appdata.xml.in:124
 msgid "More information in the About window"
-msgstr ""
+msgstr "Повече информация в прозореца „Относно“"
 
 #: data/metainfo.appdata.xml.in:125
 msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr ""
+msgstr "Обновено за GNOME 45 и Adwaita 1.4"
 
 #: data/metainfo.appdata.xml.in:129
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr ""
+msgstr "Украински превод благодарение на Volkov (@Vovkiv в GitHub)"
 
 #: data/metainfo.appdata.xml.in:136
 msgid "Translations and GNOME 44"
-msgstr ""
+msgstr "Преводи и GNOME 44"
 
 #: data/metainfo.appdata.xml.in:138
 msgid "German translations thanks to @FineFindus on GitHub"
-msgstr ""
+msgstr "Немски превод благодарение на @FineFindus в GitHub"
 
 #: data/metainfo.appdata.xml.in:140
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
+"Преводът на италиански език е обновен благодарение на Davide Ferracin "
+"(@phaerrax в GitHub)"
 
 #: data/metainfo.appdata.xml.in:141
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
+"Преводът на окситански език е обновен благодарение на Davide Ferracin "
+"(@phaerrax в GitHub)"
 
 #: data/metainfo.appdata.xml.in:142
 msgid "Updated to the latest GNOME runtime"
-msgstr ""
+msgstr "Обновение до най-новата среда за изпълнение на GNOME"
 
 #: data/metainfo.appdata.xml.in:148
 msgid "Update for GNOME Circle consideration"
-msgstr ""
+msgstr "Обновление за подготвяне на GNOME Circle"
 
 #: data/metainfo.appdata.xml.in:150
 msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr ""
+msgstr "Затваряне с Ctrl+Q и Ctrl+W"
 
 #: data/metainfo.appdata.xml.in:151
 msgid "Selectable answer for improved accessibility"
-msgstr ""
+msgstr "Избираем отговор за по-добра достъпност"
 
 #: data/metainfo.appdata.xml.in:152
 msgid "Shorter summary for app listing"
-msgstr ""
+msgstr "По-кратко обобщение за списъка с програми"
 
 #: data/metainfo.appdata.xml.in:158
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
+"Иконката е малко подобрена — тя трябва да е по-видима в прегледа на "
+"дейностите и навсякъде другаде с тъмен фон"
 
 #: data/metainfo.appdata.xml.in:163
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr ""
+"Спешна поправка: поправен е прозореца „Относно“ при затваряне и повторно "
+"отваряне"
 
 #: data/metainfo.appdata.xml.in:168
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Повече забавление за всички"
 
 #: data/metainfo.appdata.xml.in:170
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Добавени са още осем оригинални отговора"
 
 #: data/metainfo.appdata.xml.in:171
 msgid "Added “About” window"
-msgstr ""
+msgstr "Добавен е прозорец „Относно“"
 
 #: data/metainfo.appdata.xml.in:172
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Подобрения в инструментите за разработчици, за да се улесни обновяването на "
+"преводите"
 
 #: data/metainfo.appdata.xml.in:173
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Италиански превод благодарение на Albano Battistella"
 
 #: data/metainfo.appdata.xml.in:174
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Средата за изпълнение е обновена на GNOME 43"
 
 #: data/metainfo.appdata.xml.in:180
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Спешна поправка: поправен е срив при стартиране от опит за достъп до "
+"несъществуващи настройки"
 
 #: data/metainfo.appdata.xml.in:185
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Здравей, GNOME"
 
 #: data/metainfo.appdata.xml.in:187
 msgid "Whole new UI"
-msgstr ""
+msgstr "Изцяло нов потребителски интерфейс"
 
 #: data/metainfo.appdata.xml.in:188
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "elementary → GNOME стил"
 
 #: data/metainfo.appdata.xml.in:189
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
+"Техническо надграждане до най-новата GNOME платформа, включително GTK4 и "
+"LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:195
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Здравей, Odin"
 
 #: data/metainfo.appdata.xml.in:197
 msgid "Updated for OS 6 and Flatpak"
-msgstr ""
+msgstr "Обновено за OS 6 и Flatpak"
 
 #: data/metainfo.appdata.xml.in:198
 msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
+msgstr "Турски превод благодарение на Safak GENISOL"
 
 #: data/metainfo.appdata.xml.in:199
 msgid "Portuguese translations thanks to André Barata"
-msgstr ""
+msgstr "Португалски превод благодарение на Андре Барата"
 
 #: data/metainfo.appdata.xml.in:200
 msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
+msgstr "Испански превод благодарение на @kevincos5"
 
 #: data/metainfo.appdata.xml.in:206
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+msgstr "Обновени иконки благодарение на Micah Ilbery"
 
 #: data/metainfo.appdata.xml.in:211
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgstr "Полски превод благодарение на Михал Новаковски"
 
 #: data/metainfo.appdata.xml.in:216
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Нидерландски превод благодарение на Heimen Stoffels"
 
 #: data/metainfo.appdata.xml.in:221
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Френски превод благодарение на @NathanBnm"
 
 #: data/metainfo.appdata.xml.in:226
 msgid "Clairvoyant is now translatable."
-msgstr ""
+msgstr "„Ясновидец“ вече може да се превежда."
 
 #: data/metainfo.appdata.xml.in:231
 msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
+msgstr "Честита нова година! Тази версия съдържа AppData поправки."
 
 #: data/metainfo.appdata.xml.in:236
 msgid "Fix 48px icon"
-msgstr ""
+msgstr "Поправка на 48px иконката"
 
 #: data/metainfo.appdata.xml.in:241
 msgid "Post-release update"
-msgstr ""
+msgstr "Обновление след издаването"
 
 #: data/metainfo.appdata.xml.in:243
 msgid "Clean up AppStream data"
-msgstr ""
+msgstr "Изчистени са AppStream данните"
 
 #: data/metainfo.appdata.xml.in:244
 msgid "Expand on the description"
-msgstr ""
+msgstr "Разширяване на описанието"
 
 #: data/metainfo.appdata.xml.in:245
 msgid "Change price to $1"
-msgstr ""
+msgstr "Промяна на цената на $1"
 
 #. /TRANSLATORS: Positive response
 #: data/metainfo.appdata.xml.in:251 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Несъмнено да."
 
 #: data/metainfo.appdata.xml.in:253
 msgid "Initial release"
-msgstr ""
+msgstr "Първоначално издание"
 
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:17
 msgid "It is certain."
-msgstr ""
+msgstr "Сигурно е."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:27
 msgid "Without a doubt."
-msgstr ""
+msgstr "Без съмнение."
 
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:32
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Да, определено."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:37
 msgid "You may rely on it."
-msgstr ""
+msgstr "Можеш да се обзаложиш."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Както го виждам - да."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:47
 msgid "Most likely."
-msgstr ""
+msgstr "Твърде вероятно."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:52
 msgid "Outlook good."
-msgstr ""
+msgstr "Изглежда добре."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:57
 msgid "Yes."
-msgstr ""
+msgstr "Да."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:62
 msgid "Signs point to yes."
-msgstr ""
+msgstr "Знаците казват да."
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:67
 msgid "Yep!"
-msgstr ""
+msgstr "Да!"
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:72
 msgid "Absolutely!"
-msgstr ""
+msgstr "Абсолютно!"
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:77
 msgid "You bet!"
-msgstr ""
+msgstr "И още как!"
 
 #: src/FortuneLabel.vala:81
 msgid "Confirmed."
-msgstr ""
+msgstr "Потвърдено."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
-msgstr ""
+msgstr "Не разчитайте на това."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:91
 msgid "My reply is no."
-msgstr ""
+msgstr "Отговорът ми е не."
 
 #. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
 #: src/FortuneLabel.vala:96
 msgid "My sources say no."
-msgstr ""
+msgstr "Източниците ми казват не."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
-msgstr ""
+msgstr "Изгледът не е толкова добър."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:106
 msgid "Very doubtful."
-msgstr ""
+msgstr "Много съмнително."
 
 #. /TRANSLATORS: Negative response, casual
 #: src/FortuneLabel.vala:111
 msgid "Naw."
-msgstr ""
+msgstr "Нее."
 
 #. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
 #: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "Имам лошо предчувствие за това…"
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:121
 msgid "Reply hazy, try again."
-msgstr ""
+msgstr "Неясен отговор, питай пак."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:126
 msgid "Ask again later."
-msgstr ""
+msgstr "Попитайте отново по-късно."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:131
 msgid "Better not tell you now."
-msgstr ""
+msgstr "По-добре да не ви казвам сега."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:136
 msgid "Cannot predict now."
-msgstr ""
+msgstr "Сега не мога да предскажа."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:141
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Съсредоточете се и попитайте отново."
 
 #. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
 #: src/FortuneLabel.vala:146
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Невъзможно е да се види, бъдещето е."
 
 #. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
 #: src/FortuneLabel.vala:151
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 Отговорът не е намерен"
 
 #: src/MainWindow.vala:19
 msgid "About"
-msgstr ""
+msgstr "Относно"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:30
 msgid "translator-credits"
-msgstr ""
+msgstr "twlvnn kraftwerk <kraft_werk@tutanota.com>"
 
 #: src/MainWindow.vala:52
 msgid "Ask Again"
-msgstr ""
+msgstr "Попитай отново"
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
-msgstr ""
+msgstr "Неподдържана версия на тази програма"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
-msgstr ""
+msgstr "_Научете повече…"
