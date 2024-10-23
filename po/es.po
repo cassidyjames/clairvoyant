@@ -62,7 +62,7 @@ msgstr ""
 #: data/metainfo.appdata.xml.in:25
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
-"¡Haz lo que quieras con las respuestas, sólo no le dispares al mensajero!"
+"¡Haz lo que quieras con las respuestas, pero no dispares al mensajero!"
 
 #: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
 #, fuzzy
@@ -507,7 +507,7 @@ msgstr "@kevincos5, @ingrownmink4"
 
 #: src/MainWindow.vala:52
 msgid "Ask Again"
-msgstr "Pregúnta de nuevo."
+msgstr "Pregunta de nuevo."
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
