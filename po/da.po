@@ -2,40 +2,42 @@
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
 # Automatically generated, 2019.
+# Kasper Agentoft Lind <kasperalind@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 21:49-0600\n"
-"PO-Revision-Date: 2019-01-25 21:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-02-18 19:55+0100\n"
+"Last-Translator: Kasper Agentoft Lind <kasperalind@gmail.com>\n"
+"Language-Team: Danish\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 47.1\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
-msgstr ""
+msgstr "Clairvoyant"
 
 #: data/launcher.desktop.in:4
 msgid "Fortune Teller"
-msgstr ""
+msgstr "Spåkone"
 
 #: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
 msgid "Ask questions, get psychic answers"
-msgstr ""
+msgstr "Stil spørgsmål, få psykiske svar"
 
 #: data/launcher.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
-msgstr ""
+msgstr "magisk;otte;kugle;8;krystal;🔮;mellem;🎱;"
 
 #: data/metainfo.appdata.xml.in:15 data/metainfo.appdata.xml.in:17
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/metainfo.appdata.xml.in:21
 msgid ""
@@ -43,464 +45,492 @@ msgid ""
 "stupid question? Discover the answers to these questions and more with "
 "Clairvoyant, the magic 8-ball inspired fortune teller."
 msgstr ""
+"Elsker han dig? Skal du have pizza til aftensmad? Findes der faktisk dumme "
+"spørgsmål? Udforsk svarende til disse spørgsmål og meget mere med "
+"Clairvoyant, den magiske 8-ball inspireret spåkone."
 
 #: data/metainfo.appdata.xml.in:23
 msgid "Ask a question, then open Clairvoyant for an answer."
-msgstr ""
+msgstr "Stil et spørgsmål, derefter åben Clairvoyant for svar."
 
 #: data/metainfo.appdata.xml.in:24
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
+"Ikke tilfreds? Sprøg igen, derefter tryk på \"Spørg igen\" for at prøve igen."
 
 #: data/metainfo.appdata.xml.in:25
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
-msgstr ""
+msgstr "Gør hvad du har lyst til med svarende—bare ikk' skyd budbringeren!"
 
 #: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
 msgid "A positive answer, “Without a doubt.”"
-msgstr ""
+msgstr "Et positivt svar, \"Uden tvivl.\""
 
 #: data/metainfo.appdata.xml.in:40 data/metainfo.appdata.xml.in:52
 msgid "A neutral answer, “Reply hazy, try again.”"
-msgstr ""
+msgstr "Et neutralt svar, \"Svaret er diset, prøv igen.\""
 
 #: data/metainfo.appdata.xml.in:44 data/metainfo.appdata.xml.in:56
 msgid "A negative answer, “My reply is no.”"
-msgstr ""
+msgstr "Et negativt svar, \"Mit svar er nej.\""
 
 #: data/metainfo.appdata.xml.in:64
 msgid "GNOME 47 “Denver”"
-msgstr ""
+msgstr "GNOME 47 “Denver”"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
-msgstr ""
+msgstr "Frisk ny adaptiv stil drevet af GNOME accent farver!"
 
 #: data/metainfo.appdata.xml.in:67
 msgid "Updated with the latest GNOME 47 platform and Adwaita 1.6"
-msgstr ""
+msgstr "Opdateret med den seneste GNOME 47 platform og Adwaita 1.6"
 
 #: data/metainfo.appdata.xml.in:68
 msgid "Updated Croatian translations thanks to Milo Ivir"
-msgstr ""
+msgstr "Opdaterede Kroatiske oversættelser tak til Milo Ivir"
 
 #: data/metainfo.appdata.xml.in:74
 msgid "No foolin'"
-msgstr ""
+msgstr "Ingen fub"
 
 #: data/metainfo.appdata.xml.in:76
+#, fuzzy
 msgid "Updated brand colors for Flathub and app store clients"
-msgstr ""
+msgstr "Opdaterede mærke farverne for Flathub og app store klienter"
 
 #: data/metainfo.appdata.xml.in:77
 msgid "Updated for GNOME 46 and Adwaita 1.5"
-msgstr ""
+msgstr "Opdateret for GNOME 46 og Adwaita 1.5"
 
 #: data/metainfo.appdata.xml.in:78
 msgid "Norwegian Bokmål translations thanks to Brage Fuglseth"
-msgstr ""
+msgstr "Norskske Bokmål oversættelser tak til Brage Fuglseth"
 
 #: data/metainfo.appdata.xml.in:84
+#, fuzzy
 msgid "Added brand colors for Flathub and app store clients"
-msgstr ""
+msgstr "Tilføjede mærke farverne for Flathub og app store klienter"
 
 #: data/metainfo.appdata.xml.in:89 data/metainfo.appdata.xml.in:107
 #: data/metainfo.appdata.xml.in:127
 msgid "Updated translations"
-msgstr ""
+msgstr "Opdaterede oversættelserne"
 
 #: data/metainfo.appdata.xml.in:91 data/metainfo.appdata.xml.in:112
 #: data/metainfo.appdata.xml.in:130
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr ""
+"Opdaterede Russike oversættelser tak til Sergej A. (@Ser82-png på GitHub)"
 
 #: data/metainfo.appdata.xml.in:97
+#, fuzzy
 msgid "Under-the-hood fixes"
-msgstr ""
+msgstr "Under-the-hood rettelser"
 
 #: data/metainfo.appdata.xml.in:99
 msgid "More consistent URLs in the About window and metadata"
-msgstr ""
+msgstr "Mere pålidelige URL'er i Om vindue og metadata"
 
 #: data/metainfo.appdata.xml.in:100
+#, fuzzy
 msgid "Fixed icon by removing subtle texture"
-msgstr ""
+msgstr "Rettede ikon ved at fjerne subtle texture"
 
 #: data/metainfo.appdata.xml.in:101
 msgid "Improvements for GNOME Circle"
-msgstr ""
+msgstr "Forbedringer inden for GNOME Cirkel"
 
 #: data/metainfo.appdata.xml.in:109
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr ""
+"Brasiliansk Portugisiske oversættelser tak til Elder Martins (@eldermartins "
+"på GitHub)"
 
 #: data/metainfo.appdata.xml.in:110
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
 msgstr ""
+"Kinesisk Traditionelle oversættelser tak til Oliver Tzeng (@olivertzeng på "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:111
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr ""
+msgstr "Opdaterede Ukrainske oversættelser tak til Volkov (@Vovkiv på GitHub)"
 
 #: data/metainfo.appdata.xml.in:113 data/metainfo.appdata.xml.in:139
 msgid "Updated French translations thanks to @rene-coty on GitHub"
-msgstr ""
+msgstr "Opdaterede Franske oversættelser tak til @rene-coty på GitHub"
 
 #: data/metainfo.appdata.xml.in:114
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr ""
+"Opdaterede Tyrkiske oversættelser tak til Sabri Ünal (@sabriunal på GitHub)"
 
 #: data/metainfo.appdata.xml.in:115
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
 msgstr ""
+"Opdaterede Brasilianske Portugisiske oversættelser tak til Rafael Fontenelle "
+"(@rffontenelle på GitHub)"
 
 #: data/metainfo.appdata.xml.in:121
 msgid "Deep Purple"
-msgstr ""
+msgstr "Dyb Lilla"
 
 #: data/metainfo.appdata.xml.in:123
 msgid "New look inspired by the deep purples from the icon"
-msgstr ""
+msgstr "Ny udseende inspireret af det dybe lilla fra ikonet"
 
 #: data/metainfo.appdata.xml.in:124
 msgid "More information in the About window"
-msgstr ""
+msgstr "Mere infomation i Om vinduet"
 
 #: data/metainfo.appdata.xml.in:125
 msgid "Updated for GNOME 45 and Adwaita 1.4"
-msgstr ""
+msgstr "Opdateret for GNOME 45 og Adwaita 1.4"
 
 #: data/metainfo.appdata.xml.in:129
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
-msgstr ""
+msgstr "Ukrainske oversættelser tak til Volkov (@Vovkiv på GitHub)"
 
 #: data/metainfo.appdata.xml.in:136
 msgid "Translations and GNOME 44"
-msgstr ""
+msgstr "Oversættelser og GNOME 44"
 
 #: data/metainfo.appdata.xml.in:138
 msgid "German translations thanks to @FineFindus on GitHub"
-msgstr ""
+msgstr "Tyske oversættelser tak til @FineFindus på GitHub"
 
 #: data/metainfo.appdata.xml.in:140
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
+"Opdaterede Italienske oversættelser tak til Davide Ferracin (@phaerrax på "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:141
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
+"Opdaterede Occitanske oversættelser tak til Quentin PAGÈS (@Mejans på GitHub)"
 
 #: data/metainfo.appdata.xml.in:142
 msgid "Updated to the latest GNOME runtime"
-msgstr ""
+msgstr "Opdaterede til en nyeste GNOME runtime"
 
 #: data/metainfo.appdata.xml.in:148
 msgid "Update for GNOME Circle consideration"
-msgstr ""
+msgstr "Opdatering for GNOME cirkel overvejelse"
 
 #: data/metainfo.appdata.xml.in:150
 msgid "Close with Ctrl+Q and Ctrl+W"
-msgstr ""
+msgstr "Luk med Ctrl+Q og Ctrl+W"
 
 #: data/metainfo.appdata.xml.in:151
 msgid "Selectable answer for improved accessibility"
-msgstr ""
+msgstr "Valgfri svar til forbedret tilgængelighed"
 
 #: data/metainfo.appdata.xml.in:152
+#, fuzzy
 msgid "Shorter summary for app listing"
-msgstr ""
+msgstr "Kortere resumé for app oplæg"
 
 #: data/metainfo.appdata.xml.in:158
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
 msgstr ""
+"Diskret forbedret ikon; den skulle være mere synlig i app gitteret, og hvor "
+"som helst med en mørk baggrund"
 
 #: data/metainfo.appdata.xml.in:163
 msgid "Hotfix: fix About window when closing and re-opening it"
-msgstr ""
+msgstr "Hotfix: Rettede Om vindue når man lukker og genåbner det"
 
 #: data/metainfo.appdata.xml.in:168
 msgid "More fun for everyone"
-msgstr ""
+msgstr "Mere sjov for alle"
 
 #: data/metainfo.appdata.xml.in:170
 msgid "Added eight more original replies"
-msgstr ""
+msgstr "Tilføjede otte flere orginale svar"
 
 #: data/metainfo.appdata.xml.in:171
 msgid "Added “About” window"
-msgstr ""
+msgstr "Tilføjede \"Om\" vindue"
 
 #: data/metainfo.appdata.xml.in:172
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
 msgstr ""
+"Forbedringer til udviklerværktøjer for at gøre oversættelser nemmere at "
+"holde opdateret"
 
 #: data/metainfo.appdata.xml.in:173
 msgid "Italian translations thanks to Albano Battistella"
-msgstr ""
+msgstr "Italienske oversættelser tak til Albano Battistella"
 
 #: data/metainfo.appdata.xml.in:174
 msgid "Updated runtime to GNOME 43"
-msgstr ""
+msgstr "Opdateret runtime til GNOME 43"
 
 #: data/metainfo.appdata.xml.in:180
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
+"Hotfix: Ret nedbrud ved opstart ved forsøg at få adgang til ikke-"
+"eksisterende indstillinger"
 
 #: data/metainfo.appdata.xml.in:185
 msgid "Hello, GNOME"
-msgstr ""
+msgstr "Hej, GNOME"
 
 #: data/metainfo.appdata.xml.in:187
 msgid "Whole new UI"
-msgstr ""
+msgstr "Helt nyt UI"
 
 #: data/metainfo.appdata.xml.in:188
+#, fuzzy
 msgid "elementary → GNOME styling"
-msgstr ""
+msgstr "elementary → GNOME styling"
 
 #: data/metainfo.appdata.xml.in:189
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
+"Teknisk opgradering til den nyeste GNOME platform inklusiv GTK4 og LibAdwaita"
 
 #: data/metainfo.appdata.xml.in:195
 msgid "Hello, Odin"
-msgstr ""
+msgstr "Hej, Odin"
 
 #: data/metainfo.appdata.xml.in:197
 msgid "Updated for OS 6 and Flatpak"
-msgstr ""
+msgstr "Opdaterede for OS 6 og Flatpak"
 
 #: data/metainfo.appdata.xml.in:198
 msgid "Turkish translations thanks to Safak GENISOL"
-msgstr ""
+msgstr "Tyrkiske oversættelser tak til Safak GENISOL"
 
 #: data/metainfo.appdata.xml.in:199
 msgid "Portuguese translations thanks to André Barata"
-msgstr ""
+msgstr "Portugisiske oversættelser tak til André Barata"
 
 #: data/metainfo.appdata.xml.in:200
 msgid "Spanish translations thanks to @kevincos5"
-msgstr ""
+msgstr "Spanske oversættelser tak til @kevincos5"
 
 #: data/metainfo.appdata.xml.in:206
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr ""
+msgstr "Forfrisket ikoner tak til Micah Ilbery"
 
 #: data/metainfo.appdata.xml.in:211
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr ""
+msgstr "Polske oversættelser tak til Michał Nowakowski"
 
 #: data/metainfo.appdata.xml.in:216
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Hollandske oversættelser tak til Heimen Stoffels"
 
 #: data/metainfo.appdata.xml.in:221
 msgid "French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Franske oversættelser tak til @NathanBnm"
 
 #: data/metainfo.appdata.xml.in:226
 msgid "Clairvoyant is now translatable."
-msgstr ""
+msgstr "Clairvoyant kan nu blive oversat."
 
 #: data/metainfo.appdata.xml.in:231
 msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
+msgstr "Godt nytår! Denne udgivelse indeholder AppData rettelser."
 
 #: data/metainfo.appdata.xml.in:236
 msgid "Fix 48px icon"
-msgstr ""
+msgstr "Ret 48px ikon"
 
 #: data/metainfo.appdata.xml.in:241
 msgid "Post-release update"
-msgstr ""
+msgstr "Opdatering efter udgivelsen"
 
 #: data/metainfo.appdata.xml.in:243
 msgid "Clean up AppStream data"
-msgstr ""
+msgstr "Ryd AppStream data"
 
 #: data/metainfo.appdata.xml.in:244
 msgid "Expand on the description"
-msgstr ""
+msgstr "Udvid beskrivelsen"
 
 #: data/metainfo.appdata.xml.in:245
 msgid "Change price to $1"
-msgstr ""
+msgstr "Ændr pris til $1"
 
 #. /TRANSLATORS: Positive response
 #: data/metainfo.appdata.xml.in:251 src/FortuneLabel.vala:22
 msgid "It is decidedly so."
-msgstr ""
+msgstr "Det er ret bestemt."
 
 #: data/metainfo.appdata.xml.in:253
 msgid "Initial release"
-msgstr ""
+msgstr "Første udgivelse"
 
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:17
 msgid "It is certain."
-msgstr ""
+msgstr "Det er sikkert."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:27
 msgid "Without a doubt."
-msgstr ""
+msgstr "Uden tvivl."
 
 #. /TRANSLATORS: Positive response, the thing is certain to happen
 #: src/FortuneLabel.vala:32
 msgid "Yes—definitely."
-msgstr ""
+msgstr "Ja-sikkert."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:37
 msgid "You may rely on it."
-msgstr ""
+msgstr "Du kan stole på det."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:42
 msgid "As I see it, yes."
-msgstr ""
+msgstr "Som jeg ser det, ja."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:47
 msgid "Most likely."
-msgstr ""
+msgstr "Mest sandsynligt."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:52
 msgid "Outlook good."
-msgstr ""
+msgstr "Gode ​​udsigter."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:57
 msgid "Yes."
-msgstr ""
+msgstr "Ja."
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:62
 msgid "Signs point to yes."
-msgstr ""
+msgstr "Alle tegn peger på ja."
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:67
 msgid "Yep!"
-msgstr ""
+msgstr "Yep!"
 
 #. /TRANSLATORS: Positive response
 #: src/FortuneLabel.vala:72
 msgid "Absolutely!"
-msgstr ""
+msgstr "Fuldstændig!"
 
 #. /TRANSLATORS: Positive response, casual
 #: src/FortuneLabel.vala:77
 msgid "You bet!"
-msgstr ""
+msgstr "Du satser!"
 
 #: src/FortuneLabel.vala:81
 msgid "Confirmed."
-msgstr ""
+msgstr "Bekræftet."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:86
 msgid "Don’t count on it."
-msgstr ""
+msgstr "Regn ikke med det."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:91
 msgid "My reply is no."
-msgstr ""
+msgstr "Mit svar er nej."
 
 #. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
 #: src/FortuneLabel.vala:96
 msgid "My sources say no."
-msgstr ""
+msgstr "Mine kilder siger nej."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:101
 msgid "Outlook not so good."
-msgstr ""
+msgstr "Ser ikke ret lovende ud fra mit synspunkt."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:106
 msgid "Very doubtful."
-msgstr ""
+msgstr "Meget tvivlsomt."
 
 #. /TRANSLATORS: Negative response, casual
 #: src/FortuneLabel.vala:111
 msgid "Naw."
-msgstr ""
+msgstr "Neej."
 
 #. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
 #: src/FortuneLabel.vala:116
 msgid "I’ve got a bad feeling about this…"
-msgstr ""
+msgstr "Jeg har en dårlig fornemmelse af det her ..."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:121
 msgid "Reply hazy, try again."
-msgstr ""
+msgstr "Uklart svar, prøv igen."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:126
 msgid "Ask again later."
-msgstr ""
+msgstr "Sprøg igen senere."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:131
 msgid "Better not tell you now."
-msgstr ""
+msgstr "Bedre ikke fortælle dig nu."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:136
 msgid "Cannot predict now."
-msgstr ""
+msgstr "Ikke forudsigeligt lige nu."
 
 #. /TRANSLATORS: Neutral response
 #: src/FortuneLabel.vala:141
 msgid "Concentrate and ask again."
-msgstr ""
+msgstr "Koncentrere og sprøg igen."
 
 #. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
 #: src/FortuneLabel.vala:146
 msgid "Impossible to see, the future is."
-msgstr ""
+msgstr "Umuligt at se, fremtiden er."
 
 #. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
 #: src/FortuneLabel.vala:151
 msgid "404 Answer Not Found"
-msgstr ""
+msgstr "404 Svar Ikke Fundet"
 
 #: src/MainWindow.vala:19
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #. / The translator credits. Please translate this with your name(s).
 #: src/MainWindow.vala:30
 msgid "translator-credits"
-msgstr ""
+msgstr "oversætter-kreditter"
 
 #: src/MainWindow.vala:52
 msgid "Ask Again"
-msgstr ""
+msgstr "Sprøg Igen"
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
-msgstr ""
+msgstr "Ikke-understøttet version af denne app"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
-msgstr ""
+msgstr "_Lær mere ..."
