@@ -27,8 +27,13 @@
   </description>
 
   <provides>
+    <id>com.cassidyjames.clairvoyant</id>
+    <id>com.github.cassidyjames.clairvoyant</id>
     <binary>com.cassidyjames.clairvoyant</binary>
   </provides>
+  <replaces>
+    <id>com.github.cassidyjames.clairvoyant</id>
+  </replaces>
   <launchable type="desktop-id">com.cassidyjames.clairvoyant.desktop</launchable>
 
   <screenshots>
