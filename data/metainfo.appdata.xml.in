@@ -29,7 +29,11 @@
 
   <provides>
     <binary>com.cassidyjames.clairvoyant</binary>
+    <id>com.github.cassidyjames.clairvoyant</id>
   </provides>
+  <replaces>
+    <id>com.github.cassidyjames.clairvoyant</id>
+  </replaces>
   <launchable type="desktop-id">com.cassidyjames.clairvoyant.desktop</launchable>
 
   <screenshots>
@@ -67,6 +71,7 @@
           <li>Improved Spanish translations thanks to LucidTyper</li>
           <li>Added Danish translations thanks to Kasper Agentoft Lind</li>
           <li>Added Bulgarian translations thanks to twlvnn kraftwerk</li>
+          <li>Improved Brazilian Portuguese translations thanks to aquila0101</li>
           <li>Updated app ID to new RDNN based on cassidyjames.com</li>
         </ul>
       </description>

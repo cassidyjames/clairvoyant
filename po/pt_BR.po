@@ -82,7 +82,7 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
-msgstr ""
+msgstr "Novo visual adaptativo e moderno, com cores de destaque do GNOME!"
 
 #: data/metainfo.appdata.xml.in:67
 #, fuzzy
@@ -534,7 +534,7 @@ msgstr "Pergunte novamente"
 
 #: src/MainWindow.vala:59
 msgid "Unsupported version of this app"
-msgstr ""
+msgstr "Versão deste aplicativo não suportada"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
