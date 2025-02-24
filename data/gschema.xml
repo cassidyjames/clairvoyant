@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/com/github/cassidyjames/clairvoyant/" id="com.github.cassidyjames.clairvoyant">
+  <schema path="/com/cassidyjames/clairvoyant/" id="com.cassidyjames.clairvoyant">
     <key name="last" type="x">
       <!-- int64 min -->
       <default>-9223372036854775808</default>

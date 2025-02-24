@@ -1,13 +1,13 @@
 {
-  "app-id": "com.github.cassidyjames.clairvoyant",
+  "app-id": "com.cassidyjames.clairvoyant",
   "runtime": "org.gnome.Platform",
   "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
-  "command": "com.github.cassidyjames.clairvoyant",
+  "command": "com.cassidyjames.clairvoyant",
   "finish-args": [
     "--share=ipc",
-    "--socket=fallback-x11",
     "--socket=wayland",
+    "--socket=fallback-x11",
     "--device=dri"
   ],
   "modules": [
@@ -22,8 +22,8 @@
         {
           "type": "git",
           "url": "https://github.com/flatpak/libportal.git",
-          "tag": "0.8.1",
-          "commit": "26c15008cbe579f57f89468384f8efc033f25f6f",
+          "tag": "0.9.1",
+          "commit": "8f5dc8d192f6e31dafe69e35219e3b707bde71ce",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^([\\d.]+)$"
