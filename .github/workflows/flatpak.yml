@@ -20,5 +20,5 @@ jobs:
     - uses: flathub-infra/flatpak-github-actions/flatpak-builder@master
       with:
         bundle: clairvoyant.flatpak
-        manifest-path: com.github.cassidyjames.clairvoyant.json
+        manifest-path: com.cassidyjames.clairvoyant.json
         cache-key: "flatpak-builder-${{ github.sha }}"

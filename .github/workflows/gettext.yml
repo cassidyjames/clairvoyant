@@ -23,7 +23,7 @@ jobs:
   gettext:
     runs-on: ubuntu-latest
     container:
-      image: fedora:40
+      image: fedora:41
     steps:
       - name: Install deps
         run: |
@@ -52,8 +52,8 @@ jobs:
 
       - name: Regenerate translation files
         run: |
-          ninja -C _build com.github.cassidyjames.clairvoyant-pot
-          ninja -C _build com.github.cassidyjames.clairvoyant-update-po
+          ninja -C _build com.cassidyjames.clairvoyant-pot
+          ninja -C _build com.cassidyjames.clairvoyant-update-po
 
       - name: Commit
         continue-on-error: true
