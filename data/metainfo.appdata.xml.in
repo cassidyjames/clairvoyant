@@ -28,9 +28,8 @@
   </description>
 
   <provides>
-    <id>com.cassidyjames.clairvoyant</id>
-    <id>com.github.cassidyjames.clairvoyant</id>
     <binary>com.cassidyjames.clairvoyant</binary>
+    <id>com.github.cassidyjames.clairvoyant</id>
   </provides>
   <replaces>
     <id>com.github.cassidyjames.clairvoyant</id>
