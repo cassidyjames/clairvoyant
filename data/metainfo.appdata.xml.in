@@ -24,6 +24,7 @@
       <li>Not satisfied? Ask again, then hit "Ask Again" to try again.</li>
       <li>Do what you'd like with the answers—just don't shoot the messenger!</li>
     </ul>
+    <p>Warning: it has been noted that “such a program can lead people away from God, as they are making an idol of an application and putting their faith into a virtual 8 ball.” Proceed at your own risk!</p>
   </description>
 
   <provides>
@@ -59,7 +60,7 @@
   </screenshots>
 
   <releases>
-    <release version="3.1.9" date="2025-02-24">
+    <release version="3.1.10" date="2025-02-24">
       <description>
         <p>Updated translations</p>
         <ul>
