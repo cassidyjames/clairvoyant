@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/github/cassidyjames/clairvoyant/">
+  <gresource prefix="/com/cassidyjames/clairvoyant/">
     <file alias="metainfo.xml" preprocess="xml-stripblanks">metainfo.appdata.xml.in</file>
     <file alias="style.css">styles/style.css</file>
   </gresource>
-  <gresource prefix="/com/github/cassidyjames/clairvoyant/icons/scalable/actions/">
+  <gresource prefix="/com/cassidyjames/clairvoyant/icons/scalable/actions/">
     <file alias="about-symbolic.svg" preprocess="xml-stripblanks">icons/about-symbolic.svg</file>
   </gresource>
 </gresources>

@@ -1,0 +1,46 @@
+{
+  "app-id": "com.cassidyjames.clairvoyant",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "master",
+  "sdk": "org.gnome.Sdk",
+  "command": "com.cassidyjames.clairvoyant",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri"
+  ],
+  "modules": [
+    {
+      "name": "libportal",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Ddocs=false",
+        "-Dbackend-gtk4=enabled"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/flatpak/libportal.git",
+          "tag": "0.9.1",
+          "commit": "8f5dc8d192f6e31dafe69e35219e3b707bde71ce",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
+        }
+      ]
+    },
+    {
+      "name": "clairvoyant",
+      "buildsystem": "meson",
+      "run-tests": true,
+      "sources": [
+        {
+          "type": "dir",
+          "path": "."
+        }
+      ]
+    }
+  ]
+}
