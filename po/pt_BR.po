@@ -1,21 +1,23 @@
 # Brazilian Portuguese translations for com.github.cassidyjames.clairvoyant package.
-# Copyright (C) 2023 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
+# Copyright (C) 2025 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
 # Translated by Elder Martins <hello [at] eldermartins.com>
+# Rafael Fontenelle <rafaelff@gnome.org>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 21:49-0600\n"
-"PO-Revision-Date: 2023-12-03 12:24-0300\n"
+"PO-Revision-Date: 2025-04-26 22:52-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: none\n"
+"Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 48.0\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
@@ -62,59 +64,54 @@ msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr "Faça o que quiser com as respostas, apenas não atire no mensageiro!"
 
 #: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
-#, fuzzy
 msgid "A positive answer, “Without a doubt.”"
-msgstr "Uma resposta positiva, \"Pode contar com isso.\""
+msgstr "Uma resposta positiva, “Pode contar com isso.”"
 
 #: data/metainfo.appdata.xml.in:40 data/metainfo.appdata.xml.in:52
-#, fuzzy
 msgid "A neutral answer, “Reply hazy, try again.”"
-msgstr "Resposta nebulosa, tente novamente."
+msgstr "Uma resposta neutra, “Resposta nebulosa, tente novamente.”"
 
 #: data/metainfo.appdata.xml.in:44 data/metainfo.appdata.xml.in:56
-#, fuzzy
 msgid "A negative answer, “My reply is no.”"
-msgstr "Uma resposta negativa, \"A perspectiva não é muito boa.\""
+msgstr "Uma resposta negativa, “Minha resposta é não.”"
 
 #: data/metainfo.appdata.xml.in:64
 msgid "GNOME 47 “Denver”"
-msgstr ""
+msgstr "GNOME 47 “Denver”"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
 msgstr "Novo visual adaptativo e moderno, com cores de destaque do GNOME!"
 
 #: data/metainfo.appdata.xml.in:67
-#, fuzzy
 msgid "Updated with the latest GNOME 47 platform and Adwaita 1.6"
-msgstr "Atualizado para o GNOME 45 e Adwaita 1.4"
+msgstr "Atualizado com a mais recente plataforma GNOME 47 e Adwaita 1.6"
 
 #: data/metainfo.appdata.xml.in:68
-#, fuzzy
 msgid "Updated Croatian translations thanks to Milo Ivir"
-msgstr "Traduções atualizadas para ucraniano por a Volkov (@Vovkiv no GitHub)"
+msgstr "Traduções atualizadas para croata graças a Milo Ivir"
 
 #: data/metainfo.appdata.xml.in:74
 msgid "No foolin'"
-msgstr ""
+msgstr "Sem brincadeira"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Updated brand colors for Flathub and app store clients"
 msgstr ""
+"Cores da marca atualizadas para clientes da Flathub e de loja de aplicativos"
 
 #: data/metainfo.appdata.xml.in:77
-#, fuzzy
 msgid "Updated for GNOME 46 and Adwaita 1.5"
-msgstr "Atualizado para o GNOME 45 e Adwaita 1.4"
+msgstr "Atualizado para o GNOME 46 e Adwaita 1.5"
 
 #: data/metainfo.appdata.xml.in:78
-#, fuzzy
 msgid "Norwegian Bokmål translations thanks to Brage Fuglseth"
-msgstr "Traduções para francês graças a @NathanBnm"
+msgstr "Traduções para norueguês Bokmål graças a Brage Fuglseth"
 
 #: data/metainfo.appdata.xml.in:84
 msgid "Added brand colors for Flathub and app store clients"
 msgstr ""
+"Cores da marca adicionadas para clientes da Flathub e de loja de aplicativos"
 
 #: data/metainfo.appdata.xml.in:89 data/metainfo.appdata.xml.in:107
 #: data/metainfo.appdata.xml.in:127
@@ -129,36 +126,35 @@ msgstr ""
 
 #: data/metainfo.appdata.xml.in:97
 msgid "Under-the-hood fixes"
-msgstr ""
+msgstr "Correções debaixo do capô"
 
 #: data/metainfo.appdata.xml.in:99
-#, fuzzy
 msgid "More consistent URLs in the About window and metadata"
-msgstr "Mais informações na janela Sobre"
+msgstr "URLs mais consistentes na janela Sobre e nos metadados"
 
 #: data/metainfo.appdata.xml.in:100
 msgid "Fixed icon by removing subtle texture"
-msgstr ""
+msgstr "Ícone corrigido removendo textura sutil"
 
 #: data/metainfo.appdata.xml.in:101
 msgid "Improvements for GNOME Circle"
-msgstr ""
+msgstr "Melhorias para o GNOME Circle"
 
 #: data/metainfo.appdata.xml.in:109
-#, fuzzy
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr ""
-"Tradução para italiano atualizada graças a Davide Ferracin (@phaerrax no "
-"GitHub)"
+"Tradução para português brasileiro atualizada graças a Elder Martins "
+"(@eldermartins no GitHub)"
 
 #: data/metainfo.appdata.xml.in:110
-#, fuzzy
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
-msgstr "Tradução para ucraniano graças a Volkov (@Vovkiv no GitHub)"
+msgstr ""
+"Tradução para chinês tradicional graças a Oliver Tzeng (@olivertzeng no "
+"GitHub)"
 
 #: data/metainfo.appdata.xml.in:111
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
@@ -169,18 +165,18 @@ msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Tradução para francês atualizada graça a @rene-coty no GitHub"
 
 #: data/metainfo.appdata.xml.in:114
-#, fuzzy
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr ""
-"Traduções atualizadas para o russo por a Sergej A. (@Ser82-png no GitHub)"
+"Traduções atualizadas para o turco por a Sabri Ünal (@sabriunal no GitHub)"
 
 #: data/metainfo.appdata.xml.in:115
-#, fuzzy
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
-msgstr "Traduções atualizadas para ucraniano por a Volkov (@Vovkiv no GitHub)"
+msgstr ""
+"Tradução para português brasileiro atualizada graças a Rafael Fontenelle "
+"(@rffontenelle no GitHub)"
 
 #: data/metainfo.appdata.xml.in:121
 msgid "Deep Purple"
@@ -538,7 +534,7 @@ msgstr "Versão deste aplicativo não suportada"
 
 #: src/MainWindow.vala:60
 msgid "_Learn More…"
-msgstr ""
+msgstr "_Saiba mais…"
 
 #~ msgid "A positive answer, \"Signs point to yes.\""
 #~ msgstr "Uma resposta positiva, \"Os sinais apontam que sim.\""
