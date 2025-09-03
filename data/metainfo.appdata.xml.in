@@ -64,6 +64,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.11" date="2025-09-03">
+      <description>
+        <p>Updated translations</p>
+        <ul>
+          <li>Added Arabic translations thanks to Ahmed Najmawi</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.10" date="2025-02-24">
       <description>
         <p>Updated translations</p>
