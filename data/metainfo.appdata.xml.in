@@ -69,6 +69,7 @@
         <p>GNOME 49 “Brescia”</p>
         <ul>
           <li>Updated with the latest GNOME 49 platform and Adwaita 1.8</li>
+          <li>Added Arabic translations thanks to Ahmed Najmawi</li>
         </ul>
       </description>
     </release>
