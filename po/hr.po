@@ -2,13 +2,14 @@
 # Copyright (C) 2019 THE com.github.cassidyjames.clairvoyant'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.clairvoyant package.
 # Automatically generated, 2019.
+# Milo Ivir <mail@milotype.de>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 21:49-0600\n"
-"PO-Revision-Date: 2024-07-24 17:21+0200\n"
+"PO-Revision-Date: 2025-10-24 14:10+0200\n"
 "Last-Translator: Milo Ivir <mail@mivirtype.de>\n"
 "Language-Team: none\n"
 "Language: hr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.8\n"
 
 #: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
 msgid "Clairvoyant"
@@ -64,55 +65,49 @@ msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr "Učinite što želite s odgovorima – samo nemojte ubiti glasonošu!"
 
 #: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
-#, fuzzy
 msgid "A positive answer, “Without a doubt.”"
-msgstr "Pozitivan odgovor: „Na to se možeš pouzdati.“"
+msgstr "Pozitivan odgovor: „Bez sumnje.“"
 
 #: data/metainfo.appdata.xml.in:40 data/metainfo.appdata.xml.in:52
-#, fuzzy
 msgid "A neutral answer, “Reply hazy, try again.”"
-msgstr "Odgovor nije jasan, pokušaj ponovo."
+msgstr "Neutralan odgovor: „Odgovor nije jasan, pokušaj ponovo.“"
 
 #: data/metainfo.appdata.xml.in:44 data/metainfo.appdata.xml.in:56
-#, fuzzy
 msgid "A negative answer, “My reply is no.”"
-msgstr "Negativan odgovor, „Ne izgleda baš dobro.\""
+msgstr "Negativan odgovor, „Moj odgovor je ne.“"
 
 #: data/metainfo.appdata.xml.in:64
 msgid "GNOME 47 “Denver”"
-msgstr ""
+msgstr "GNOME 47 “Denver”"
 
 #: data/metainfo.appdata.xml.in:66
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
 msgstr ""
+"Svjež, nov i prilagodljiv izgled koji pokreću GNOME-ove boje naglašavanja!"
 
 #: data/metainfo.appdata.xml.in:67
-#, fuzzy
 msgid "Updated with the latest GNOME 47 platform and Adwaita 1.6"
-msgstr "Ažurirano za GNOME 45 i Adwaita 1.4"
+msgstr "Ažurirano s najnovijom platformom GNOME 47 i Adwaita 1.6"
 
 #: data/metainfo.appdata.xml.in:68
-#, fuzzy
 msgid "Updated Croatian translations thanks to Milo Ivir"
-msgstr "Ažuriran prijevod za ukrajinski: Volkov (@Vovkiv na GitHubu)"
+msgstr "Ažuriran prijevod na hrvatski jezik: Milo Ivir (@milotype na GitHubu)"
 
 #: data/metainfo.appdata.xml.in:74
 msgid "No foolin'"
-msgstr ""
+msgstr "Bez zezanja"
 
 #: data/metainfo.appdata.xml.in:76
 msgid "Updated brand colors for Flathub and app store clients"
 msgstr "Ažurirane boje robne marke za Flathub i klijente trgovine aplikacija"
 
 #: data/metainfo.appdata.xml.in:77
-#, fuzzy
 msgid "Updated for GNOME 46 and Adwaita 1.5"
-msgstr "Ažurirano za GNOME 45 i Adwaita 1.4"
+msgstr "Ažurirano za GNOME 46 i Adwaita 1.5"
 
 #: data/metainfo.appdata.xml.in:78
-#, fuzzy
 msgid "Norwegian Bokmål translations thanks to Brage Fuglseth"
-msgstr "Prijevodi na francuski: @NathanBnm"
+msgstr "Prijevodi na norveški bokmål: Brageu Fuglsethu"
 
 #: data/metainfo.appdata.xml.in:84
 msgid "Added brand colors for Flathub and app store clients"
@@ -169,7 +164,7 @@ msgstr "Ažuriran prijevod za francuski: @rene-cotyju na GitHubu"
 #: data/metainfo.appdata.xml.in:114
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
-msgstr "Ažuriran prijevod za turski: Sabri Ünal (@sabriunal on GitHub)"
+msgstr "Ažuriran prijevod za turski: Sabri Ünal (@sabriunal na GitHubu)"
 
 #: data/metainfo.appdata.xml.in:115
 msgid ""
@@ -177,7 +172,7 @@ msgid ""
 "(@rffontenelle on GitHub)"
 msgstr ""
 "Ažuriran prijevod za brazilski portugalski: Rafael Fontenelle (@rffontenelle "
-"on GitHub)"
+"na GitHubu)"
 
 #: data/metainfo.appdata.xml.in:121
 msgid "Deep Purple"
