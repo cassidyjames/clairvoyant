@@ -70,6 +70,8 @@
         <ul>
           <li>Updated with the latest GNOME 49 platform and Adwaita 1.8</li>
           <li>Added Arabic translations thanks to Ahmed Najmawi</li>
+          <li>Added Persian translations thanks to آوید (@avds2 on GitHub)</li>
+          <li>Updated Croatian translations thanks to Milo Ivir (@milotype on GitHub)</li>
         </ul>
       </description>
     </release>
