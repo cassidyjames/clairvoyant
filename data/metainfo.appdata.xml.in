@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018–2024 Cassidy James Blaede <c@ssidyjam.es> -->
+<!-- Copyright 2018-2025–2024 Cassidy James Blaede <c@ssidyjam.es> -->
 <component type="desktop">
   <id>com.cassidyjames.clairvoyant</id>
   <metadata_license>CC0</metadata_license>
@@ -64,6 +64,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.11" date="2025-10-30">
+      <description>
+        <p>GNOME 49 “Brescia”</p>
+        <ul>
+          <li>Updated with the latest GNOME 49 platform and Adwaita 1.8</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.10" date="2025-02-24">
       <description>
         <p>Updated translations</p>
