@@ -56,30 +56,10 @@ public class MainWindow : Adw.ApplicationWindow {
         ask_button.add_css_class ("suggested-action");
         ask_button.add_css_class ("pill");
 
-        var banner = new Adw.Banner (_("Unsupported version of this app")) {
-            button_label = _("_Learn More…"),
-            revealed = true
-        };
-
-        string[] env = Environ.get ();
-        try {
-            banner.revealed = (
-                Clairvoyant.settings.get_int64 ("last") < new DateTime.now_utc ().to_unix () - 86400 && (
-                    ! Xdp.Portal.running_under_flatpak () ||
-                    Xdp.Portal.running_under_snap () ||
-                    Environ.get_variable (env, "FLATPAK_ID") != APP_ID ||
-                    Environ.get_variable (env, "APPIMAGE") != null
-                )
-            );
-        } catch (Error e) {
-            critical ("Unable to detect sandbox");
-        }
-
         var main_layout = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         main_layout.append (header);
         main_layout.append (fortune_label);
         main_layout.append (ask_button);
-        main_layout.append (banner);
 
         var window_handle = new Gtk.WindowHandle () {
             child = main_layout
@@ -93,16 +73,6 @@ public class MainWindow : Adw.ApplicationWindow {
 
         about_button.clicked.connect (() => about_window.present () );
         ask_button.clicked.connect (() => randomize_fortune (fortune_label) );
-
-        banner.button_clicked.connect (() => {
-            Clairvoyant.settings.set_int64 ("last", new DateTime.now_utc ().to_unix ());
-            banner.revealed = false;
-            try {
-                new Gtk.UriLauncher (about_window.website + "#only-on-flathub").launch.begin (null, null);
-            } catch (Error e) {
-                critical ("Unable to open link");
-            }
-        });
     }
 
     private void randomize_fortune (

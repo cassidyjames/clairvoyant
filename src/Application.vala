@@ -4,8 +4,6 @@
  */
 
 public class Clairvoyant : Adw.Application {
-    public static GLib.Settings settings;
-
     public Clairvoyant () {
         Object (
             application_id: APP_ID,
@@ -13,18 +11,10 @@ public class Clairvoyant : Adw.Application {
         );
     }
 
-    static construct {
-        settings = new Settings (APP_ID);
-    }
-
     protected override void activate () {
         if (get_windows ().length () > 0) {
             get_windows ().data.present ();
             return;
-        }
-
-        if (Clairvoyant.settings.get_int64 ("last") == int64.MIN) {
-            Clairvoyant.settings.set_int64 ("last", new DateTime.now_utc ().to_unix ());
         }
 
         var main_window = new MainWindow (this);
