@@ -64,6 +64,14 @@
   </screenshots>
 
   <releases>
+    <release version="3.1.12" date="2025-11-01">
+      <description>
+        <p>Ubuntu Summit 25.10</p>
+        <ul>
+          <li>Removed sandbox detection for Soumya</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.11" date="2025-10-30">
       <description>
         <p>GNOME 49 “Brescia”</p>

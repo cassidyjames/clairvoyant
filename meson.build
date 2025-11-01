@@ -1,7 +1,7 @@
 project(
   'com.cassidyjames.clairvoyant',
   'vala', 'c',
-  version: '3.1.11',
+  version: '3.1.12',
   meson_version: '>=1.5.2',
 )
 
@@ -66,7 +66,6 @@ executable(
     dependency('glib-2.0', version: '>=2.82.0'),
     dependency('gtk4', version: '>=4.19.4'),
     dependency('libadwaita-1', version: '>=1.8.1'),
-    dependency('libportal', version: '>=0.9.1'),
   ],
   c_args: c_args, vala_args: vala_args,
   install: true

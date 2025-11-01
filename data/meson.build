@@ -10,12 +10,6 @@ install_data(
   rename: meson.project_name() + '-symbolic.svg'
 )
 
-install_data(
-  'gschema.xml',
-  install_dir: get_option('datadir') / 'glib-2.0' / 'schemas',
-  rename: meson.project_name() + '.gschema.xml'
-)
-
 desktop_file = i18n.merge_file(
   input: 'launcher.desktop.in',
   output: meson.project_name() + '.desktop',
