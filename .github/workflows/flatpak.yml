@@ -16,7 +16,7 @@ jobs:
       image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-51
       options: --privileged
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7.0.1
     - uses: flatpak/flatpak-github-actions/flatpak-builder@v6.8
       with:
         bundle: clairvoyant.flatpak
