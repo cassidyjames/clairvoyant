@@ -1,7 +1,7 @@
 project(
   'com.cassidyjames.clairvoyant',
   'vala', 'c',
-  version: '3.1.12',
+  version: '3.1.13',
   meson_version: '>=1.5.2',
 )
 
