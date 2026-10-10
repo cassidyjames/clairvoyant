@@ -23,7 +23,7 @@ jobs:
   gettext:
     runs-on: ubuntu-latest
     container:
-      image: fedora:41
+      image: fedora:44
     steps:
       - name: Install deps
         run: |
@@ -40,7 +40,7 @@ jobs:
             vala
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
