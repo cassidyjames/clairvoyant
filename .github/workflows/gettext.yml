@@ -6,11 +6,12 @@ on:
       - main
     paths:
       - '**.vala'
+      - 'com.cassidyjames.clairvoyant.json'
       - 'data/launcher.desktop.in'
       - 'data/metainfo.appdata.xml.in'
-      - 'po/LINGUAS'
       - 'po/POTFILES.in'
       - '.github/workflows/gettext.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,46 +24,66 @@ jobs:
   gettext:
     runs-on: ubuntu-latest
     container:
-      image: fedora:44
+      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-51
+      options: --privileged
+    env:
+      MANIFEST: com.cassidyjames.clairvoyant.json
+      MODULE: clairvoyant
+      BUILD_DIR: /tmp/gettext-build
+      STATE_DIR: /tmp/gettext-state
     steps:
-      - name: Install deps
-        run: |
-          sudo dnf update -y
-          sudo dnf install -y \
-            appstream-devel \
-            gettext-devel \
-            git \
-            gtk4-devel \
-            libadwaita-devel \
-            libportal-devel \
-            libxml2-devel \
-            meson \
-            vala
-
       - name: Checkout
         uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build
+      - name: Prepare build environment
         run: |
-          rm -rf _build
-          meson _build
-          ninja -C _build
+          flatpak-builder "$BUILD_DIR" "$MANIFEST" \
+            --disable-rofiles-fuse \
+            --force-clean \
+            --install-deps-from=flathub \
+            --state-dir="$STATE_DIR" \
+            --stop-at="$MODULE"
 
       - name: Regenerate translation files
         run: |
-          ninja -C _build com.cassidyjames.clairvoyant-pot
-          ninja -C _build com.cassidyjames.clairvoyant-update-po
+          flatpak-builder "$BUILD_DIR" "$MANIFEST" \
+            --disable-rofiles-fuse \
+            --force-clean \
+            --state-dir="$STATE_DIR" \
+            --build-shell="$MODULE" <<'EOF'
+          set -e
+          # flatpak-builder 1.4 configures and opens the shell in the build dir; newer versions don't
+          cd "$FLATPAK_BUILDER_BUILDDIR"
+          [ -f _flatpak_build/build.ninja ] || meson setup _flatpak_build
+          ninja -C _flatpak_build \
+            com.cassidyjames.clairvoyant-pot \
+            com.cassidyjames.clairvoyant-update-po
+          touch .gettext-done
+          EOF
 
-      - name: Commit
-        continue-on-error: true
+          # Fail if the build shell didn't finish regenerating everything
+          SOURCE_DIR="$STATE_DIR/build/$MODULE"
+          test -f "$SOURCE_DIR/.gettext-done"
+
+          cp "$SOURCE_DIR"/po/*.pot "$SOURCE_DIR"/po/*.po po/
+
+      - name: Commit and push
         run: |
-          # FILES_CHANGED=$(git diff --name-only | wc -l)
-          # if [[ $FILES_CHANGED != 0 ]]; then
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git commit -am "Update translation files"
+
+          # Skip churn from source line references and timestamps
+          CHANGES=$(git diff --unified=0 -- '*.pot' \
+            | grep '^[+-]' \
+            | grep --invert-match '^\(+++\|---\|[+-]#:\|[+-]"POT-Creation-Date:\)' \
+            || true)
+          if [ -z "$CHANGES" ]; then
+            echo "Translatable strings are unchanged; nothing to commit."
+            exit 0
+          fi
+
+          echo "$CHANGES"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add po
+          git commit --message "po: Update translation files"
           git push
-          # fi
