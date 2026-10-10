@@ -504,7 +504,6 @@ msgstr "تأیید شد."
 
 #. /TRANSLATORS: Negative response
 #: src/FortuneLabel.vala:86
-#, fuzzy
 msgid "Don’t count on it."
 msgstr "روی آن حساب نکنید."
 
