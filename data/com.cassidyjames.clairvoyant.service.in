@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.cassidyjames.clairvoyant
+Exec=@bindir@/com.cassidyjames.clairvoyant --gapplication-service
