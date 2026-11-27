@@ -7,5 +7,6 @@ Exec=com.cassidyjames.clairvoyant
 Icon=com.cassidyjames.clairvoyant
 Terminal=false
 Type=Application
+DBusActivatable=true
 Keywords=magic;eight;ball;8;crystal;🔮;medium;🎱;
 

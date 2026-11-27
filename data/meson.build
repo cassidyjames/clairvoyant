@@ -45,3 +45,12 @@ if (appstreamcli.found())
     workdir: meson.current_build_dir()
   )
 endif
+
+dbus_service_file = configure_file(
+  input: 'com.cassidyjames.clairvoyant.service.in',
+  output: 'com.cassidyjames.clairvoyant.service',
+  configuration: {
+    'bindir': get_option('prefix') / get_option('bindir')
+  },
+  install_dir: join_paths(get_option('datadir'), 'dbus-1', 'services')
+)
